@@ -1,0 +1,12 @@
+{
+  "name": "NexAI",
+  "short_name": "NexAI",
+  "description": "370 AI features in one intelligent workspace.",
+  "start_url": "/#/dashboard",
+  "display": "standalone",
+  "background_color": "#0a0b18",
+  "theme_color": "#0a0b18",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
