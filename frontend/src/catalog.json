@@ -1,0 +1,5649 @@
+{
+  "generatedAt": "2026-11-10T07:32:27.842Z",
+  "total": 370,
+  "modules": [
+    {
+      "id": "chat",
+      "name": "AI Chat & Assistant",
+      "short": "Chat",
+      "icon": "chat",
+      "group": "main",
+      "blurb": "A conversational assistant with memory, sessions, sharing and full control.",
+      "count": 20,
+      "features": [
+        {
+          "id": "chat-ai-powered-conversational-chatbot",
+          "number": 1,
+          "name": "AI-powered conversational chatbot",
+          "description": "Your assistant handles ai-powered conversational chatbot seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "powered",
+            "conversational",
+            "chatbot"
+          ]
+        },
+        {
+          "id": "chat-real-time-ai-responses",
+          "number": 2,
+          "name": "Real-time AI responses",
+          "description": "Your assistant handles real-time ai responses seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "real",
+            "time",
+            "responses"
+          ]
+        },
+        {
+          "id": "chat-multiple-ai-conversation-sessions",
+          "number": 3,
+          "name": "Multiple AI conversation sessions",
+          "description": "Your assistant handles multiple ai conversation sessions seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "multiple",
+            "conversation",
+            "sessions"
+          ]
+        },
+        {
+          "id": "chat-conversation-history",
+          "number": 4,
+          "name": "Conversation history",
+          "description": "Your assistant handles conversation history seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "conversation",
+            "history"
+          ]
+        },
+        {
+          "id": "chat-conversation-search",
+          "number": 5,
+          "name": "Conversation search",
+          "description": "Your assistant handles conversation search seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "conversation",
+            "search"
+          ]
+        },
+        {
+          "id": "chat-rename-conversations",
+          "number": 6,
+          "name": "Rename conversations",
+          "description": "Your assistant handles rename conversations seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "rename",
+            "conversations"
+          ]
+        },
+        {
+          "id": "chat-archive-conversations",
+          "number": 7,
+          "name": "Archive conversations",
+          "description": "Your assistant handles archive conversations seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "archive",
+            "conversations"
+          ]
+        },
+        {
+          "id": "chat-delete-conversations",
+          "number": 8,
+          "name": "Delete conversations",
+          "description": "Your assistant handles delete conversations seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "delete",
+            "conversations"
+          ]
+        },
+        {
+          "id": "chat-pin-important-conversations",
+          "number": 9,
+          "name": "Pin important conversations",
+          "description": "Your assistant handles pin important conversations seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "important",
+            "conversations"
+          ]
+        },
+        {
+          "id": "chat-organize-conversations-into-folders",
+          "number": 10,
+          "name": "Organize conversations into folders",
+          "description": "Your assistant handles organize conversations into folders seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "organize",
+            "conversations",
+            "into",
+            "folders"
+          ]
+        },
+        {
+          "id": "chat-continue-previous-conversations",
+          "number": 11,
+          "name": "Continue previous conversations",
+          "description": "Your assistant handles continue previous conversations seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "continue",
+            "previous",
+            "conversations"
+          ]
+        },
+        {
+          "id": "chat-regenerate-ai-responses",
+          "number": 12,
+          "name": "Regenerate AI responses",
+          "description": "Your assistant handles regenerate ai responses seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "regenerate",
+            "responses"
+          ]
+        },
+        {
+          "id": "chat-stop-ai-generation",
+          "number": 13,
+          "name": "Stop AI generation",
+          "description": "Your assistant handles stop ai generation seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "stop",
+            "generation"
+          ]
+        },
+        {
+          "id": "chat-edit-previous-prompts",
+          "number": 14,
+          "name": "Edit previous prompts",
+          "description": "Your assistant handles edit previous prompts seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "edit",
+            "previous",
+            "prompts"
+          ]
+        },
+        {
+          "id": "chat-copy-ai-responses",
+          "number": 15,
+          "name": "Copy AI responses",
+          "description": "Your assistant handles copy ai responses seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "copy",
+            "responses"
+          ]
+        },
+        {
+          "id": "chat-share-conversations-using-links",
+          "number": 16,
+          "name": "Share conversations using links",
+          "description": "Your assistant handles share conversations using links seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "share",
+            "conversations",
+            "using",
+            "links"
+          ]
+        },
+        {
+          "id": "chat-export-conversations-to-pdf",
+          "number": 17,
+          "name": "Export conversations to PDF",
+          "description": "Your assistant handles export conversations to pdf seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "export",
+            "conversations"
+          ]
+        },
+        {
+          "id": "chat-export-conversations-to-word",
+          "number": 18,
+          "name": "Export conversations to Word",
+          "description": "Your assistant handles export conversations to word seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "export",
+            "conversations",
+            "word"
+          ]
+        },
+        {
+          "id": "chat-custom-ai-response-length",
+          "number": 19,
+          "name": "Custom AI response length",
+          "description": "Your assistant handles custom ai response length seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "custom",
+            "response",
+            "length"
+          ]
+        },
+        {
+          "id": "chat-custom-ai-response-tone",
+          "number": 20,
+          "name": "Custom AI response tone",
+          "description": "Your assistant handles custom ai response tone seamlessly inside every conversation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "chat",
+            "custom",
+            "response",
+            "tone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intelligence",
+      "name": "Advanced Intelligence",
+      "short": "Intelligence",
+      "icon": "brain",
+      "group": "main",
+      "blurb": "Model routing, reasoning, memory and grounded answers with citations.",
+      "count": 20,
+      "features": [
+        {
+          "id": "intelligence-multiple-ai-model-integration",
+          "number": 21,
+          "name": "Multiple AI model integration",
+          "description": "Powers smarter conversations with multiple ai model integration across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "multiple",
+            "model",
+            "integration"
+          ]
+        },
+        {
+          "id": "intelligence-model-switching",
+          "number": 22,
+          "name": "Model switching",
+          "description": "Powers smarter conversations with model switching across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "model",
+            "switching"
+          ]
+        },
+        {
+          "id": "intelligence-automatic-model-selection",
+          "number": 23,
+          "name": "Automatic model selection",
+          "description": "Powers smarter conversations with automatic model selection across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "automatic",
+            "model",
+            "selection"
+          ]
+        },
+        {
+          "id": "intelligence-advanced-reasoning-mode",
+          "number": 24,
+          "name": "Advanced reasoning mode",
+          "description": "Powers smarter conversations with advanced reasoning mode across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "advanced",
+            "reasoning",
+            "mode"
+          ]
+        },
+        {
+          "id": "intelligence-deep-research-mode",
+          "number": 25,
+          "name": "Deep research mode",
+          "description": "Powers smarter conversations with deep research mode across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "deep",
+            "research",
+            "mode"
+          ]
+        },
+        {
+          "id": "intelligence-web-connected-ai-search",
+          "number": 26,
+          "name": "Web-connected AI search",
+          "description": "Powers smarter conversations with web-connected ai search across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "connected",
+            "search"
+          ]
+        },
+        {
+          "id": "intelligence-context-aware-responses",
+          "number": 27,
+          "name": "Context-aware responses",
+          "description": "Powers smarter conversations with context-aware responses across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "context",
+            "aware",
+            "responses"
+          ]
+        },
+        {
+          "id": "intelligence-long-context-conversations",
+          "number": 28,
+          "name": "Long-context conversations",
+          "description": "Powers smarter conversations with long-context conversations across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "long",
+            "context",
+            "conversations"
+          ]
+        },
+        {
+          "id": "intelligence-personal-memory",
+          "number": 29,
+          "name": "Personal memory",
+          "description": "Powers smarter conversations with personal memory across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "personal",
+            "memory"
+          ]
+        },
+        {
+          "id": "intelligence-user-preference-learning",
+          "number": 30,
+          "name": "User preference learning",
+          "description": "Powers smarter conversations with user preference learning across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "user",
+            "preference",
+            "learning"
+          ]
+        },
+        {
+          "id": "intelligence-custom-system-instructions",
+          "number": 31,
+          "name": "Custom system instructions",
+          "description": "Powers smarter conversations with custom system instructions across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "custom",
+            "system",
+            "instructions"
+          ]
+        },
+        {
+          "id": "intelligence-ai-personality-customization",
+          "number": 32,
+          "name": "AI personality customization",
+          "description": "Powers smarter conversations with ai personality customization across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "personality",
+            "customization"
+          ]
+        },
+        {
+          "id": "intelligence-role-based-ai-assistants",
+          "number": 33,
+          "name": "Role-based AI assistants",
+          "description": "Powers smarter conversations with role-based ai assistants across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "role",
+            "based",
+            "assistants"
+          ]
+        },
+        {
+          "id": "intelligence-multi-language-understanding",
+          "number": 34,
+          "name": "Multi-language understanding",
+          "description": "Powers smarter conversations with multi-language understanding across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "multi",
+            "language",
+            "understanding"
+          ]
+        },
+        {
+          "id": "intelligence-automatic-language-detection",
+          "number": 35,
+          "name": "Automatic language detection",
+          "description": "Powers smarter conversations with automatic language detection across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "automatic",
+            "language",
+            "detection"
+          ]
+        },
+        {
+          "id": "intelligence-translation-between-languages",
+          "number": 36,
+          "name": "Translation between languages",
+          "description": "Powers smarter conversations with translation between languages across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "translation",
+            "between",
+            "languages"
+          ]
+        },
+        {
+          "id": "intelligence-contextual-recommendations",
+          "number": 37,
+          "name": "Contextual recommendations",
+          "description": "Powers smarter conversations with contextual recommendations across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "contextual",
+            "recommendations"
+          ]
+        },
+        {
+          "id": "intelligence-follow-up-question-suggestions",
+          "number": 38,
+          "name": "Follow-up question suggestions",
+          "description": "Powers smarter conversations with follow-up question suggestions across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "follow",
+            "question",
+            "suggestions"
+          ]
+        },
+        {
+          "id": "intelligence-ai-response-confidence-indicators",
+          "number": 39,
+          "name": "AI response confidence indicators",
+          "description": "Powers smarter conversations with ai response confidence indicators across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "response",
+            "confidence",
+            "indicators"
+          ]
+        },
+        {
+          "id": "intelligence-source-citations-and-references",
+          "number": 40,
+          "name": "Source citations and references",
+          "description": "Powers smarter conversations with source citations and references across every model and workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "models",
+          "tags": [
+            "intelligence",
+            "source",
+            "citations",
+            "references"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name": "AI Writing",
+      "short": "Writing",
+      "icon": "pen",
+      "group": "main",
+      "blurb": "Draft, rewrite and polish anything — from emails to entire books.",
+      "count": 20,
+      "features": [
+        {
+          "id": "writing-blog-post-generator",
+          "number": 41,
+          "name": "Blog post generator",
+          "description": "Generate blog post generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "blog",
+            "post",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-article-generator",
+          "number": 42,
+          "name": "Article generator",
+          "description": "Generate article generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "article",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-essay-generator",
+          "number": 43,
+          "name": "Essay generator",
+          "description": "Generate essay generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "essay",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-business-proposal-generator",
+          "number": 44,
+          "name": "Business proposal generator",
+          "description": "Generate business proposal generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "business",
+            "proposal",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-professional-email-generator",
+          "number": 45,
+          "name": "Professional email generator",
+          "description": "Generate professional email generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "professional",
+            "email",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-cover-letter-generator",
+          "number": 46,
+          "name": "Cover letter generator",
+          "description": "Generate cover letter generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "cover",
+            "letter",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-cv-and-resume-generator",
+          "number": 47,
+          "name": "CV and resume generator",
+          "description": "Generate cv and resume generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "resume",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-social-media-caption-generator",
+          "number": 48,
+          "name": "Social media caption generator",
+          "description": "Generate social media caption generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "social",
+            "media",
+            "caption",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-product-description-generator",
+          "number": 49,
+          "name": "Product description generator",
+          "description": "Generate product description generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "product",
+            "description",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-website-content-generator",
+          "number": 50,
+          "name": "Website content generator",
+          "description": "Generate website content generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "website",
+            "content",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-marketing-copy-generator",
+          "number": 51,
+          "name": "Marketing copy generator",
+          "description": "Generate marketing copy generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "marketing",
+            "copy",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-advertisement-generator",
+          "number": 52,
+          "name": "Advertisement generator",
+          "description": "Generate advertisement generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "advertisement",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-press-release-generator",
+          "number": 53,
+          "name": "Press release generator",
+          "description": "Generate press release generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "press",
+            "release",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-report-generator",
+          "number": 54,
+          "name": "Report generator",
+          "description": "Generate report generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "report",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-meeting-summary-generator",
+          "number": 55,
+          "name": "Meeting summary generator",
+          "description": "Generate meeting summary generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "meeting",
+            "summary",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-speech-generator",
+          "number": 56,
+          "name": "Speech generator",
+          "description": "Generate speech generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "speech",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-story-generator",
+          "number": 57,
+          "name": "Story generator",
+          "description": "Generate story generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "story",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-book-chapter-generator",
+          "number": 58,
+          "name": "Book chapter generator",
+          "description": "Generate book chapter generator tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "book",
+            "chapter",
+            "generator"
+          ]
+        },
+        {
+          "id": "writing-academic-writing-assistant",
+          "number": 59,
+          "name": "Academic writing assistant",
+          "description": "Generate academic writing assistant tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "academic",
+            "writing",
+            "assistant"
+          ]
+        },
+        {
+          "id": "writing-text-rewriting-and-paraphrasing",
+          "number": 60,
+          "name": "Text rewriting and paraphrasing",
+          "description": "Generate text rewriting and paraphrasing tuned to your audience, tone and goal — ready to edit and publish.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "chat",
+          "tags": [
+            "writing",
+            "text",
+            "rewriting",
+            "paraphrasing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "name": "Documents & PDF",
+      "short": "Documents",
+      "icon": "file",
+      "group": "main",
+      "blurb": "Read, extract, compare and generate from PDFs, Office files and scans.",
+      "count": 20,
+      "features": [
+        {
+          "id": "documents-pdf-upload-and-analysis",
+          "number": 61,
+          "name": "PDF upload and analysis",
+          "description": "Work with pdf upload and analysis directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "upload",
+            "analysis"
+          ]
+        },
+        {
+          "id": "documents-word-document-analysis",
+          "number": 62,
+          "name": "Word document analysis",
+          "description": "Work with word document analysis directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "word",
+            "document",
+            "analysis"
+          ]
+        },
+        {
+          "id": "documents-excel-file-analysis",
+          "number": 63,
+          "name": "Excel file analysis",
+          "description": "Work with excel file analysis directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "excel",
+            "file",
+            "analysis"
+          ]
+        },
+        {
+          "id": "documents-powerpoint-analysis",
+          "number": 64,
+          "name": "PowerPoint analysis",
+          "description": "Work with powerpoint analysis directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "powerpoint",
+            "analysis"
+          ]
+        },
+        {
+          "id": "documents-document-summarization",
+          "number": 65,
+          "name": "Document summarization",
+          "description": "Work with document summarization directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "document",
+            "summarization"
+          ]
+        },
+        {
+          "id": "documents-ask-questions-about-documents",
+          "number": 66,
+          "name": "Ask questions about documents",
+          "description": "Work with ask questions about documents directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "questions",
+            "about",
+            "documents"
+          ]
+        },
+        {
+          "id": "documents-extract-information-from-documents",
+          "number": 67,
+          "name": "Extract information from documents",
+          "description": "Work with extract information from documents directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "extract",
+            "information",
+            "from",
+            "documents"
+          ]
+        },
+        {
+          "id": "documents-compare-multiple-documents",
+          "number": 68,
+          "name": "Compare multiple documents",
+          "description": "Work with compare multiple documents directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "compare",
+            "multiple",
+            "documents"
+          ]
+        },
+        {
+          "id": "documents-generate-documents-using-ai",
+          "number": 69,
+          "name": "Generate documents using AI",
+          "description": "Work with generate documents using ai directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "generate",
+            "documents",
+            "using"
+          ]
+        },
+        {
+          "id": "documents-pdf-to-word-conversion",
+          "number": 70,
+          "name": "PDF to Word conversion",
+          "description": "Work with pdf to word conversion directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "word",
+            "conversion"
+          ]
+        },
+        {
+          "id": "documents-word-to-pdf-conversion",
+          "number": 71,
+          "name": "Word to PDF conversion",
+          "description": "Work with word to pdf conversion directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "word",
+            "conversion"
+          ]
+        },
+        {
+          "id": "documents-document-translation",
+          "number": 72,
+          "name": "Document translation",
+          "description": "Work with document translation directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "document",
+            "translation"
+          ]
+        },
+        {
+          "id": "documents-grammar-correction",
+          "number": 73,
+          "name": "Grammar correction",
+          "description": "Work with grammar correction directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "grammar",
+            "correction"
+          ]
+        },
+        {
+          "id": "documents-document-formatting-assistance",
+          "number": 74,
+          "name": "Document formatting assistance",
+          "description": "Work with document formatting assistance directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "document",
+            "formatting",
+            "assistance"
+          ]
+        },
+        {
+          "id": "documents-ai-contract-analysis",
+          "number": 75,
+          "name": "AI contract analysis",
+          "description": "Work with ai contract analysis directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "contract",
+            "analysis"
+          ]
+        },
+        {
+          "id": "documents-invoice-data-extraction",
+          "number": 76,
+          "name": "Invoice data extraction",
+          "description": "Work with invoice data extraction directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "invoice",
+            "data",
+            "extraction"
+          ]
+        },
+        {
+          "id": "documents-resume-analysis",
+          "number": 77,
+          "name": "Resume analysis",
+          "description": "Work with resume analysis directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "resume",
+            "analysis"
+          ]
+        },
+        {
+          "id": "documents-document-classification",
+          "number": 78,
+          "name": "Document classification",
+          "description": "Work with document classification directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "document",
+            "classification"
+          ]
+        },
+        {
+          "id": "documents-ocr-text-recognition",
+          "number": 79,
+          "name": "OCR text recognition",
+          "description": "Work with ocr text recognition directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "text",
+            "recognition"
+          ]
+        },
+        {
+          "id": "documents-document-chat-workspace",
+          "number": 80,
+          "name": "Document chat workspace",
+          "description": "Work with document chat workspace directly on your files, with structured AI output.",
+          "kind": "doc",
+          "action": "doc",
+          "route": "documents",
+          "tags": [
+            "documents",
+            "document",
+            "chat",
+            "workspace"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image",
+      "name": "Image Studio",
+      "short": "Images",
+      "icon": "image",
+      "group": "main",
+      "blurb": "Generate, edit and upscale visuals with a full creative studio.",
+      "count": 20,
+      "features": [
+        {
+          "id": "image-text-to-image-generation",
+          "number": 81,
+          "name": "Text-to-image generation",
+          "description": "Create striking visuals with text-to-image generation, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "text",
+            "image",
+            "generation"
+          ]
+        },
+        {
+          "id": "image-image-to-image-generation",
+          "number": 82,
+          "name": "Image-to-image generation",
+          "description": "Create striking visuals with image-to-image generation, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "image",
+            "image",
+            "generation"
+          ]
+        },
+        {
+          "id": "image-ai-image-editing",
+          "number": 83,
+          "name": "AI image editing",
+          "description": "Create striking visuals with ai image editing, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "image",
+            "editing"
+          ]
+        },
+        {
+          "id": "image-background-removal",
+          "number": 84,
+          "name": "Background removal",
+          "description": "Create striking visuals with background removal, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "background",
+            "removal"
+          ]
+        },
+        {
+          "id": "image-background-replacement",
+          "number": 85,
+          "name": "Background replacement",
+          "description": "Create striking visuals with background replacement, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "background",
+            "replacement"
+          ]
+        },
+        {
+          "id": "image-image-upscaling",
+          "number": 86,
+          "name": "Image upscaling",
+          "description": "Create striking visuals with image upscaling, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "image",
+            "upscaling"
+          ]
+        },
+        {
+          "id": "image-image-enhancement",
+          "number": 87,
+          "name": "Image enhancement",
+          "description": "Create striking visuals with image enhancement, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "image",
+            "enhancement"
+          ]
+        },
+        {
+          "id": "image-image-restoration",
+          "number": 88,
+          "name": "Image restoration",
+          "description": "Create striking visuals with image restoration, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "image",
+            "restoration"
+          ]
+        },
+        {
+          "id": "image-object-removal",
+          "number": 89,
+          "name": "Object removal",
+          "description": "Create striking visuals with object removal, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "object",
+            "removal"
+          ]
+        },
+        {
+          "id": "image-object-replacement",
+          "number": 90,
+          "name": "Object replacement",
+          "description": "Create striking visuals with object replacement, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "object",
+            "replacement"
+          ]
+        },
+        {
+          "id": "image-ai-logo-generation",
+          "number": 91,
+          "name": "AI logo generation",
+          "description": "Create striking visuals with ai logo generation, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "logo",
+            "generation"
+          ]
+        },
+        {
+          "id": "image-ai-poster-generation",
+          "number": 92,
+          "name": "AI poster generation",
+          "description": "Create striking visuals with ai poster generation, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "poster",
+            "generation"
+          ]
+        },
+        {
+          "id": "image-ai-banner-generation",
+          "number": 93,
+          "name": "AI banner generation",
+          "description": "Create striking visuals with ai banner generation, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "banner",
+            "generation"
+          ]
+        },
+        {
+          "id": "image-ai-thumbnail-generation",
+          "number": 94,
+          "name": "AI thumbnail generation",
+          "description": "Create striking visuals with ai thumbnail generation, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "thumbnail",
+            "generation"
+          ]
+        },
+        {
+          "id": "image-ai-product-photography",
+          "number": 95,
+          "name": "AI product photography",
+          "description": "Create striking visuals with ai product photography, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "product",
+            "photography"
+          ]
+        },
+        {
+          "id": "image-ai-avatar-generation",
+          "number": 96,
+          "name": "AI avatar generation",
+          "description": "Create striking visuals with ai avatar generation, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "avatar",
+            "generation"
+          ]
+        },
+        {
+          "id": "image-ai-portrait-generation",
+          "number": 97,
+          "name": "AI portrait generation",
+          "description": "Create striking visuals with ai portrait generation, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "portrait",
+            "generation"
+          ]
+        },
+        {
+          "id": "image-image-style-transformation",
+          "number": 98,
+          "name": "Image style transformation",
+          "description": "Create striking visuals with image style transformation, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "image",
+            "style",
+            "transformation"
+          ]
+        },
+        {
+          "id": "image-image-variation-generation",
+          "number": 99,
+          "name": "Image variation generation",
+          "description": "Create striking visuals with image variation generation, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "image",
+            "variation",
+            "generation"
+          ]
+        },
+        {
+          "id": "image-image-generation-history-and-gallery",
+          "number": 100,
+          "name": "Image generation history and gallery",
+          "description": "Create striking visuals with image generation history and gallery, powered by the NexAI image engine.",
+          "kind": "image",
+          "action": "image",
+          "route": "image",
+          "tags": [
+            "images",
+            "image",
+            "generation",
+            "history",
+            "gallery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "name": "Video Studio",
+      "short": "Video",
+      "icon": "film",
+      "group": "main",
+      "blurb": "Go from idea to storyboard, script, subtitles and a publish-ready cut.",
+      "count": 20,
+      "features": [
+        {
+          "id": "video-text-to-video-generation",
+          "number": 101,
+          "name": "Text-to-video generation",
+          "description": "Plan, edit and publish video with text-to-video generation in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "text",
+            "video",
+            "generation"
+          ]
+        },
+        {
+          "id": "video-image-to-video-generation",
+          "number": 102,
+          "name": "Image-to-video generation",
+          "description": "Plan, edit and publish video with image-to-video generation in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "image",
+            "video",
+            "generation"
+          ]
+        },
+        {
+          "id": "video-ai-video-editing",
+          "number": 103,
+          "name": "AI video editing",
+          "description": "Plan, edit and publish video with ai video editing in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "video",
+            "editing"
+          ]
+        },
+        {
+          "id": "video-video-summarization",
+          "number": 104,
+          "name": "Video summarization",
+          "description": "Plan, edit and publish video with video summarization in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "video",
+            "summarization"
+          ]
+        },
+        {
+          "id": "video-video-transcription",
+          "number": 105,
+          "name": "Video transcription",
+          "description": "Plan, edit and publish video with video transcription in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "video",
+            "transcription"
+          ]
+        },
+        {
+          "id": "video-automatic-subtitles",
+          "number": 106,
+          "name": "Automatic subtitles",
+          "description": "Plan, edit and publish video with automatic subtitles in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "automatic",
+            "subtitles"
+          ]
+        },
+        {
+          "id": "video-subtitle-translation",
+          "number": 107,
+          "name": "Subtitle translation",
+          "description": "Plan, edit and publish video with subtitle translation in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "subtitle",
+            "translation"
+          ]
+        },
+        {
+          "id": "video-ai-voiceovers",
+          "number": 108,
+          "name": "AI voiceovers",
+          "description": "Plan, edit and publish video with ai voiceovers in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "voiceovers"
+          ]
+        },
+        {
+          "id": "video-video-background-removal",
+          "number": 109,
+          "name": "Video background removal",
+          "description": "Plan, edit and publish video with video background removal in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "video",
+            "background",
+            "removal"
+          ]
+        },
+        {
+          "id": "video-ai-scene-generation",
+          "number": 110,
+          "name": "AI scene generation",
+          "description": "Plan, edit and publish video with ai scene generation in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "scene",
+            "generation"
+          ]
+        },
+        {
+          "id": "video-video-script-generation",
+          "number": 111,
+          "name": "Video script generation",
+          "description": "Plan, edit and publish video with video script generation in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "video",
+            "script",
+            "generation"
+          ]
+        },
+        {
+          "id": "video-youtube-video-ideas",
+          "number": 112,
+          "name": "YouTube video ideas",
+          "description": "Plan, edit and publish video with youtube video ideas in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "youtube",
+            "video",
+            "ideas"
+          ]
+        },
+        {
+          "id": "video-youtube-description-generation",
+          "number": 113,
+          "name": "YouTube description generation",
+          "description": "Plan, edit and publish video with youtube description generation in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "youtube",
+            "description",
+            "generation"
+          ]
+        },
+        {
+          "id": "video-video-title-generation",
+          "number": 114,
+          "name": "Video title generation",
+          "description": "Plan, edit and publish video with video title generation in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "video",
+            "title",
+            "generation"
+          ]
+        },
+        {
+          "id": "video-short-form-video-creation",
+          "number": 115,
+          "name": "Short-form video creation",
+          "description": "Plan, edit and publish video with short-form video creation in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "short",
+            "form",
+            "video",
+            "creation"
+          ]
+        },
+        {
+          "id": "video-ai-talking-avatars",
+          "number": 116,
+          "name": "AI talking avatars",
+          "description": "Plan, edit and publish video with ai talking avatars in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "talking",
+            "avatars"
+          ]
+        },
+        {
+          "id": "video-video-scene-detection",
+          "number": 117,
+          "name": "Video scene detection",
+          "description": "Plan, edit and publish video with video scene detection in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "video",
+            "scene",
+            "detection"
+          ]
+        },
+        {
+          "id": "video-video-highlights-extraction",
+          "number": 118,
+          "name": "Video highlights extraction",
+          "description": "Plan, edit and publish video with video highlights extraction in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "video",
+            "highlights",
+            "extraction"
+          ]
+        },
+        {
+          "id": "video-video-translation-and-dubbing",
+          "number": 119,
+          "name": "Video translation and dubbing",
+          "description": "Plan, edit and publish video with video translation and dubbing in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "video",
+            "translation",
+            "dubbing"
+          ]
+        },
+        {
+          "id": "video-video-export-management",
+          "number": 120,
+          "name": "Video export management",
+          "description": "Plan, edit and publish video with video export management in the NexAI video studio.",
+          "kind": "video",
+          "action": "video",
+          "route": "video",
+          "tags": [
+            "video",
+            "video",
+            "export",
+            "management"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "name": "Voice & Audio",
+      "short": "Voice",
+      "icon": "mic",
+      "group": "main",
+      "blurb": "Speak, transcribe, translate and produce studio-quality audio.",
+      "count": 20,
+      "features": [
+        {
+          "id": "voice-text-to-speech",
+          "number": 121,
+          "name": "Text-to-speech",
+          "description": "Capture, transform and deliver audio with text-to-speech.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "text",
+            "speech"
+          ]
+        },
+        {
+          "id": "voice-speech-to-text",
+          "number": 122,
+          "name": "Speech-to-text",
+          "description": "Capture, transform and deliver audio with speech-to-text.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "speech",
+            "text"
+          ]
+        },
+        {
+          "id": "voice-ai-voice-assistant",
+          "number": 123,
+          "name": "AI voice assistant",
+          "description": "Capture, transform and deliver audio with ai voice assistant.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "voice",
+            "assistant"
+          ]
+        },
+        {
+          "id": "voice-voice-conversations-with-ai",
+          "number": 124,
+          "name": "Voice conversations with AI",
+          "description": "Capture, transform and deliver audio with voice conversations with ai.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "voice",
+            "conversations",
+            "with"
+          ]
+        },
+        {
+          "id": "voice-multiple-ai-voices",
+          "number": 125,
+          "name": "Multiple AI voices",
+          "description": "Capture, transform and deliver audio with multiple ai voices.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "multiple",
+            "voices"
+          ]
+        },
+        {
+          "id": "voice-voice-speed-adjustment",
+          "number": 126,
+          "name": "Voice speed adjustment",
+          "description": "Capture, transform and deliver audio with voice speed adjustment.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "voice",
+            "speed",
+            "adjustment"
+          ]
+        },
+        {
+          "id": "voice-voice-tone-adjustment",
+          "number": 127,
+          "name": "Voice tone adjustment",
+          "description": "Capture, transform and deliver audio with voice tone adjustment.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "voice",
+            "tone",
+            "adjustment"
+          ]
+        },
+        {
+          "id": "voice-audio-transcription",
+          "number": 128,
+          "name": "Audio transcription",
+          "description": "Capture, transform and deliver audio with audio transcription.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "audio",
+            "transcription"
+          ]
+        },
+        {
+          "id": "voice-audio-summarization",
+          "number": 129,
+          "name": "Audio summarization",
+          "description": "Capture, transform and deliver audio with audio summarization.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "audio",
+            "summarization"
+          ]
+        },
+        {
+          "id": "voice-audio-translation",
+          "number": 130,
+          "name": "Audio translation",
+          "description": "Capture, transform and deliver audio with audio translation.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "audio",
+            "translation"
+          ]
+        },
+        {
+          "id": "voice-meeting-transcription",
+          "number": 131,
+          "name": "Meeting transcription",
+          "description": "Capture, transform and deliver audio with meeting transcription.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "meeting",
+            "transcription"
+          ]
+        },
+        {
+          "id": "voice-speaker-identification",
+          "number": 132,
+          "name": "Speaker identification",
+          "description": "Capture, transform and deliver audio with speaker identification.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "speaker",
+            "identification"
+          ]
+        },
+        {
+          "id": "voice-audio-noise-reduction",
+          "number": 133,
+          "name": "Audio noise reduction",
+          "description": "Capture, transform and deliver audio with audio noise reduction.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "audio",
+            "noise",
+            "reduction"
+          ]
+        },
+        {
+          "id": "voice-audio-enhancement",
+          "number": 134,
+          "name": "Audio enhancement",
+          "description": "Capture, transform and deliver audio with audio enhancement.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "audio",
+            "enhancement"
+          ]
+        },
+        {
+          "id": "voice-podcast-script-generation",
+          "number": 135,
+          "name": "Podcast script generation",
+          "description": "Capture, transform and deliver audio with podcast script generation.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "podcast",
+            "script",
+            "generation"
+          ]
+        },
+        {
+          "id": "voice-podcast-summarization",
+          "number": 136,
+          "name": "Podcast summarization",
+          "description": "Capture, transform and deliver audio with podcast summarization.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "podcast",
+            "summarization"
+          ]
+        },
+        {
+          "id": "voice-ai-podcast-generation",
+          "number": 137,
+          "name": "AI podcast generation",
+          "description": "Capture, transform and deliver audio with ai podcast generation.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "podcast",
+            "generation"
+          ]
+        },
+        {
+          "id": "voice-voice-command-navigation",
+          "number": 138,
+          "name": "Voice command navigation",
+          "description": "Capture, transform and deliver audio with voice command navigation.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "voice",
+            "command",
+            "navigation"
+          ]
+        },
+        {
+          "id": "voice-voice-note-management",
+          "number": 139,
+          "name": "Voice note management",
+          "description": "Capture, transform and deliver audio with voice note management.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "voice",
+            "note",
+            "management"
+          ]
+        },
+        {
+          "id": "voice-audio-file-export",
+          "number": 140,
+          "name": "Audio file export",
+          "description": "Capture, transform and deliver audio with audio file export.",
+          "kind": "voice",
+          "action": "voice",
+          "route": "voice",
+          "tags": [
+            "voice",
+            "audio",
+            "file",
+            "export"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer",
+      "name": "Developer Tools",
+      "short": "Code",
+      "icon": "code",
+      "group": "main",
+      "blurb": "Generate, explain, review and ship code across your whole stack.",
+      "count": 20,
+      "features": [
+        {
+          "id": "developer-ai-code-generation",
+          "number": 141,
+          "name": "AI code generation",
+          "description": "Ship faster with ai code generation, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "code",
+            "generation"
+          ]
+        },
+        {
+          "id": "developer-code-explanation",
+          "number": 142,
+          "name": "Code explanation",
+          "description": "Ship faster with code explanation, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "code",
+            "explanation"
+          ]
+        },
+        {
+          "id": "developer-code-debugging-assistance",
+          "number": 143,
+          "name": "Code debugging assistance",
+          "description": "Ship faster with code debugging assistance, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "code",
+            "debugging",
+            "assistance"
+          ]
+        },
+        {
+          "id": "developer-code-refactoring",
+          "number": 144,
+          "name": "Code refactoring",
+          "description": "Ship faster with code refactoring, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "code",
+            "refactoring"
+          ]
+        },
+        {
+          "id": "developer-code-completion",
+          "number": 145,
+          "name": "Code completion",
+          "description": "Ship faster with code completion, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "code",
+            "completion"
+          ]
+        },
+        {
+          "id": "developer-code-optimization-suggestions",
+          "number": 146,
+          "name": "Code optimization suggestions",
+          "description": "Ship faster with code optimization suggestions, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "code",
+            "optimization",
+            "suggestions"
+          ]
+        },
+        {
+          "id": "developer-code-translation-between-programming-languages",
+          "number": 147,
+          "name": "Code translation between programming languages",
+          "description": "Ship faster with code translation between programming languages, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "code",
+            "translation",
+            "between",
+            "programming"
+          ]
+        },
+        {
+          "id": "developer-generate-html-and-css",
+          "number": 148,
+          "name": "Generate HTML and CSS",
+          "description": "Ship faster with generate html and css, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "generate",
+            "html"
+          ]
+        },
+        {
+          "id": "developer-generate-react-components",
+          "number": 149,
+          "name": "Generate React components",
+          "description": "Ship faster with generate react components, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "generate",
+            "react",
+            "components"
+          ]
+        },
+        {
+          "id": "developer-generate-backend-apis",
+          "number": 150,
+          "name": "Generate backend APIs",
+          "description": "Ship faster with generate backend apis, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "generate",
+            "backend",
+            "apis"
+          ]
+        },
+        {
+          "id": "developer-generate-sql-queries",
+          "number": 151,
+          "name": "Generate SQL queries",
+          "description": "Ship faster with generate sql queries, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "generate",
+            "queries"
+          ]
+        },
+        {
+          "id": "developer-database-schema-generation",
+          "number": 152,
+          "name": "Database schema generation",
+          "description": "Ship faster with database schema generation, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "database",
+            "schema",
+            "generation"
+          ]
+        },
+        {
+          "id": "developer-generate-unit-tests",
+          "number": 153,
+          "name": "Generate unit tests",
+          "description": "Ship faster with generate unit tests, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "generate",
+            "unit",
+            "tests"
+          ]
+        },
+        {
+          "id": "developer-generate-api-documentation",
+          "number": 154,
+          "name": "Generate API documentation",
+          "description": "Ship faster with generate api documentation, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "generate",
+            "documentation"
+          ]
+        },
+        {
+          "id": "developer-git-commit-message-generation",
+          "number": 155,
+          "name": "Git commit message generation",
+          "description": "Ship faster with git commit message generation, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "commit",
+            "message",
+            "generation"
+          ]
+        },
+        {
+          "id": "developer-error-log-analysis",
+          "number": 156,
+          "name": "Error log analysis",
+          "description": "Ship faster with error log analysis, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "error",
+            "analysis"
+          ]
+        },
+        {
+          "id": "developer-regex-generator",
+          "number": 157,
+          "name": "Regex generator",
+          "description": "Ship faster with regex generator, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "regex",
+            "generator"
+          ]
+        },
+        {
+          "id": "developer-algorithm-explanation",
+          "number": 158,
+          "name": "Algorithm explanation",
+          "description": "Ship faster with algorithm explanation, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "algorithm",
+            "explanation"
+          ]
+        },
+        {
+          "id": "developer-code-review-assistance",
+          "number": 159,
+          "name": "Code review assistance",
+          "description": "Ship faster with code review assistance, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "code",
+            "review",
+            "assistance"
+          ]
+        },
+        {
+          "id": "developer-ai-project-scaffolding",
+          "number": 160,
+          "name": "AI project scaffolding",
+          "description": "Ship faster with ai project scaffolding, from prompt to production-ready code.",
+          "kind": "code",
+          "action": "code",
+          "route": "developer",
+          "tags": [
+            "code",
+            "project",
+            "scaffolding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "AI Research",
+      "short": "Research",
+      "icon": "globe",
+      "group": "main",
+      "blurb": "Search, verify and synthesise knowledge with cited sources.",
+      "count": 20,
+      "features": [
+        {
+          "id": "research-ai-powered-web-research",
+          "number": 161,
+          "name": "AI-powered web research",
+          "description": "Find, verify and synthesise knowledge with ai-powered web research.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "powered",
+            "research"
+          ]
+        },
+        {
+          "id": "research-search-engine-integration",
+          "number": 162,
+          "name": "Search engine integration",
+          "description": "Find, verify and synthesise knowledge with search engine integration.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "search",
+            "engine",
+            "integration"
+          ]
+        },
+        {
+          "id": "research-research-report-generation",
+          "number": 163,
+          "name": "Research report generation",
+          "description": "Find, verify and synthesise knowledge with research report generation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "research",
+            "report",
+            "generation"
+          ]
+        },
+        {
+          "id": "research-academic-paper-summarization",
+          "number": 164,
+          "name": "Academic paper summarization",
+          "description": "Find, verify and synthesise knowledge with academic paper summarization.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "academic",
+            "paper",
+            "summarization"
+          ]
+        },
+        {
+          "id": "research-research-source-discovery",
+          "number": 165,
+          "name": "Research source discovery",
+          "description": "Find, verify and synthesise knowledge with research source discovery.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "research",
+            "source",
+            "discovery"
+          ]
+        },
+        {
+          "id": "research-citation-generation",
+          "number": 166,
+          "name": "Citation generation",
+          "description": "Find, verify and synthesise knowledge with citation generation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "citation",
+            "generation"
+          ]
+        },
+        {
+          "id": "research-fact-checking-assistance",
+          "number": 167,
+          "name": "Fact-checking assistance",
+          "description": "Find, verify and synthesise knowledge with fact-checking assistance.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "fact",
+            "checking",
+            "assistance"
+          ]
+        },
+        {
+          "id": "research-topic-exploration",
+          "number": 168,
+          "name": "Topic exploration",
+          "description": "Find, verify and synthesise knowledge with topic exploration.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "topic",
+            "exploration"
+          ]
+        },
+        {
+          "id": "research-compare-research-findings",
+          "number": 169,
+          "name": "Compare research findings",
+          "description": "Find, verify and synthesise knowledge with compare research findings.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "compare",
+            "research",
+            "findings"
+          ]
+        },
+        {
+          "id": "research-scientific-concept-explanation",
+          "number": 170,
+          "name": "Scientific concept explanation",
+          "description": "Find, verify and synthesise knowledge with scientific concept explanation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "scientific",
+            "concept",
+            "explanation"
+          ]
+        },
+        {
+          "id": "research-research-workspace",
+          "number": 171,
+          "name": "Research workspace",
+          "description": "Find, verify and synthesise knowledge with research workspace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "research",
+            "workspace"
+          ]
+        },
+        {
+          "id": "research-save-research-sources",
+          "number": 172,
+          "name": "Save research sources",
+          "description": "Find, verify and synthesise knowledge with save research sources.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "save",
+            "research",
+            "sources"
+          ]
+        },
+        {
+          "id": "research-knowledge-base-creation",
+          "number": 173,
+          "name": "Knowledge base creation",
+          "description": "Find, verify and synthesise knowledge with knowledge base creation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "knowledge",
+            "base",
+            "creation"
+          ]
+        },
+        {
+          "id": "research-ask-questions-across-saved-sources",
+          "number": 174,
+          "name": "Ask questions across saved sources",
+          "description": "Find, verify and synthesise knowledge with ask questions across saved sources.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "questions",
+            "across",
+            "saved",
+            "sources"
+          ]
+        },
+        {
+          "id": "research-website-content-analysis",
+          "number": 175,
+          "name": "Website content analysis",
+          "description": "Find, verify and synthesise knowledge with website content analysis.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "website",
+            "content",
+            "analysis"
+          ]
+        },
+        {
+          "id": "research-url-summarization",
+          "number": 176,
+          "name": "URL summarization",
+          "description": "Find, verify and synthesise knowledge with url summarization.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "summarization"
+          ]
+        },
+        {
+          "id": "research-news-summarization",
+          "number": 177,
+          "name": "News summarization",
+          "description": "Find, verify and synthesise knowledge with news summarization.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "news",
+            "summarization"
+          ]
+        },
+        {
+          "id": "research-trend-discovery",
+          "number": 178,
+          "name": "Trend discovery",
+          "description": "Find, verify and synthesise knowledge with trend discovery.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "trend",
+            "discovery"
+          ]
+        },
+        {
+          "id": "research-competitor-research",
+          "number": 179,
+          "name": "Competitor research",
+          "description": "Find, verify and synthesise knowledge with competitor research.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "competitor",
+            "research"
+          ]
+        },
+        {
+          "id": "research-automated-research-briefs",
+          "number": 180,
+          "name": "Automated research briefs",
+          "description": "Find, verify and synthesise knowledge with automated research briefs.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "research",
+          "tags": [
+            "research",
+            "automated",
+            "research",
+            "briefs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "name": "Business AI",
+      "short": "Business",
+      "icon": "briefcase",
+      "group": "main",
+      "blurb": "Plan, analyse and run the business with an AI chief of staff.",
+      "count": 20,
+      "features": [
+        {
+          "id": "business-business-plan-generator",
+          "number": 181,
+          "name": "Business plan generator",
+          "description": "Make sharper decisions with business plan generator, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "business",
+            "plan",
+            "generator"
+          ]
+        },
+        {
+          "id": "business-business-name-generator",
+          "number": 182,
+          "name": "Business name generator",
+          "description": "Make sharper decisions with business name generator, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "business",
+            "name",
+            "generator"
+          ]
+        },
+        {
+          "id": "business-business-idea-generator",
+          "number": 183,
+          "name": "Business idea generator",
+          "description": "Make sharper decisions with business idea generator, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "business",
+            "idea",
+            "generator"
+          ]
+        },
+        {
+          "id": "business-swot-analysis-generator",
+          "number": 184,
+          "name": "SWOT analysis generator",
+          "description": "Make sharper decisions with swot analysis generator, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "swot",
+            "analysis",
+            "generator"
+          ]
+        },
+        {
+          "id": "business-market-research-assistant",
+          "number": 185,
+          "name": "Market research assistant",
+          "description": "Make sharper decisions with market research assistant, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "market",
+            "research",
+            "assistant"
+          ]
+        },
+        {
+          "id": "business-business-strategy-assistant",
+          "number": 186,
+          "name": "Business strategy assistant",
+          "description": "Make sharper decisions with business strategy assistant, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "business",
+            "strategy",
+            "assistant"
+          ]
+        },
+        {
+          "id": "business-financial-report-analysis",
+          "number": 187,
+          "name": "Financial report analysis",
+          "description": "Make sharper decisions with financial report analysis, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "financial",
+            "report",
+            "analysis"
+          ]
+        },
+        {
+          "id": "business-sales-report-analysis",
+          "number": 188,
+          "name": "Sales report analysis",
+          "description": "Make sharper decisions with sales report analysis, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "sales",
+            "report",
+            "analysis"
+          ]
+        },
+        {
+          "id": "business-customer-feedback-analysis",
+          "number": 189,
+          "name": "Customer feedback analysis",
+          "description": "Make sharper decisions with customer feedback analysis, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "customer",
+            "feedback",
+            "analysis"
+          ]
+        },
+        {
+          "id": "business-business-email-automation",
+          "number": 190,
+          "name": "Business email automation",
+          "description": "Make sharper decisions with business email automation, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "business",
+            "email",
+            "automation"
+          ]
+        },
+        {
+          "id": "business-invoice-generation",
+          "number": 191,
+          "name": "Invoice generation",
+          "description": "Make sharper decisions with invoice generation, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "invoice",
+            "generation"
+          ]
+        },
+        {
+          "id": "business-proposal-generation",
+          "number": 192,
+          "name": "Proposal generation",
+          "description": "Make sharper decisions with proposal generation, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "proposal",
+            "generation"
+          ]
+        },
+        {
+          "id": "business-project-planning-assistant",
+          "number": 193,
+          "name": "Project planning assistant",
+          "description": "Make sharper decisions with project planning assistant, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "project",
+            "planning",
+            "assistant"
+          ]
+        },
+        {
+          "id": "business-task-management-assistant",
+          "number": 194,
+          "name": "Task management assistant",
+          "description": "Make sharper decisions with task management assistant, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "task",
+            "management",
+            "assistant"
+          ]
+        },
+        {
+          "id": "business-daily-productivity-planner",
+          "number": 195,
+          "name": "Daily productivity planner",
+          "description": "Make sharper decisions with daily productivity planner, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "daily",
+            "productivity",
+            "planner"
+          ]
+        },
+        {
+          "id": "business-goal-tracking-assistant",
+          "number": 196,
+          "name": "Goal tracking assistant",
+          "description": "Make sharper decisions with goal tracking assistant, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "goal",
+            "tracking",
+            "assistant"
+          ]
+        },
+        {
+          "id": "business-business-meeting-assistant",
+          "number": 197,
+          "name": "Business meeting assistant",
+          "description": "Make sharper decisions with business meeting assistant, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "business",
+            "meeting",
+            "assistant"
+          ]
+        },
+        {
+          "id": "business-meeting-agenda-generator",
+          "number": 198,
+          "name": "Meeting agenda generator",
+          "description": "Make sharper decisions with meeting agenda generator, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "meeting",
+            "agenda",
+            "generator"
+          ]
+        },
+        {
+          "id": "business-workflow-recommendations",
+          "number": 199,
+          "name": "Workflow recommendations",
+          "description": "Make sharper decisions with workflow recommendations, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "workflow",
+            "recommendations"
+          ]
+        },
+        {
+          "id": "business-business-performance-insights",
+          "number": 200,
+          "name": "Business performance insights",
+          "description": "Make sharper decisions with business performance insights, built for modern teams.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "business",
+          "tags": [
+            "business",
+            "business",
+            "performance",
+            "insights"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "name": "AI Agents & Automation",
+      "short": "Agents",
+      "icon": "bot",
+      "group": "main",
+      "blurb": "Build no-code agents that research, write, reply and execute for you.",
+      "count": 20,
+      "features": [
+        {
+          "id": "agents-custom-ai-agent-creation",
+          "number": 201,
+          "name": "Custom AI agent creation",
+          "description": "Automate real work with custom ai agent creation — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "custom",
+            "agent",
+            "creation"
+          ]
+        },
+        {
+          "id": "agents-no-code-ai-agent-builder",
+          "number": 202,
+          "name": "No-code AI agent builder",
+          "description": "Automate real work with no-code ai agent builder — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "code",
+            "agent",
+            "builder"
+          ]
+        },
+        {
+          "id": "agents-drag-and-drop-agent-workflow-editor",
+          "number": 203,
+          "name": "Drag-and-drop agent workflow editor",
+          "description": "Automate real work with drag-and-drop agent workflow editor — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "drag",
+            "drop",
+            "agent",
+            "workflow"
+          ]
+        },
+        {
+          "id": "agents-custom-agent-instructions",
+          "number": 204,
+          "name": "Custom agent instructions",
+          "description": "Automate real work with custom agent instructions — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "custom",
+            "agent",
+            "instructions"
+          ]
+        },
+        {
+          "id": "agents-agent-personality-configuration",
+          "number": 205,
+          "name": "Agent personality configuration",
+          "description": "Automate real work with agent personality configuration — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "personality",
+            "configuration"
+          ]
+        },
+        {
+          "id": "agents-agent-knowledge-base-integration",
+          "number": 206,
+          "name": "Agent knowledge base integration",
+          "description": "Automate real work with agent knowledge base integration — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "knowledge",
+            "base",
+            "integration"
+          ]
+        },
+        {
+          "id": "agents-agent-tool-integration",
+          "number": 207,
+          "name": "Agent tool integration",
+          "description": "Automate real work with agent tool integration — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "tool",
+            "integration"
+          ]
+        },
+        {
+          "id": "agents-multiple-agents-working-together",
+          "number": 208,
+          "name": "Multiple agents working together",
+          "description": "Automate real work with multiple agents working together — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "multiple",
+            "agents",
+            "working",
+            "together"
+          ]
+        },
+        {
+          "id": "agents-ai-agent-task-scheduling",
+          "number": 209,
+          "name": "AI agent task scheduling",
+          "description": "Automate real work with ai agent task scheduling — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "task",
+            "scheduling"
+          ]
+        },
+        {
+          "id": "agents-autonomous-task-execution-with-user-authorizatio",
+          "number": 210,
+          "name": "Autonomous task execution with user authorization",
+          "description": "Automate real work with autonomous task execution with user authorization — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "autonomous",
+            "task",
+            "execution",
+            "with"
+          ]
+        },
+        {
+          "id": "agents-agent-task-history",
+          "number": 211,
+          "name": "Agent task history",
+          "description": "Automate real work with agent task history — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "task",
+            "history"
+          ]
+        },
+        {
+          "id": "agents-agent-execution-monitoring",
+          "number": 212,
+          "name": "Agent execution monitoring",
+          "description": "Automate real work with agent execution monitoring — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "execution",
+            "monitoring"
+          ]
+        },
+        {
+          "id": "agents-agent-performance-analytics",
+          "number": 213,
+          "name": "Agent performance analytics",
+          "description": "Automate real work with agent performance analytics — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "performance",
+            "analytics"
+          ]
+        },
+        {
+          "id": "agents-agent-error-reporting",
+          "number": 214,
+          "name": "Agent error reporting",
+          "description": "Automate real work with agent error reporting — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "error",
+            "reporting"
+          ]
+        },
+        {
+          "id": "agents-agent-approval-workflows",
+          "number": 215,
+          "name": "Agent approval workflows",
+          "description": "Automate real work with agent approval workflows — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "approval",
+            "workflows"
+          ]
+        },
+        {
+          "id": "agents-agent-communication-with-external-apis",
+          "number": 216,
+          "name": "Agent communication with external APIs",
+          "description": "Automate real work with agent communication with external apis — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "communication",
+            "with",
+            "external"
+          ]
+        },
+        {
+          "id": "agents-agent-email-assistant",
+          "number": 217,
+          "name": "Agent email assistant",
+          "description": "Automate real work with agent email assistant — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "email",
+            "assistant"
+          ]
+        },
+        {
+          "id": "agents-agent-research-assistant",
+          "number": 218,
+          "name": "Agent research assistant",
+          "description": "Automate real work with agent research assistant — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "research",
+            "assistant"
+          ]
+        },
+        {
+          "id": "agents-agent-customer-support-assistant",
+          "number": 219,
+          "name": "Agent customer support assistant",
+          "description": "Automate real work with agent customer support assistant — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "customer",
+            "support",
+            "assistant"
+          ]
+        },
+        {
+          "id": "agents-agent-marketplace",
+          "number": 220,
+          "name": "Agent marketplace",
+          "description": "Automate real work with agent marketplace — no code required.",
+          "kind": "agent",
+          "action": "agent",
+          "route": "agents",
+          "tags": [
+            "agents",
+            "agent",
+            "marketplace"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Education & Learning",
+      "short": "Education",
+      "icon": "book",
+      "group": "main",
+      "blurb": "A personal tutor for every subject, level and learning style.",
+      "count": 20,
+      "features": [
+        {
+          "id": "education-ai-personal-tutor",
+          "number": 221,
+          "name": "AI personal tutor",
+          "description": "Learn anything with ai personal tutor, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "personal",
+            "tutor"
+          ]
+        },
+        {
+          "id": "education-ai-homework-assistant",
+          "number": 222,
+          "name": "AI homework assistant",
+          "description": "Learn anything with ai homework assistant, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "homework",
+            "assistant"
+          ]
+        },
+        {
+          "id": "education-ai-mathematics-solver",
+          "number": 223,
+          "name": "AI mathematics solver",
+          "description": "Learn anything with ai mathematics solver, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "mathematics",
+            "solver"
+          ]
+        },
+        {
+          "id": "education-step-by-step-problem-explanations",
+          "number": 224,
+          "name": "Step-by-step problem explanations",
+          "description": "Learn anything with step-by-step problem explanations, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "step",
+            "step",
+            "problem",
+            "explanations"
+          ]
+        },
+        {
+          "id": "education-ai-quiz-generator",
+          "number": 225,
+          "name": "AI quiz generator",
+          "description": "Learn anything with ai quiz generator, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "quiz",
+            "generator"
+          ]
+        },
+        {
+          "id": "education-ai-examination-generator",
+          "number": 226,
+          "name": "AI examination generator",
+          "description": "Learn anything with ai examination generator, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "examination",
+            "generator"
+          ]
+        },
+        {
+          "id": "education-flashcard-generation",
+          "number": 227,
+          "name": "Flashcard generation",
+          "description": "Learn anything with flashcard generation, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "flashcard",
+            "generation"
+          ]
+        },
+        {
+          "id": "education-study-timetable-generator",
+          "number": 228,
+          "name": "Study timetable generator",
+          "description": "Learn anything with study timetable generator, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "study",
+            "timetable",
+            "generator"
+          ]
+        },
+        {
+          "id": "education-learning-progress-tracking",
+          "number": 229,
+          "name": "Learning progress tracking",
+          "description": "Learn anything with learning progress tracking, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "learning",
+            "progress",
+            "tracking"
+          ]
+        },
+        {
+          "id": "education-ai-language-tutor",
+          "number": 230,
+          "name": "AI language tutor",
+          "description": "Learn anything with ai language tutor, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "language",
+            "tutor"
+          ]
+        },
+        {
+          "id": "education-vocabulary-learning-assistant",
+          "number": 231,
+          "name": "Vocabulary learning assistant",
+          "description": "Learn anything with vocabulary learning assistant, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "vocabulary",
+            "learning",
+            "assistant"
+          ]
+        },
+        {
+          "id": "education-grammar-learning-assistant",
+          "number": 232,
+          "name": "Grammar learning assistant",
+          "description": "Learn anything with grammar learning assistant, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "grammar",
+            "learning",
+            "assistant"
+          ]
+        },
+        {
+          "id": "education-programming-tutor",
+          "number": 233,
+          "name": "Programming tutor",
+          "description": "Learn anything with programming tutor, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "programming",
+            "tutor"
+          ]
+        },
+        {
+          "id": "education-science-tutor",
+          "number": 234,
+          "name": "Science tutor",
+          "description": "Learn anything with science tutor, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "science",
+            "tutor"
+          ]
+        },
+        {
+          "id": "education-history-tutor",
+          "number": 235,
+          "name": "History tutor",
+          "description": "Learn anything with history tutor, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "history",
+            "tutor"
+          ]
+        },
+        {
+          "id": "education-ai-lesson-plan-generator",
+          "number": 236,
+          "name": "AI lesson plan generator",
+          "description": "Learn anything with ai lesson plan generator, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "lesson",
+            "plan",
+            "generator"
+          ]
+        },
+        {
+          "id": "education-ai-teaching-material-generator",
+          "number": 237,
+          "name": "AI teaching material generator",
+          "description": "Learn anything with ai teaching material generator, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "teaching",
+            "material",
+            "generator"
+          ]
+        },
+        {
+          "id": "education-automatic-grading-assistance",
+          "number": 238,
+          "name": "Automatic grading assistance",
+          "description": "Learn anything with automatic grading assistance, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "automatic",
+            "grading",
+            "assistance"
+          ]
+        },
+        {
+          "id": "education-personalized-learning-recommendations",
+          "number": 239,
+          "name": "Personalized learning recommendations",
+          "description": "Learn anything with personalized learning recommendations, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "personalized",
+            "learning",
+            "recommendations"
+          ]
+        },
+        {
+          "id": "education-student-performance-analysis",
+          "number": 240,
+          "name": "Student performance analysis",
+          "description": "Learn anything with student performance analysis, adapted to your pace and level.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "education",
+          "tags": [
+            "education",
+            "student",
+            "performance",
+            "analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing & Social",
+      "short": "Marketing",
+      "icon": "megaphone",
+      "group": "main",
+      "blurb": "Create campaigns, content and calendar across every channel.",
+      "count": 20,
+      "features": [
+        {
+          "id": "marketing-social-media-content-generator",
+          "number": 241,
+          "name": "Social media content generator",
+          "description": "Grow your audience with social media content generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "social",
+            "media",
+            "content",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-instagram-post-generator",
+          "number": 242,
+          "name": "Instagram post generator",
+          "description": "Grow your audience with instagram post generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "instagram",
+            "post",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-facebook-post-generator",
+          "number": 243,
+          "name": "Facebook post generator",
+          "description": "Grow your audience with facebook post generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "facebook",
+            "post",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-linkedin-content-generator",
+          "number": 244,
+          "name": "LinkedIn content generator",
+          "description": "Grow your audience with linkedin content generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "linkedin",
+            "content",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-x-post-generator",
+          "number": 245,
+          "name": "X post generator",
+          "description": "Grow your audience with x post generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "post",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-tiktok-script-generator",
+          "number": 246,
+          "name": "TikTok script generator",
+          "description": "Grow your audience with tiktok script generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "tiktok",
+            "script",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-youtube-script-generator",
+          "number": 247,
+          "name": "YouTube script generator",
+          "description": "Grow your audience with youtube script generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "youtube",
+            "script",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-social-media-calendar-generator",
+          "number": 248,
+          "name": "Social media calendar generator",
+          "description": "Grow your audience with social media calendar generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "social",
+            "media",
+            "calendar",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-hashtag-generator",
+          "number": 249,
+          "name": "Hashtag generator",
+          "description": "Grow your audience with hashtag generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "hashtag",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-marketing-campaign-generator",
+          "number": 250,
+          "name": "Marketing campaign generator",
+          "description": "Grow your audience with marketing campaign generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "marketing",
+            "campaign",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-email-marketing-content-generator",
+          "number": 251,
+          "name": "Email marketing content generator",
+          "description": "Grow your audience with email marketing content generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "email",
+            "marketing",
+            "content",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-advertisement-copy-generator",
+          "number": 252,
+          "name": "Advertisement copy generator",
+          "description": "Grow your audience with advertisement copy generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "advertisement",
+            "copy",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-product-promotion-ideas",
+          "number": 253,
+          "name": "Product promotion ideas",
+          "description": "Grow your audience with product promotion ideas, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "product",
+            "promotion",
+            "ideas"
+          ]
+        },
+        {
+          "id": "marketing-brand-identity-generator",
+          "number": 254,
+          "name": "Brand identity generator",
+          "description": "Grow your audience with brand identity generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "brand",
+            "identity",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-brand-slogan-generator",
+          "number": 255,
+          "name": "Brand slogan generator",
+          "description": "Grow your audience with brand slogan generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "brand",
+            "slogan",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-marketing-strategy-assistant",
+          "number": 256,
+          "name": "Marketing strategy assistant",
+          "description": "Grow your audience with marketing strategy assistant, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "marketing",
+            "strategy",
+            "assistant"
+          ]
+        },
+        {
+          "id": "marketing-audience-persona-generator",
+          "number": 257,
+          "name": "Audience persona generator",
+          "description": "Grow your audience with audience persona generator, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "audience",
+            "persona",
+            "generator"
+          ]
+        },
+        {
+          "id": "marketing-customer-segmentation-insights",
+          "number": 258,
+          "name": "Customer segmentation insights",
+          "description": "Grow your audience with customer segmentation insights, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "customer",
+            "segmentation",
+            "insights"
+          ]
+        },
+        {
+          "id": "marketing-social-media-analytics-assistant",
+          "number": 259,
+          "name": "Social media analytics assistant",
+          "description": "Grow your audience with social media analytics assistant, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "social",
+            "media",
+            "analytics",
+            "assistant"
+          ]
+        },
+        {
+          "id": "marketing-competitor-social-media-analysis",
+          "number": 260,
+          "name": "Competitor social media analysis",
+          "description": "Grow your audience with competitor social media analysis, from idea to campaign.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "marketing",
+          "tags": [
+            "marketing",
+            "competitor",
+            "social",
+            "media",
+            "analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "Data Analytics",
+      "short": "Analytics",
+      "icon": "chart",
+      "group": "main",
+      "blurb": "Upload data, ask in plain English and get charts, forecasts and insights.",
+      "count": 20,
+      "features": [
+        {
+          "id": "analytics-upload-and-analyze-csv-files",
+          "number": 261,
+          "name": "Upload and analyze CSV files",
+          "description": "Turn raw data into decisions with upload and analyze csv files.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "upload",
+            "analyze",
+            "files"
+          ]
+        },
+        {
+          "id": "analytics-upload-and-analyze-excel-spreadsheets",
+          "number": 262,
+          "name": "Upload and analyze Excel spreadsheets",
+          "description": "Turn raw data into decisions with upload and analyze excel spreadsheets.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "upload",
+            "analyze",
+            "excel",
+            "spreadsheets"
+          ]
+        },
+        {
+          "id": "analytics-natural-language-data-queries",
+          "number": 263,
+          "name": "Natural language data queries",
+          "description": "Turn raw data into decisions with natural language data queries.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "natural",
+            "language",
+            "data",
+            "queries"
+          ]
+        },
+        {
+          "id": "analytics-ai-generated-charts",
+          "number": 264,
+          "name": "AI-generated charts",
+          "description": "Turn raw data into decisions with ai-generated charts.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "generated",
+            "charts"
+          ]
+        },
+        {
+          "id": "analytics-ai-generated-dashboards",
+          "number": 265,
+          "name": "AI-generated dashboards",
+          "description": "Turn raw data into decisions with ai-generated dashboards.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "generated",
+            "dashboards"
+          ]
+        },
+        {
+          "id": "analytics-automatic-data-cleaning-suggestions",
+          "number": 266,
+          "name": "Automatic data cleaning suggestions",
+          "description": "Turn raw data into decisions with automatic data cleaning suggestions.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "automatic",
+            "data",
+            "cleaning",
+            "suggestions"
+          ]
+        },
+        {
+          "id": "analytics-missing-data-detection",
+          "number": 267,
+          "name": "Missing data detection",
+          "description": "Turn raw data into decisions with missing data detection.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "missing",
+            "data",
+            "detection"
+          ]
+        },
+        {
+          "id": "analytics-duplicate-data-detection",
+          "number": 268,
+          "name": "Duplicate data detection",
+          "description": "Turn raw data into decisions with duplicate data detection.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "duplicate",
+            "data",
+            "detection"
+          ]
+        },
+        {
+          "id": "analytics-data-pattern-recognition",
+          "number": 269,
+          "name": "Data pattern recognition",
+          "description": "Turn raw data into decisions with data pattern recognition.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "data",
+            "pattern",
+            "recognition"
+          ]
+        },
+        {
+          "id": "analytics-statistical-analysis",
+          "number": 270,
+          "name": "Statistical analysis",
+          "description": "Turn raw data into decisions with statistical analysis.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "statistical",
+            "analysis"
+          ]
+        },
+        {
+          "id": "analytics-predictive-analytics",
+          "number": 271,
+          "name": "Predictive analytics",
+          "description": "Turn raw data into decisions with predictive analytics.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "predictive",
+            "analytics"
+          ]
+        },
+        {
+          "id": "analytics-sales-forecasting",
+          "number": 272,
+          "name": "Sales forecasting",
+          "description": "Turn raw data into decisions with sales forecasting.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "sales",
+            "forecasting"
+          ]
+        },
+        {
+          "id": "analytics-revenue-forecasting",
+          "number": 273,
+          "name": "Revenue forecasting",
+          "description": "Turn raw data into decisions with revenue forecasting.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "revenue",
+            "forecasting"
+          ]
+        },
+        {
+          "id": "analytics-customer-behavior-analysis",
+          "number": 274,
+          "name": "Customer behavior analysis",
+          "description": "Turn raw data into decisions with customer behavior analysis.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "customer",
+            "behavior",
+            "analysis"
+          ]
+        },
+        {
+          "id": "analytics-data-comparison",
+          "number": 275,
+          "name": "Data comparison",
+          "description": "Turn raw data into decisions with data comparison.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "data",
+            "comparison"
+          ]
+        },
+        {
+          "id": "analytics-automated-data-reports",
+          "number": 276,
+          "name": "Automated data reports",
+          "description": "Turn raw data into decisions with automated data reports.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "automated",
+            "data",
+            "reports"
+          ]
+        },
+        {
+          "id": "analytics-interactive-visualizations",
+          "number": 277,
+          "name": "Interactive visualizations",
+          "description": "Turn raw data into decisions with interactive visualizations.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "interactive",
+            "visualizations"
+          ]
+        },
+        {
+          "id": "analytics-database-query-assistant",
+          "number": 278,
+          "name": "Database query assistant",
+          "description": "Turn raw data into decisions with database query assistant.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "database",
+            "query",
+            "assistant"
+          ]
+        },
+        {
+          "id": "analytics-kpi-monitoring",
+          "number": 279,
+          "name": "KPI monitoring",
+          "description": "Turn raw data into decisions with kpi monitoring.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "monitoring"
+          ]
+        },
+        {
+          "id": "analytics-anomaly-detection",
+          "number": 280,
+          "name": "Anomaly detection",
+          "description": "Turn raw data into decisions with anomaly detection.",
+          "kind": "data",
+          "action": "data",
+          "route": "analytics",
+          "tags": [
+            "analytics",
+            "anomaly",
+            "detection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "name": "Customer Support",
+      "short": "Support",
+      "icon": "headset",
+      "group": "main",
+      "blurb": "Resolve tickets faster with AI replies, triage and sentiment.",
+      "count": 20,
+      "features": [
+        {
+          "id": "support-ai-customer-support-chatbot",
+          "number": 281,
+          "name": "AI customer support chatbot",
+          "description": "Delight customers at scale with ai customer support chatbot.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "customer",
+            "support",
+            "chatbot"
+          ]
+        },
+        {
+          "id": "support-website-chatbot-integration",
+          "number": 282,
+          "name": "Website chatbot integration",
+          "description": "Delight customers at scale with website chatbot integration.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "website",
+            "chatbot",
+            "integration"
+          ]
+        },
+        {
+          "id": "support-whatsapp-chatbot-integration",
+          "number": 283,
+          "name": "WhatsApp chatbot integration",
+          "description": "Delight customers at scale with whatsapp chatbot integration.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "whatsapp",
+            "chatbot",
+            "integration"
+          ]
+        },
+        {
+          "id": "support-telegram-chatbot-integration",
+          "number": 284,
+          "name": "Telegram chatbot integration",
+          "description": "Delight customers at scale with telegram chatbot integration.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "telegram",
+            "chatbot",
+            "integration"
+          ]
+        },
+        {
+          "id": "support-facebook-messenger-integration",
+          "number": 285,
+          "name": "Facebook Messenger integration",
+          "description": "Delight customers at scale with facebook messenger integration.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "facebook",
+            "messenger",
+            "integration"
+          ]
+        },
+        {
+          "id": "support-automated-customer-responses",
+          "number": 286,
+          "name": "Automated customer responses",
+          "description": "Delight customers at scale with automated customer responses.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "automated",
+            "customer",
+            "responses"
+          ]
+        },
+        {
+          "id": "support-customer-inquiry-classification",
+          "number": 287,
+          "name": "Customer inquiry classification",
+          "description": "Delight customers at scale with customer inquiry classification.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "customer",
+            "inquiry",
+            "classification"
+          ]
+        },
+        {
+          "id": "support-ticket-management",
+          "number": 288,
+          "name": "Ticket management",
+          "description": "Delight customers at scale with ticket management.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "ticket",
+            "management"
+          ]
+        },
+        {
+          "id": "support-ticket-prioritization",
+          "number": 289,
+          "name": "Ticket prioritization",
+          "description": "Delight customers at scale with ticket prioritization.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "ticket",
+            "prioritization"
+          ]
+        },
+        {
+          "id": "support-customer-sentiment-analysis",
+          "number": 290,
+          "name": "Customer sentiment analysis",
+          "description": "Delight customers at scale with customer sentiment analysis.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "customer",
+            "sentiment",
+            "analysis"
+          ]
+        },
+        {
+          "id": "support-frequently-asked-questions-generator",
+          "number": 291,
+          "name": "Frequently asked questions generator",
+          "description": "Delight customers at scale with frequently asked questions generator.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "frequently",
+            "asked",
+            "questions",
+            "generator"
+          ]
+        },
+        {
+          "id": "support-knowledge-base-chatbot",
+          "number": 292,
+          "name": "Knowledge base chatbot",
+          "description": "Delight customers at scale with knowledge base chatbot.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "knowledge",
+            "base",
+            "chatbot"
+          ]
+        },
+        {
+          "id": "support-multilingual-customer-support",
+          "number": 293,
+          "name": "Multilingual customer support",
+          "description": "Delight customers at scale with multilingual customer support.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "multilingual",
+            "customer",
+            "support"
+          ]
+        },
+        {
+          "id": "support-live-human-agent-handover",
+          "number": 294,
+          "name": "Live human-agent handover",
+          "description": "Delight customers at scale with live human-agent handover.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "live",
+            "human",
+            "agent",
+            "handover"
+          ]
+        },
+        {
+          "id": "support-customer-conversation-history",
+          "number": 295,
+          "name": "Customer conversation history",
+          "description": "Delight customers at scale with customer conversation history.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "customer",
+            "conversation",
+            "history"
+          ]
+        },
+        {
+          "id": "support-automated-support-summaries",
+          "number": 296,
+          "name": "Automated support summaries",
+          "description": "Delight customers at scale with automated support summaries.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "automated",
+            "support",
+            "summaries"
+          ]
+        },
+        {
+          "id": "support-customer-satisfaction-analysis",
+          "number": 297,
+          "name": "Customer satisfaction analysis",
+          "description": "Delight customers at scale with customer satisfaction analysis.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "customer",
+            "satisfaction",
+            "analysis"
+          ]
+        },
+        {
+          "id": "support-support-performance-analytics",
+          "number": 298,
+          "name": "Support performance analytics",
+          "description": "Delight customers at scale with support performance analytics.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "support",
+            "performance",
+            "analytics"
+          ]
+        },
+        {
+          "id": "support-ai-generated-support-responses",
+          "number": 299,
+          "name": "AI-generated support responses",
+          "description": "Delight customers at scale with ai-generated support responses.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "generated",
+            "support",
+            "responses"
+          ]
+        },
+        {
+          "id": "support-customer-support-automation-rules",
+          "number": 300,
+          "name": "Customer support automation rules",
+          "description": "Delight customers at scale with customer support automation rules.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "support",
+          "tags": [
+            "support",
+            "customer",
+            "support",
+            "automation",
+            "rules"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "Personal Finance",
+      "short": "Finance",
+      "icon": "wallet",
+      "group": "main",
+      "blurb": "Budget, track and forecast money with an AI financial planner.",
+      "count": 20,
+      "features": [
+        {
+          "id": "finance-personal-budget-assistant",
+          "number": 301,
+          "name": "Personal budget assistant",
+          "description": "Stay in control of money with personal budget assistant.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "personal",
+            "budget",
+            "assistant"
+          ]
+        },
+        {
+          "id": "finance-expense-categorization",
+          "number": 302,
+          "name": "Expense categorization",
+          "description": "Stay in control of money with expense categorization.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "expense",
+            "categorization"
+          ]
+        },
+        {
+          "id": "finance-spending-analysis",
+          "number": 303,
+          "name": "Spending analysis",
+          "description": "Stay in control of money with spending analysis.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "spending",
+            "analysis"
+          ]
+        },
+        {
+          "id": "finance-savings-plan-generator",
+          "number": 304,
+          "name": "Savings plan generator",
+          "description": "Stay in control of money with savings plan generator.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "savings",
+            "plan",
+            "generator"
+          ]
+        },
+        {
+          "id": "finance-financial-goal-planning",
+          "number": 305,
+          "name": "Financial goal planning",
+          "description": "Stay in control of money with financial goal planning.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "financial",
+            "goal",
+            "planning"
+          ]
+        },
+        {
+          "id": "finance-monthly-financial-summaries",
+          "number": 306,
+          "name": "Monthly financial summaries",
+          "description": "Stay in control of money with monthly financial summaries.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "monthly",
+            "financial",
+            "summaries"
+          ]
+        },
+        {
+          "id": "finance-invoice-analysis",
+          "number": 307,
+          "name": "Invoice analysis",
+          "description": "Stay in control of money with invoice analysis.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "invoice",
+            "analysis"
+          ]
+        },
+        {
+          "id": "finance-receipt-scanning",
+          "number": 308,
+          "name": "Receipt scanning",
+          "description": "Stay in control of money with receipt scanning.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "receipt",
+            "scanning"
+          ]
+        },
+        {
+          "id": "finance-subscription-tracking",
+          "number": 309,
+          "name": "Subscription tracking",
+          "description": "Stay in control of money with subscription tracking.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "subscription",
+            "tracking"
+          ]
+        },
+        {
+          "id": "finance-bill-reminder-assistant",
+          "number": 310,
+          "name": "Bill reminder assistant",
+          "description": "Stay in control of money with bill reminder assistant.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "bill",
+            "reminder",
+            "assistant"
+          ]
+        },
+        {
+          "id": "finance-financial-spreadsheet-analysis",
+          "number": 311,
+          "name": "Financial spreadsheet analysis",
+          "description": "Stay in control of money with financial spreadsheet analysis.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "financial",
+            "spreadsheet",
+            "analysis"
+          ]
+        },
+        {
+          "id": "finance-cash-flow-analysis",
+          "number": 312,
+          "name": "Cash flow analysis",
+          "description": "Stay in control of money with cash flow analysis.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "cash",
+            "flow",
+            "analysis"
+          ]
+        },
+        {
+          "id": "finance-business-expense-analysis",
+          "number": 313,
+          "name": "Business expense analysis",
+          "description": "Stay in control of money with business expense analysis.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "business",
+            "expense",
+            "analysis"
+          ]
+        },
+        {
+          "id": "finance-tax-document-organization",
+          "number": 314,
+          "name": "Tax document organization",
+          "description": "Stay in control of money with tax document organization.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "document",
+            "organization"
+          ]
+        },
+        {
+          "id": "finance-financial-education-assistant",
+          "number": 315,
+          "name": "Financial education assistant",
+          "description": "Stay in control of money with financial education assistant.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "financial",
+            "education",
+            "assistant"
+          ]
+        },
+        {
+          "id": "finance-investment-concept-explanations",
+          "number": 316,
+          "name": "Investment concept explanations",
+          "description": "Stay in control of money with investment concept explanations.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "investment",
+            "concept",
+            "explanations"
+          ]
+        },
+        {
+          "id": "finance-loan-repayment-calculators",
+          "number": 317,
+          "name": "Loan repayment calculators",
+          "description": "Stay in control of money with loan repayment calculators.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "loan",
+            "repayment",
+            "calculators"
+          ]
+        },
+        {
+          "id": "finance-budget-recommendations",
+          "number": 318,
+          "name": "Budget recommendations",
+          "description": "Stay in control of money with budget recommendations.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "budget",
+            "recommendations"
+          ]
+        },
+        {
+          "id": "finance-financial-report-generation",
+          "number": 319,
+          "name": "Financial report generation",
+          "description": "Stay in control of money with financial report generation.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "financial",
+            "report",
+            "generation"
+          ]
+        },
+        {
+          "id": "finance-financial-data-visualization",
+          "number": 320,
+          "name": "Financial data visualization",
+          "description": "Stay in control of money with financial data visualization.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "finance",
+          "tags": [
+            "finance",
+            "financial",
+            "data",
+            "visualization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "name": "Platform & UX",
+      "short": "Platform",
+      "icon": "layout",
+      "group": "workspace",
+      "blurb": "The professional SaaS foundation: auth, themes, search and collaboration.",
+      "count": 20,
+      "features": [
+        {
+          "id": "platform-modern-ai-dashboard",
+          "number": 321,
+          "name": "Modern AI dashboard",
+          "description": "A polished, secure SaaS experience with modern ai dashboard.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "modern",
+            "dashboard"
+          ]
+        },
+        {
+          "id": "platform-user-registration-and-login",
+          "number": 322,
+          "name": "User registration and login",
+          "description": "A polished, secure SaaS experience with user registration and login.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "user",
+            "registration",
+            "login"
+          ]
+        },
+        {
+          "id": "platform-google-authentication",
+          "number": 323,
+          "name": "Google authentication",
+          "description": "A polished, secure SaaS experience with google authentication.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "google",
+            "authentication"
+          ]
+        },
+        {
+          "id": "platform-two-factor-authentication",
+          "number": 324,
+          "name": "Two-factor authentication",
+          "description": "A polished, secure SaaS experience with two-factor authentication.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "factor",
+            "authentication"
+          ]
+        },
+        {
+          "id": "platform-user-profile-management",
+          "number": 325,
+          "name": "User profile management",
+          "description": "A polished, secure SaaS experience with user profile management.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "user",
+            "profile",
+            "management"
+          ]
+        },
+        {
+          "id": "platform-profile-picture-upload",
+          "number": 326,
+          "name": "Profile picture upload",
+          "description": "A polished, secure SaaS experience with profile picture upload.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "profile",
+            "picture",
+            "upload"
+          ]
+        },
+        {
+          "id": "platform-customizable-user-preferences",
+          "number": 327,
+          "name": "Customizable user preferences",
+          "description": "A polished, secure SaaS experience with customizable user preferences.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "customizable",
+            "user",
+            "preferences"
+          ]
+        },
+        {
+          "id": "platform-light-mode",
+          "number": 328,
+          "name": "Light mode",
+          "description": "A polished, secure SaaS experience with light mode.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "light",
+            "mode"
+          ]
+        },
+        {
+          "id": "platform-dark-mode",
+          "number": 329,
+          "name": "Dark mode",
+          "description": "A polished, secure SaaS experience with dark mode.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "dark",
+            "mode"
+          ]
+        },
+        {
+          "id": "platform-multi-language-interface",
+          "number": 330,
+          "name": "Multi-language interface",
+          "description": "A polished, secure SaaS experience with multi-language interface.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "multi",
+            "language",
+            "interface"
+          ]
+        },
+        {
+          "id": "platform-responsive-mobile-interface",
+          "number": 331,
+          "name": "Responsive mobile interface",
+          "description": "A polished, secure SaaS experience with responsive mobile interface.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "responsive",
+            "mobile",
+            "interface"
+          ]
+        },
+        {
+          "id": "platform-progressive-web-app-support",
+          "number": 332,
+          "name": "Progressive Web App support",
+          "description": "A polished, secure SaaS experience with progressive web app support.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "progressive",
+            "support"
+          ]
+        },
+        {
+          "id": "platform-global-search",
+          "number": 333,
+          "name": "Global search",
+          "description": "A polished, secure SaaS experience with global search.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "global",
+            "search"
+          ]
+        },
+        {
+          "id": "platform-notifications-center",
+          "number": 334,
+          "name": "Notifications center",
+          "description": "A polished, secure SaaS experience with notifications center.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "notifications",
+            "center"
+          ]
+        },
+        {
+          "id": "platform-keyboard-shortcuts",
+          "number": 335,
+          "name": "Keyboard shortcuts",
+          "description": "A polished, secure SaaS experience with keyboard shortcuts.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "keyboard",
+            "shortcuts"
+          ]
+        },
+        {
+          "id": "platform-user-activity-history",
+          "number": 336,
+          "name": "User activity history",
+          "description": "A polished, secure SaaS experience with user activity history.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "user",
+            "activity",
+            "history"
+          ]
+        },
+        {
+          "id": "platform-favorites-and-bookmarks",
+          "number": 337,
+          "name": "Favorites and bookmarks",
+          "description": "A polished, secure SaaS experience with favorites and bookmarks.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "favorites",
+            "bookmarks"
+          ]
+        },
+        {
+          "id": "platform-workspace-management",
+          "number": 338,
+          "name": "Workspace management",
+          "description": "A polished, secure SaaS experience with workspace management.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "workspace",
+            "management"
+          ]
+        },
+        {
+          "id": "platform-team-collaboration",
+          "number": 339,
+          "name": "Team collaboration",
+          "description": "A polished, secure SaaS experience with team collaboration.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "team",
+            "collaboration"
+          ]
+        },
+        {
+          "id": "platform-real-time-synchronization",
+          "number": 340,
+          "name": "Real-time synchronization",
+          "description": "A polished, secure SaaS experience with real-time synchronization.",
+          "kind": "settings",
+          "action": "settings",
+          "route": "settings",
+          "tags": [
+            "platform",
+            "real",
+            "time",
+            "synchronization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "admin",
+      "name": "Admin & Enterprise",
+      "short": "Admin",
+      "icon": "shield",
+      "group": "workspace",
+      "blurb": "Control users, plans, billing, security and platform health.",
+      "count": 20,
+      "features": [
+        {
+          "id": "admin-super-admin-dashboard",
+          "number": 341,
+          "name": "Super admin dashboard",
+          "description": "Run NexAI with confidence using super admin dashboard.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "super",
+            "admin",
+            "dashboard"
+          ]
+        },
+        {
+          "id": "admin-user-management",
+          "number": 342,
+          "name": "User management",
+          "description": "Run NexAI with confidence using user management.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "user",
+            "management"
+          ]
+        },
+        {
+          "id": "admin-user-suspension-and-activation",
+          "number": 343,
+          "name": "User suspension and activation",
+          "description": "Run NexAI with confidence using user suspension and activation.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "user",
+            "suspension",
+            "activation"
+          ]
+        },
+        {
+          "id": "admin-role-based-access-control",
+          "number": 344,
+          "name": "Role-based access control",
+          "description": "Run NexAI with confidence using role-based access control.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "role",
+            "based",
+            "access",
+            "control"
+          ]
+        },
+        {
+          "id": "admin-subscription-management",
+          "number": 345,
+          "name": "Subscription management",
+          "description": "Run NexAI with confidence using subscription management.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "subscription",
+            "management"
+          ]
+        },
+        {
+          "id": "admin-free-subscription-plan",
+          "number": 346,
+          "name": "Free subscription plan",
+          "description": "Run NexAI with confidence using free subscription plan.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "free",
+            "subscription",
+            "plan"
+          ]
+        },
+        {
+          "id": "admin-pro-subscription-plan",
+          "number": 347,
+          "name": "Pro subscription plan",
+          "description": "Run NexAI with confidence using pro subscription plan.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "subscription",
+            "plan"
+          ]
+        },
+        {
+          "id": "admin-business-subscription-plan",
+          "number": 348,
+          "name": "Business subscription plan",
+          "description": "Run NexAI with confidence using business subscription plan.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "business",
+            "subscription",
+            "plan"
+          ]
+        },
+        {
+          "id": "admin-enterprise-subscription-plan",
+          "number": 349,
+          "name": "Enterprise subscription plan",
+          "description": "Run NexAI with confidence using enterprise subscription plan.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "enterprise",
+            "subscription",
+            "plan"
+          ]
+        },
+        {
+          "id": "admin-usage-based-billing",
+          "number": 350,
+          "name": "Usage-based billing",
+          "description": "Run NexAI with confidence using usage-based billing.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "usage",
+            "based",
+            "billing"
+          ]
+        },
+        {
+          "id": "admin-ai-credit-management",
+          "number": 351,
+          "name": "AI credit management",
+          "description": "Run NexAI with confidence using ai credit management.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "credit",
+            "management"
+          ]
+        },
+        {
+          "id": "admin-payment-gateway-integration",
+          "number": 352,
+          "name": "Payment gateway integration",
+          "description": "Run NexAI with confidence using payment gateway integration.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "payment",
+            "gateway",
+            "integration"
+          ]
+        },
+        {
+          "id": "admin-subscription-renewal-management",
+          "number": 353,
+          "name": "Subscription renewal management",
+          "description": "Run NexAI with confidence using subscription renewal management.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "subscription",
+            "renewal",
+            "management"
+          ]
+        },
+        {
+          "id": "admin-payment-transaction-history",
+          "number": 354,
+          "name": "Payment transaction history",
+          "description": "Run NexAI with confidence using payment transaction history.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "payment",
+            "transaction",
+            "history"
+          ]
+        },
+        {
+          "id": "admin-discount-and-coupon-management",
+          "number": 355,
+          "name": "Discount and coupon management",
+          "description": "Run NexAI with confidence using discount and coupon management.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "discount",
+            "coupon",
+            "management"
+          ]
+        },
+        {
+          "id": "admin-referral-program",
+          "number": 356,
+          "name": "Referral program",
+          "description": "Run NexAI with confidence using referral program.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "referral",
+            "program"
+          ]
+        },
+        {
+          "id": "admin-affiliate-management",
+          "number": 357,
+          "name": "Affiliate management",
+          "description": "Run NexAI with confidence using affiliate management.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "affiliate",
+            "management"
+          ]
+        },
+        {
+          "id": "admin-system-usage-analytics",
+          "number": 358,
+          "name": "System usage analytics",
+          "description": "Run NexAI with confidence using system usage analytics.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "system",
+            "usage",
+            "analytics"
+          ]
+        },
+        {
+          "id": "admin-api-key-management",
+          "number": 359,
+          "name": "API key management",
+          "description": "Run NexAI with confidence using api key management.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "management"
+          ]
+        },
+        {
+          "id": "admin-audit-logs-and-security-monitoring",
+          "number": 360,
+          "name": "Audit logs and security monitoring",
+          "description": "Run NexAI with confidence using audit logs and security monitoring.",
+          "kind": "admin",
+          "action": "admin",
+          "route": "admin",
+          "tags": [
+            "admin",
+            "audit",
+            "logs",
+            "security",
+            "monitoring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bonus",
+      "name": "Advanced & Enterprise AI",
+      "short": "Advanced",
+      "icon": "star",
+      "group": "workspace",
+      "blurb": "Fine-tuning, BYOK, public APIs, webhooks and private deployments.",
+      "count": 10,
+      "features": [
+        {
+          "id": "bonus-custom-ai-model-fine-tuning",
+          "number": 361,
+          "name": "Custom AI model fine-tuning",
+          "description": "Go beyond off-the-shelf AI with custom ai model fine-tuning.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "features",
+          "tags": [
+            "advanced",
+            "custom",
+            "model",
+            "fine",
+            "tuning"
+          ]
+        },
+        {
+          "id": "bonus-private-organization-specific-ai-models",
+          "number": 362,
+          "name": "Private organization-specific AI models",
+          "description": "Go beyond off-the-shelf AI with private organization-specific ai models.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "features",
+          "tags": [
+            "advanced",
+            "private",
+            "organization",
+            "specific",
+            "models"
+          ]
+        },
+        {
+          "id": "bonus-bring-your-own-api-key-byok",
+          "number": 363,
+          "name": "Bring Your Own API Key (BYOK)",
+          "description": "Go beyond off-the-shelf AI with bring your own api key (byok).",
+          "kind": "chat",
+          "action": "chat",
+          "route": "features",
+          "tags": [
+            "advanced",
+            "bring",
+            "your",
+            "byok"
+          ]
+        },
+        {
+          "id": "bonus-ai-model-usage-comparison",
+          "number": 364,
+          "name": "AI model usage comparison",
+          "description": "Go beyond off-the-shelf AI with ai model usage comparison.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "features",
+          "tags": [
+            "advanced",
+            "model",
+            "usage",
+            "comparison"
+          ]
+        },
+        {
+          "id": "bonus-ai-prompt-library-and-marketplace",
+          "number": 365,
+          "name": "AI prompt library and marketplace",
+          "description": "Go beyond off-the-shelf AI with ai prompt library and marketplace.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "features",
+          "tags": [
+            "advanced",
+            "prompt",
+            "library",
+            "marketplace"
+          ]
+        },
+        {
+          "id": "bonus-custom-ai-application-builder",
+          "number": 366,
+          "name": "Custom AI application builder",
+          "description": "Go beyond off-the-shelf AI with custom ai application builder.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "features",
+          "tags": [
+            "advanced",
+            "custom",
+            "application",
+            "builder"
+          ]
+        },
+        {
+          "id": "bonus-public-ai-api-for-developers",
+          "number": 367,
+          "name": "Public AI API for developers",
+          "description": "Go beyond off-the-shelf AI with public ai api for developers.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "features",
+          "tags": [
+            "advanced",
+            "public",
+            "developers"
+          ]
+        },
+        {
+          "id": "bonus-webhook-integrations",
+          "number": 368,
+          "name": "Webhook integrations",
+          "description": "Go beyond off-the-shelf AI with webhook integrations.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "features",
+          "tags": [
+            "advanced",
+            "webhook",
+            "integrations"
+          ]
+        },
+        {
+          "id": "bonus-ai-usage-and-cost-optimization",
+          "number": 369,
+          "name": "AI usage and cost optimization",
+          "description": "Go beyond off-the-shelf AI with ai usage and cost optimization.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "features",
+          "tags": [
+            "advanced",
+            "usage",
+            "cost",
+            "optimization"
+          ]
+        },
+        {
+          "id": "bonus-enterprise-data-isolation-and-private-deployment",
+          "number": 370,
+          "name": "Enterprise data isolation and private deployments",
+          "description": "Go beyond off-the-shelf AI with enterprise data isolation and private deployments.",
+          "kind": "chat",
+          "action": "chat",
+          "route": "features",
+          "tags": [
+            "advanced",
+            "enterprise",
+            "data",
+            "isolation",
+            "private"
+          ]
+        }
+      ]
+    }
+  ]
+}
