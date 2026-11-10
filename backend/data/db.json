@@ -1,0 +1,6172 @@
+{
+  "version": 1,
+  "seededAt": "2026-11-10T08:26:38.216Z",
+  "users": [
+    {
+      "id": "u_demo",
+      "name": "Alex Morgan",
+      "email": "demo@nexai.app",
+      "password": "94e456258264edef8ad3f36694b4243f:cdd19079924d2857a7f4d955060884f4614143e937404f637a8a3d5b34ed7f884b47c94f83fdc58d5d17cc8db2d0a81f71b573b6e24de785c6324c64ab80cf48",
+      "role": "admin",
+      "plan": "business",
+      "credits": 18449,
+      "suspended": false,
+      "systemPrompt": "",
+      "avatar": null,
+      "twoFactor": false,
+      "company": "Northstar Studio",
+      "jobTitle": "Founder & Product Lead",
+      "timezone": "Europe/London",
+      "language": "English",
+      "createdAt": "2026-06-14T20:26:37.385Z",
+      "prefs": {
+        "theme": "dark",
+        "tone": "balanced",
+        "length": "medium",
+        "model": "nexai-core",
+        "density": "comfortable",
+        "suggestions": true,
+        "memory": true,
+        "citations": true
+      },
+      "integrations": [
+        "slack",
+        "notion",
+        "github",
+        "stripe"
+      ],
+      "favorites": [
+        "chat",
+        "agents",
+        "analytics"
+      ]
+    },
+    {
+      "id": "u_maya",
+      "name": "Maya Chen",
+      "email": "maya@lumenlabs.io",
+      "password": "24c72caf322e9ab0c2d7b57460199b2e:6d97023e974befd9aaed2657c8eeb62dcf63d824e152d86e3fda986ca79b512ea21edd1607223e740011b875d8463ce6465b0a84d61d1b5ad8037bdadccc1118",
+      "role": "user",
+      "plan": "pro",
+      "credits": 1840,
+      "suspended": false,
+      "company": "Lumen Labs",
+      "createdAt": "2026-08-05T20:26:37.385Z",
+      "prefs": {
+        "theme": "light"
+      },
+      "integrations": [
+        "notion"
+      ],
+      "favorites": []
+    },
+    {
+      "id": "u_sam",
+      "name": "Sam Rivera",
+      "email": "sam@fieldnote.co",
+      "password": "cb7837a8b9330efa31417d40d60ab145:38aef788c110c16809ac6497826030ce6d8331ef706e87d778566c84fa6a34a938e4f840b59458ea1ad69883a870e13b2ddbaba896ef8468f99e110ea8b14ca5",
+      "role": "user",
+      "plan": "free",
+      "credits": 32,
+      "suspended": false,
+      "company": "Fieldnote",
+      "createdAt": "2026-09-29T20:26:37.385Z",
+      "prefs": {
+        "theme": "dark"
+      },
+      "integrations": [],
+      "favorites": []
+    },
+    {
+      "id": "u_priya",
+      "name": "Priya Nair",
+      "email": "priya@atlasbank.com",
+      "password": "e734ec566f6f59f162e785d39cffb1b5:f507b4b0516b5940695e31958ccb1783b4f222094f056d04516b14b3a200ab5b525b70a7dd2842ad3a721f85980521280e6d1d4bb1f1cecab8766e26f3e35002",
+      "role": "user",
+      "plan": "enterprise",
+      "credits": 91420,
+      "suspended": false,
+      "company": "Atlas Bank",
+      "createdAt": "2026-04-03T20:26:37.385Z",
+      "prefs": {
+        "theme": "light"
+      },
+      "integrations": [
+        "slack",
+        "gdrive",
+        "stripe",
+        "byok"
+      ],
+      "favorites": []
+    },
+    {
+      "id": "u_jonas",
+      "name": "Jonas Weber",
+      "email": "jonas@kite.studio",
+      "password": "e30f633b3065e7069e8d223fc93a513e:bae9da082347fedcf5ec4daf1b2b035b989ba5d7e2d90d50353000e0b2194bd691833e6c923c80e9bc3ecb0f7c1d9244d79ab6a1f36aa4a00f06208b2a1ae628",
+      "role": "user",
+      "plan": "business",
+      "credits": 9120,
+      "suspended": true,
+      "company": "Kite Studio",
+      "createdAt": "2026-09-03T20:26:37.385Z",
+      "prefs": {
+        "theme": "dark"
+      },
+      "integrations": [
+        "gmail"
+      ],
+      "favorites": []
+    },
+    {
+      "id": "u_olivia",
+      "name": "Olivia Park",
+      "email": "olivia@meridian.co",
+      "password": "c17f9758cde6631041624dfed5984bac:695b18e2e29cec00b0a9d83dbe90c3e152dc79ffbadc915e3bb172d612f2a719cbf15514c2b0e301dd0cdcd15680dd8d87fd6e97f1477a39dd842d60de5064f8",
+      "role": "user",
+      "plan": "pro",
+      "credits": 2140,
+      "suspended": false,
+      "company": "Meridian",
+      "createdAt": "2026-10-28T20:26:37.385Z",
+      "prefs": {
+        "theme": "light"
+      },
+      "integrations": [
+        "notion"
+      ],
+      "favorites": []
+    },
+    {
+      "id": "u_theo",
+      "name": "Theo Bennett",
+      "email": "theo@arcforge.dev",
+      "password": "25ee7f33f46136141842529f33255f20:85d6c16746920b470886b0844c812f0d0fec87ad8dbeef44e8f453a379c23bd4e16b35ef144a04f1b20721dd2bbf1e549ed8863fc6e1a58ca0222cc740b013ba",
+      "role": "user",
+      "plan": "business",
+      "credits": 15600,
+      "suspended": false,
+      "company": "Arcforge",
+      "createdAt": "2026-10-21T20:26:37.385Z",
+      "prefs": {
+        "theme": "dark"
+      },
+      "integrations": [
+        "github",
+        "slack"
+      ],
+      "favorites": []
+    },
+    {
+      "id": "u_amara",
+      "name": "Amara Okafor",
+      "email": "amara@kindred.health",
+      "password": "9c7ca2f44711c8077317934809d23c85:1acb760617583b2713c3d23a3ee22dfe34c87e38e9580bb30329c5e186e6d47605de95a63f5a0d8f92bd84f33c601e6756b72c0c3123def5b64db1fb000693c7",
+      "role": "user",
+      "plan": "enterprise",
+      "credits": 84300,
+      "suspended": false,
+      "company": "Kindred Health",
+      "createdAt": "2026-10-15T20:26:37.385Z",
+      "prefs": {
+        "theme": "light"
+      },
+      "integrations": [
+        "slack",
+        "gdrive"
+      ],
+      "favorites": []
+    },
+    {
+      "id": "u_lucas",
+      "name": "Lucas Silva",
+      "email": "lucas@northwind.br",
+      "password": "a1db71310b0c9910790fd6b35031d474:f92634607f569a34ecfb592ec69e0539ebb21250e1aa2568ca8f4904bbf68e80d8a3f6b0e6a7b57b931e7081c9b23132b1805504ef0f53a393694677dc34e6e0",
+      "role": "user",
+      "plan": "free",
+      "credits": 18,
+      "suspended": false,
+      "company": "Northwind",
+      "createdAt": "2026-11-06T20:26:37.385Z",
+      "prefs": {
+        "theme": "dark"
+      },
+      "integrations": [],
+      "favorites": []
+    },
+    {
+      "id": "u_hana",
+      "name": "Hana Sato",
+      "email": "hana@papercrane.jp",
+      "password": "fe538670b00c32e202c2ac07d2f20ccc:c36297d26e2fd786f28b805ef52a87c66344f08216c4339a713233d12eb8d0dfe5f3d6e9e8e5a42482c13691ca53fdcd319b5d233953c036bbdb5d3a5d200aa6",
+      "role": "user",
+      "plan": "pro",
+      "credits": 980,
+      "suspended": false,
+      "company": "Paper Crane",
+      "createdAt": "2026-10-06T20:26:37.385Z",
+      "prefs": {
+        "theme": "light"
+      },
+      "integrations": [
+        "notion"
+      ],
+      "favorites": []
+    },
+    {
+      "id": "u_daniel",
+      "name": "Daniel Cohen",
+      "email": "daniel@valevc.com",
+      "password": "adcb83feb7a8612a15d136980bfdda25:56b0f55296aa4c9760cd07c06b25554384024c75fa2e0305d3a7bc65e1d18349e44d58a0e5816ec1ec1910937d5c39fbf80daa9a2d98d3273dd743682adcaa08",
+      "role": "user",
+      "plan": "business",
+      "credits": 12000,
+      "suspended": false,
+      "company": "Vale VC",
+      "createdAt": "2026-09-23T20:26:37.385Z",
+      "prefs": {
+        "theme": "dark"
+      },
+      "integrations": [
+        "slack",
+        "stripe"
+      ],
+      "favorites": []
+    },
+    {
+      "id": "u_emma",
+      "name": "Emma Laurent",
+      "email": "emma@atelier.fr",
+      "password": "0494ba65f902436522b8fd1fe8a73046:58cc21c4562e28bc614ca029d0f52e7911781e0231e607603156f94d9bb7c8235346724b53710585f26598ad46d8363a93596801ac0f9bce26fdfe096071d639",
+      "role": "user",
+      "plan": "free",
+      "credits": 44,
+      "suspended": false,
+      "company": "Atelier",
+      "createdAt": "2026-11-04T20:26:37.385Z",
+      "prefs": {
+        "theme": "light"
+      },
+      "integrations": [],
+      "favorites": []
+    },
+    {
+      "id": "u_ravi",
+      "name": "Ravi Shah",
+      "email": "ravi@quantumleap.in",
+      "password": "b22d27f2956af5205f742212a28be85b:fea0319ba26fd0dd169fc14d57f513a07aef022cdbf74713abd1ee58d7be874e450c7d9ef70f1175ade0986e7b3ed39129023f5395d442382059ab88c20373c3",
+      "role": "user",
+      "plan": "enterprise",
+      "credits": 99000,
+      "suspended": false,
+      "company": "Quantum Leap",
+      "createdAt": "2026-08-11T20:26:37.385Z",
+      "prefs": {
+        "theme": "dark"
+      },
+      "integrations": [
+        "byok",
+        "webhook"
+      ],
+      "favorites": []
+    },
+    {
+      "id": "u_nina",
+      "name": "Nina Petrova",
+      "email": "nina@formwork.io",
+      "password": "52eccbf3b9624bd31056419c7eaff5f7:a162521b1f99a5fb484837be3529b930b0e2a62c78e5482801cc2e0b78ab3036104ef7ec01d9afd41af58075f251b3c9a6f1e2e41375bcbdea47a0aa94c3c92d",
+      "role": "user",
+      "plan": "pro",
+      "credits": 1670,
+      "suspended": false,
+      "company": "Formwork",
+      "createdAt": "2026-11-01T20:26:37.385Z",
+      "prefs": {
+        "theme": "light"
+      },
+      "integrations": [
+        "gmail"
+      ],
+      "favorites": []
+    },
+    {
+      "id": "u_caleb",
+      "name": "Caleb Wright",
+      "email": "caleb@harbor.gg",
+      "password": "86a50ba235f2c21593ddca2046aad3e4:895d6234e9adaa27912a1f0128140fa8d97c4b85d7299923574e86c01a0027cd29af9cd7015a35b384f4d83c5dbda7aeace6b24819d2477d58a0a88f0455c23f",
+      "role": "user",
+      "plan": "free",
+      "credits": 7,
+      "suspended": true,
+      "company": "Harbor",
+      "createdAt": "2026-10-25T20:26:37.385Z",
+      "prefs": {
+        "theme": "dark"
+      },
+      "integrations": [],
+      "favorites": []
+    },
+    {
+      "id": "u_fatima",
+      "name": "Fatima Zahra",
+      "email": "fatima@cedar.ma",
+      "password": "d2601f63921545a8349c21c5f90af504:175f409eb4ea1c57d81cfca5dac54de451d2cfcd79edfa8d5a45cba3eb269171a90408eaf713ff93837eab2016dfa5339ae0ed7b644411bfbba58cbfe581921d",
+      "role": "user",
+      "plan": "business",
+      "credits": 19800,
+      "suspended": false,
+      "company": "Cedar",
+      "createdAt": "2026-09-12T20:26:37.385Z",
+      "prefs": {
+        "theme": "light"
+      },
+      "integrations": [
+        "notion",
+        "zapier"
+      ],
+      "favorites": []
+    }
+  ],
+  "conversations": [
+    {
+      "id": "c_fdf889aae6b6ddb172",
+      "userId": "u_demo",
+      "title": "Smoke test: give me one sentence about reliable AI workflows.",
+      "pinned": false,
+      "archived": false,
+      "folder": "",
+      "toolId": null,
+      "model": "nexai-core",
+      "shareId": null,
+      "messages": [
+        {
+          "id": "m_73a2851e4e817289e5",
+          "role": "user",
+          "content": "Smoke test: give me one sentence about reliable AI workflows.",
+          "at": "2026-11-10T08:30:03.406Z"
+        },
+        {
+          "id": "m_138da7d7160cf49b14",
+          "role": "assistant",
+          "content": "# Smoke test: give me one sentence about reliable\n\n**The short version:** Smoke test: give me one works best as a narrow, instrumented workflow with a visible quality bar. Everything else is optimisation.\n\n## What matters most\n- **Define the outcome first.** “Save time” is not measurable. “Cut the weekly report from 3 hours to 30 minutes” is.\n- **Design the review step.** Generation is cheap; judgement is the constraint. Put a named owner on every external output.\n- **Instrument before you scale.** Capture cycle time and error rate at day one, or you’ll be arguing from anecdotes by week six.\n- **Keep the feedback loop short.** The faster a bad output is caught, the cheaper the system is to run.\n\n## A practical sequence\n1. **Week 1 — Baseline.** Measure the current workflow end to end, including waiting time.\n2. **Week 2 — Prototype.** Build the smallest version that produces a real deliverable.\n3. **Week 3 — Pilot.** Run it with 3–5 people who will tell you the truth.\n4. **Week 4 — Harden.** Fix the top two failure modes; write the checklist.\n5. **Week 5+ — Expand.** Add one adjacent workflow, not five.\n\n## What to watch\n| Risk | Early signal | Response |\n| --- | --- | --- |\n| Silent quality drop | Review edits increase | Tighten the prompt and checklist |\n| Low adoption | Usage concentrated in one person | Remove a step; don’t add training |\n| Cost creep | Credits rising faster than output | Route simple tasks to a cheaper model |\n\n## Bottom line\nTreat Smoke test: give me one as an operating change. The teams that win are the ones that redesign review and ownership alongside the tooling.",
+          "at": "2026-11-10T08:30:09.372Z",
+          "model": "NexAI Core",
+          "confidence": 0.89
+        }
+      ],
+      "createdAt": "2026-11-10T08:30:03.406Z",
+      "updatedAt": "2026-11-10T08:30:09.372Z"
+    },
+    {
+      "id": "c_seed1",
+      "userId": "u_demo",
+      "title": "Q4 launch narrative",
+      "pinned": true,
+      "archived": false,
+      "folder": "Launch",
+      "toolId": "marketing-marketing-campaign-generator",
+      "model": "nexai-core",
+      "shareId": null,
+      "createdAt": "2026-11-10T05:26:37.385Z",
+      "updatedAt": "2026-11-10T08:02:37.385Z",
+      "messages": [
+        {
+          "id": "m1",
+          "role": "user",
+          "content": "Build a Q4 launch campaign for our new AI analytics product. Audience: ops leaders at 50–500 person SaaS companies. Budget: $40k.",
+          "at": "2026-11-10T05:26:37.385Z"
+        },
+        {
+          "id": "m2",
+          "role": "assistant",
+          "content": "## Campaign: “See the signal, skip the noise”\n\n**Positioning.** The only analytics layer that turns product + revenue data into a weekly operating brief for ops leaders.\n\n### Channel mix\n| Channel | Share | Play |\n| --- | --- | --- |\n| LinkedIn ABM | 35% | 120 target accounts, 3-touch sequence from founder |\n| Partner webinar | 25% | Co-host with a RevOps community; live teardown of a real dashboard |\n| Content/SEO | 20% | “Ops brief” template + 4 benchmark posts |\n| Paid retargeting | 20% | Demo-request retargeting on pricing + docs visitors |\n\n### 6-week timeline\n1. **Week 1–2** — ICP list, narrative testing, landing page.\n2. **Week 3** — Webinar + founder LinkedIn series.\n3. **Week 4–5** — ABM sequences, case study, retargeting.\n4. **Week 6** — Demo sprint and launch recap.\n\n**Success metrics:** 45 qualified demos, $310k pipeline, 3.2% ABM reply rate.\n\nWant me to turn this into the actual LinkedIn copy and webinar outline?",
+          "at": "2026-11-10T05:26:37.385Z"
+        }
+      ]
+    },
+    {
+      "id": "c_seed2",
+      "userId": "u_demo",
+      "title": "Churn analysis with pandas",
+      "pinned": false,
+      "archived": false,
+      "folder": "Analytics",
+      "toolId": "developer-code-explanation",
+      "model": "nexai-reason",
+      "shareId": "share_demo_churn",
+      "createdAt": "2026-11-09T03:26:37.385Z",
+      "updatedAt": "2026-11-09T04:26:37.385Z",
+      "messages": [
+        {
+          "id": "m1",
+          "role": "user",
+          "content": "Explain this pandas churn analysis and suggest what to check next:\n\ndf.groupby(\"plan\").agg(churn=(\"churned\",\"mean\"), users=(\"id\",\"nunique\"))",
+          "at": "2026-11-09T03:26:37.385Z"
+        },
+        {
+          "id": "m2",
+          "role": "assistant",
+          "content": "This groups customers by plan and computes the churn **rate** alongside cohort size.\n\n### What it tells you\n- `churn=(\"churned\",\"mean\")` treats the 0/1 flag as a rate.\n- `users=(\"id\",\"nunique\")` protects against duplicate rows.\n\n### Check next\n1. **Weight by revenue**, not just users — a small enterprise cohort can dominate ARR impact.\n2. **Time-bound it** — use a 90-day window so older cohorts don’t skew the average.\n3. **Segment by tenure** — churn is usually front-loaded in month 1–2.\n\n```python\nwindow = df[df[\"signup_at\"] >= \"2025-01-01\"]\nwindow.groupby([\"plan\", pd.cut(window.tenure_days, [0,30,90,180,365,9999])]).agg(\n    churn=(\"churned\",\"mean\"), users=(\"id\",\"nunique\"), mrr=(\"mrr\",\"sum\")\n)\n```\n\n> Rule of thumb: any churn rate computed on fewer than 30 accounts should be shown as a range, not a single number.",
+          "at": "2026-11-09T04:26:37.385Z"
+        }
+      ]
+    },
+    {
+      "id": "c_seed3",
+      "userId": "u_demo",
+      "title": "Series A investor update",
+      "pinned": false,
+      "archived": false,
+      "folder": "Fundraising",
+      "toolId": "business-business-performance-insights",
+      "model": "nexai-core",
+      "shareId": null,
+      "createdAt": "2026-11-07T06:26:37.385Z",
+      "updatedAt": "2026-11-07T07:26:37.385Z",
+      "messages": [
+        {
+          "id": "m1",
+          "role": "user",
+          "content": "Draft a concise monthly investor update. Highlights: ARR $1.84M (+11% MoM), net retention 118%, 9 new logos, one enterprise churn. Lowlights: sales cycle up from 31 to 42 days.",
+          "at": "2026-11-07T06:26:37.385Z"
+        },
+        {
+          "id": "m2",
+          "role": "assistant",
+          "content": "**Subject: Northstar — September update ($1.84M ARR, +11% MoM)**\n\nHi all,\n\n**Highlights**\n- ARR reached **$1.84M**, up 11% month over month.\n- Net revenue retention held at **118%**.\n- Closed **9 new logos**, including 3 in the mid-market.\n\n**Lowlights**\n- Average sales cycle extended from **31 → 42 days** as we move upmarket.\n- One enterprise account churned after an internal reorg (2.1% of ARR).\n\n**Asks**\n- Intros to RevOps leaders at 200–1,000 person SaaS companies.\n- Candidate referrals for a senior AE with enterprise experience.\n\nThanks for the support — reply anytime with questions.\n\nAlex",
+          "at": "2026-11-07T07:26:37.385Z"
+        }
+      ]
+    },
+    {
+      "id": "c_seed4",
+      "userId": "u_demo",
+      "title": "Competitor teardown: Orbit",
+      "pinned": false,
+      "archived": false,
+      "folder": "Research",
+      "toolId": "research-competitor-research",
+      "model": "nexai-research",
+      "shareId": null,
+      "createdAt": "2026-11-04T01:26:37.385Z",
+      "updatedAt": "2026-11-04T02:26:37.385Z",
+      "messages": [
+        {
+          "id": "m1",
+          "role": "user",
+          "content": "Compare Orbit and NexAI for mid-market ops teams. Focus on positioning, pricing and AI depth.",
+          "at": "2026-11-04T01:26:37.385Z"
+        },
+        {
+          "id": "m2",
+          "role": "assistant",
+          "content": "## Orbit vs NexAI — mid-market ops\n\n| Dimension | Orbit | NexAI |\n| --- | --- | --- |\n| Positioning | “Dashboarding for ops” | “AI operating system for teams” |\n| Entry price | $49/user | $79/workspace (10 seats) |\n| AI depth | Bolt-on summaries | Native agents + tool routing |\n| Time to value | 2–3 weeks of setup | Same-day with templates |\n\n**Where Orbit wins:** polished chart library and a mature connector catalog.\n\n**Where NexAI wins:** agents that act on the data, not just visualise it; predictable workspace pricing.\n\n**Recommended wedge:** “Your dashboard can’t write the board update. NexAI can.” — target teams already paying for Orbit but exporting to slides.",
+          "at": "2026-11-04T02:26:37.385Z"
+        }
+      ]
+    },
+    {
+      "id": "c_seed5",
+      "userId": "u_demo",
+      "title": "Onboarding email sequence",
+      "pinned": false,
+      "archived": false,
+      "folder": "Growth",
+      "toolId": "marketing-email-marketing-content-generator",
+      "model": "nexai-core",
+      "shareId": null,
+      "createdAt": "2026-10-31T20:26:37.385Z",
+      "updatedAt": "2026-10-31T20:26:37.385Z",
+      "messages": [
+        {
+          "id": "m1",
+          "role": "user",
+          "content": "Write a 4-email onboarding sequence for new NexAI Business trials. Goal: first agent created within 7 days.",
+          "at": "2026-10-31T20:26:37.385Z"
+        },
+        {
+          "id": "m2",
+          "role": "assistant",
+          "content": "### Email 1 — Welcome (Day 0)\n**Subject:** Your first NexAI agent is 4 minutes away\nShow the one-screen agent builder. Single CTA: “Build an agent”.\n\n### Email 2 — Quick win (Day 1)\n**Subject:** The report that used to take 3 hours\nShare a 90-second screen recording of a research agent producing a competitor brief.\n\n### Email 3 — Social proof (Day 3)\n**Subject:** How Lumen Labs cut reporting time 62%\nOne metric, one quote, one CTA to a template.\n\n### Email 4 — Nudge (Day 6)\n**Subject:** Want us to build it with you?\nOffer a 20-minute working session. Mention the trial end date and what carries over.",
+          "at": "2026-10-31T20:26:37.385Z"
+        }
+      ]
+    },
+    {
+      "id": "c_seed6",
+      "userId": "u_demo",
+      "title": "Customer support macros",
+      "pinned": false,
+      "archived": true,
+      "folder": "Support",
+      "toolId": "support-ai-generated-support-responses",
+      "model": "nexai-fast",
+      "shareId": null,
+      "createdAt": "2026-10-27T20:26:37.385Z",
+      "updatedAt": "2026-10-28T20:26:37.385Z",
+      "messages": [
+        {
+          "id": "m1",
+          "role": "user",
+          "content": "Draft macros for billing, API rate limits and refund requests.",
+          "at": "2026-10-27T20:26:37.385Z"
+        },
+        {
+          "id": "m2",
+          "role": "assistant",
+          "content": "Saved three macros to your Support workspace: **Billing — invoice mismatch**, **API — 429 rate limit**, **Refund — within 14 days**. Each includes an empathetic opener, resolution steps, and an internal escalation note.",
+          "at": "2026-10-28T20:26:37.385Z"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "id": "a_research",
+      "userId": "u_demo",
+      "name": "Market Scout",
+      "emoji": "🔭",
+      "role": "Research analyst",
+      "description": "Tracks competitors, summarises pricing changes and delivers a Monday brief.",
+      "instructions": "Monitor the competitor list. Summarise pricing, positioning and product changes. Cite every claim. Produce a one-page brief with actions.",
+      "model": "nexai-research",
+      "tools": [
+        "web-search",
+        "documents",
+        "notion"
+      ],
+      "schedule": "Every Monday, 08:00",
+      "status": "active",
+      "approved": true,
+      "runs": 24,
+      "successRate": 96,
+      "creditsPerRun": 12,
+      "createdAt": "2026-08-21T20:26:37.385Z",
+      "lastRun": "2026-11-10T05:26:37.385Z",
+      "isPublic": false,
+      "runsLog": [
+        {
+          "id": "r1",
+          "at": "2026-11-10T05:26:37.385Z",
+          "status": "success",
+          "duration": "1m 42s",
+          "summary": "3 competitors changed pricing. Orbit added an AI tier at $89/user."
+        },
+        {
+          "id": "r2",
+          "at": "2026-11-02T20:26:37.385Z",
+          "status": "success",
+          "duration": "2m 08s",
+          "summary": "Weekly brief delivered to Slack #market-intel."
+        }
+      ]
+    },
+    {
+      "id": "a_inbox",
+      "userId": "u_demo",
+      "name": "Inbox Chief",
+      "emoji": "✉️",
+      "role": "Executive assistant",
+      "description": "Triages email, drafts replies and escalates anything urgent.",
+      "instructions": "Classify incoming email. Draft replies in my tone. Escalate legal, security and investor mail. Never send without approval.",
+      "model": "nexai-fast",
+      "tools": [
+        "gmail",
+        "calendar"
+      ],
+      "schedule": "Every weekday, 07:30",
+      "status": "active",
+      "approved": true,
+      "runs": 61,
+      "successRate": 99,
+      "creditsPerRun": 4,
+      "createdAt": "2026-09-06T20:26:37.385Z",
+      "lastRun": "2026-11-10T07:38:37.385Z",
+      "isPublic": false,
+      "runsLog": [
+        {
+          "id": "r1",
+          "at": "2026-11-10T07:38:37.385Z",
+          "status": "success",
+          "duration": "38s",
+          "summary": "22 emails triaged · 6 drafts ready · 1 escalation (legal)."
+        },
+        {
+          "id": "r2",
+          "at": "2026-11-08T20:26:37.385Z",
+          "status": "warning",
+          "duration": "51s",
+          "summary": "Gmail token expired — reconnected automatically after 12 minutes."
+        }
+      ]
+    },
+    {
+      "id": "a_support",
+      "userId": "u_demo",
+      "name": "Support Copilot",
+      "emoji": "🎧",
+      "role": "Customer support",
+      "description": "Answers known questions, tags sentiment and hands off complex tickets.",
+      "instructions": "Answer from the knowledge base only. If confidence < 80%, hand off to a human. Always summarise the ticket.",
+      "model": "nexai-core",
+      "tools": [
+        "knowledge-base",
+        "tickets"
+      ],
+      "schedule": "Always on",
+      "status": "paused",
+      "approved": true,
+      "runs": 312,
+      "successRate": 91,
+      "creditsPerRun": 2,
+      "createdAt": "2026-07-12T20:26:37.385Z",
+      "lastRun": "2026-11-07T20:26:37.385Z",
+      "isPublic": false,
+      "runsLog": [
+        {
+          "id": "r1",
+          "at": "2026-11-07T20:26:37.385Z",
+          "status": "success",
+          "duration": "2s",
+          "summary": "Resolved 14 tickets · 3 handed off · CSAT 4.7."
+        }
+      ]
+    },
+    {
+      "id": "a_content",
+      "userId": "u_demo",
+      "name": "Content Engine",
+      "emoji": "✍️",
+      "role": "Content strategist",
+      "description": "Turns one idea into a blog, newsletter and a week of social posts.",
+      "instructions": "Maintain brand voice. Produce a blog outline, long-form draft, newsletter and 5 social posts. Flag claims that need sources.",
+      "model": "nexai-core",
+      "tools": [
+        "web-search",
+        "notion",
+        "images"
+      ],
+      "schedule": "On demand",
+      "status": "draft",
+      "approved": false,
+      "runs": 3,
+      "successRate": 100,
+      "creditsPerRun": 18,
+      "createdAt": "2026-10-22T20:26:37.385Z",
+      "lastRun": "2026-10-25T20:26:37.385Z",
+      "isPublic": false,
+      "runsLog": []
+    },
+    {
+      "id": "a_public_1",
+      "userId": "u_maya",
+      "name": "SEO Brief Builder",
+      "emoji": "📈",
+      "role": "SEO strategist",
+      "description": "Builds a search-intent brief with outline, entities and internal links.",
+      "instructions": "Create SEO briefs from a keyword and audience.",
+      "model": "nexai-core",
+      "tools": [
+        "web-search"
+      ],
+      "schedule": "On demand",
+      "status": "active",
+      "approved": true,
+      "runs": 1284,
+      "successRate": 97,
+      "creditsPerRun": 6,
+      "createdAt": "2026-04-23T20:26:37.385Z",
+      "isPublic": true,
+      "author": "Maya Chen",
+      "installs": 412,
+      "rating": 4.8,
+      "category": "Marketing",
+      "runsLog": []
+    },
+    {
+      "id": "a_public_2",
+      "userId": "u_priya",
+      "name": "Contract Reviewer",
+      "emoji": "⚖️",
+      "role": "Legal ops",
+      "description": "Flags unusual clauses, missing terms and renewal risk in contracts.",
+      "instructions": "Review contracts against a checklist. Flag risk and cite clauses.",
+      "model": "nexai-reason",
+      "tools": [
+        "documents"
+      ],
+      "schedule": "On demand",
+      "status": "active",
+      "approved": true,
+      "runs": 642,
+      "successRate": 94,
+      "creditsPerRun": 14,
+      "createdAt": "2026-06-02T20:26:37.385Z",
+      "isPublic": true,
+      "author": "Priya Nair",
+      "installs": 188,
+      "rating": 4.7,
+      "category": "Operations",
+      "runsLog": []
+    },
+    {
+      "id": "a_public_3",
+      "userId": "u_maya",
+      "name": "Data Storyteller",
+      "emoji": "📊",
+      "role": "Analyst",
+      "description": "Turns a CSV into a board-ready narrative with charts and actions.",
+      "instructions": "Analyse the dataset and write an executive narrative.",
+      "model": "nexai-reason",
+      "tools": [
+        "csv",
+        "charts"
+      ],
+      "schedule": "On demand",
+      "status": "active",
+      "approved": true,
+      "runs": 908,
+      "successRate": 98,
+      "creditsPerRun": 9,
+      "createdAt": "2026-06-22T20:26:37.385Z",
+      "isPublic": true,
+      "author": "Maya Chen",
+      "installs": 356,
+      "rating": 4.9,
+      "category": "Analytics",
+      "runsLog": []
+    },
+    {
+      "id": "a_public_4",
+      "userId": "u_sam",
+      "name": "Job Hunt Coach",
+      "emoji": "🎯",
+      "role": "Career coach",
+      "description": "Tailors CVs, drafts outreach and prepares interview answers.",
+      "instructions": "Coach the candidate with tailored CV bullets and interview prep.",
+      "model": "nexai-core",
+      "tools": [
+        "documents"
+      ],
+      "schedule": "On demand",
+      "status": "active",
+      "approved": true,
+      "runs": 431,
+      "successRate": 92,
+      "creditsPerRun": 5,
+      "createdAt": "2026-08-11T20:26:37.385Z",
+      "isPublic": true,
+      "author": "Sam Rivera",
+      "installs": 97,
+      "rating": 4.5,
+      "category": "Education",
+      "runsLog": []
+    },
+    {
+      "id": "a_public_5",
+      "userId": "u_priya",
+      "name": "Finance Close Assistant",
+      "emoji": "🧾",
+      "role": "Finance ops",
+      "description": "Checks invoices, flags duplicates and prepares the monthly close.",
+      "instructions": "Reconcile invoices and prepare a close checklist.",
+      "model": "nexai-reason",
+      "tools": [
+        "documents",
+        "sheets"
+      ],
+      "schedule": "Monthly, last Friday",
+      "status": "active",
+      "approved": true,
+      "runs": 214,
+      "successRate": 96,
+      "creditsPerRun": 16,
+      "createdAt": "2026-08-31T20:26:37.385Z",
+      "isPublic": true,
+      "author": "Priya Nair",
+      "installs": 143,
+      "rating": 4.6,
+      "category": "Finance",
+      "runsLog": []
+    },
+    {
+      "id": "a_public_6",
+      "userId": "u_maya",
+      "name": "Meeting to Action",
+      "emoji": "🗂️",
+      "role": "Project manager",
+      "description": "Converts meeting notes into owners, dates and a follow-up draft.",
+      "instructions": "Extract decisions, owners and dates from notes.",
+      "model": "nexai-fast",
+      "tools": [
+        "calendar",
+        "notion"
+      ],
+      "schedule": "On demand",
+      "status": "active",
+      "approved": true,
+      "runs": 2201,
+      "successRate": 99,
+      "creditsPerRun": 2,
+      "createdAt": "2026-07-22T20:26:37.385Z",
+      "isPublic": true,
+      "author": "Maya Chen",
+      "installs": 731,
+      "rating": 4.9,
+      "category": "Productivity",
+      "runsLog": []
+    }
+  ],
+  "prompts": [
+    {
+      "id": "p1",
+      "userId": "u_maya",
+      "title": "Ruthless editor",
+      "category": "Writing",
+      "description": "Cuts 30% of the words without losing meaning.",
+      "body": "You are a ruthless editor. Cut at least 30% of the words while preserving every fact and the author’s voice. Return the edited text, then a short list of what you cut and why.",
+      "isPublic": true,
+      "uses": 2841,
+      "tags": [
+        "editing",
+        "writing"
+      ]
+    },
+    {
+      "id": "p2",
+      "userId": "u_demo",
+      "title": "Weekly operating brief",
+      "category": "Business",
+      "description": "Turns metrics into a one-page operating review.",
+      "body": "You are a COO. Using the metrics below, produce a one-page weekly operating brief: headline, wins, risks, decisions needed, and next week’s top three priorities. Be specific and quantify impact.\n\nMetrics:\n{{metrics}}",
+      "isPublic": true,
+      "uses": 1912,
+      "tags": [
+        "ops",
+        "reporting"
+      ]
+    },
+    {
+      "id": "p3",
+      "userId": "u_priya",
+      "title": "Contract red-flag scan",
+      "category": "Documents",
+      "description": "Finds unusual clauses and missing protections.",
+      "body": "Review this contract for unusual or risky clauses. For each finding give: clause reference, risk level, plain-English explanation and suggested redline. Then list standard protections that are missing.",
+      "isPublic": true,
+      "uses": 987,
+      "tags": [
+        "legal",
+        "contracts"
+      ]
+    },
+    {
+      "id": "p4",
+      "userId": "u_sam",
+      "title": "Explain like a staff engineer",
+      "category": "Developer",
+      "description": "Deep technical explanation with trade-offs.",
+      "body": "Explain the following as a staff engineer onboarding a senior developer: what it does, why it exists, the trade-offs, failure modes, and one production gotcha. Code:\n\n{{code}}",
+      "isPublic": true,
+      "uses": 1560,
+      "tags": [
+        "code",
+        "explain"
+      ]
+    },
+    {
+      "id": "p5",
+      "userId": "u_demo",
+      "title": "Launch narrative workshop",
+      "category": "Marketing",
+      "description": "Pressure-tests a product narrative in 5 steps.",
+      "body": "Act as a positioning strategist. Ask me up to 5 sharp questions, one at a time, about audience, alternative, differentiation, proof and urgency. Then write a one-sentence narrative and three supporting messages.",
+      "isPublic": true,
+      "uses": 743,
+      "tags": [
+        "positioning",
+        "launch"
+      ]
+    },
+    {
+      "id": "p6",
+      "userId": "u_maya",
+      "title": "Socratic tutor",
+      "category": "Education",
+      "description": "Teaches by questions instead of answers.",
+      "body": "Be a Socratic tutor. Do not give the answer. Ask one question at a time, wait for my reply, and guide me to the solution. If I am stuck twice, give a small hint. Topic: {{topic}}",
+      "isPublic": true,
+      "uses": 3120,
+      "tags": [
+        "learning",
+        "tutor"
+      ]
+    },
+    {
+      "id": "p7",
+      "userId": "u_priya",
+      "title": "Board update in 200 words",
+      "category": "Business",
+      "description": "Compresses a month into a crisp board note.",
+      "body": "Write a 200-word board update from these notes. Lead with the number that matters most. Include one risk and one ask. No adjectives without evidence.\n\nNotes: {{notes}}",
+      "isPublic": true,
+      "uses": 611,
+      "tags": [
+        "board",
+        "summary"
+      ]
+    },
+    {
+      "id": "p8",
+      "userId": "u_demo",
+      "title": "Persona stress test",
+      "category": "Marketing",
+      "description": "Reads copy as three different buyers.",
+      "body": "Review this copy as three buyers: a skeptical CFO, a hands-on operator and an impatient founder. For each, give first reaction, objection and one fix. Then rewrite the headline three ways.\n\nCopy: {{copy}}",
+      "isPublic": true,
+      "uses": 488,
+      "tags": [
+        "copy",
+        "personas"
+      ]
+    },
+    {
+      "id": "p9",
+      "userId": "u_maya",
+      "title": "Data story in 5 beats",
+      "category": "Analytics",
+      "description": "Turns analysis into a narrative arc.",
+      "body": "Turn this analysis into a five-beat data story: context, tension, evidence, insight, action. Keep it non-technical and name the decision the audience should make.\n\nAnalysis: {{analysis}}",
+      "isPublic": true,
+      "uses": 902,
+      "tags": [
+        "data",
+        "storytelling"
+      ]
+    },
+    {
+      "id": "p10",
+      "userId": "u_sam",
+      "title": "Interview answer coach",
+      "category": "Education",
+      "description": "Builds STAR answers with follow-ups.",
+      "body": "Help me build a STAR answer for this interview question. Ask for missing details, then produce a 90-second answer and three likely follow-ups with strong responses. Question: {{question}}",
+      "isPublic": true,
+      "uses": 1344,
+      "tags": [
+        "career",
+        "interview"
+      ]
+    },
+    {
+      "id": "p11",
+      "userId": "u_demo",
+      "title": "Agent spec writer",
+      "category": "Automation",
+      "description": "Turns a vague automation into a buildable spec.",
+      "body": "Convert this automation idea into an agent spec: goal, trigger, inputs, tools, step-by-step workflow, guardrails, approval points, success metric and failure handling.\n\nIdea: {{idea}}",
+      "isPublic": true,
+      "uses": 374,
+      "tags": [
+        "agents",
+        "spec"
+      ]
+    },
+    {
+      "id": "p12",
+      "userId": "u_priya",
+      "title": "Security review",
+      "category": "Developer",
+      "description": "Threat-models a design or endpoint.",
+      "body": "Threat-model the following design. List assets, actors, entry points, top 5 threats with likelihood/impact, and concrete mitigations. Note anything that would fail a SOC 2 review.\n\nDesign: {{design}}",
+      "isPublic": true,
+      "uses": 521,
+      "tags": [
+        "security",
+        "review"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "pr1",
+      "userId": "u_demo",
+      "name": "Q4 Launch",
+      "description": "Campaign, landing page and sales enablement for the analytics launch.",
+      "color": "#6366f1",
+      "icon": "🚀",
+      "status": "active",
+      "progress": 68,
+      "members": 5,
+      "items": 24,
+      "updatedAt": "2026-11-10T07:51:37.385Z",
+      "createdAt": "2026-10-10T20:26:37.385Z"
+    },
+    {
+      "id": "pr2",
+      "userId": "u_demo",
+      "name": "Market Intelligence",
+      "description": "Competitor tracking, pricing monitors and the Monday brief.",
+      "color": "#0ea5e9",
+      "icon": "🔭",
+      "status": "active",
+      "progress": 82,
+      "members": 3,
+      "items": 11,
+      "updatedAt": "2026-11-10T05:26:37.385Z",
+      "createdAt": "2026-08-21T20:26:37.385Z"
+    },
+    {
+      "id": "pr3",
+      "userId": "u_demo",
+      "name": "Support Automation",
+      "description": "Deflection, macros and handover rules for the support team.",
+      "color": "#f59e0b",
+      "icon": "🎧",
+      "status": "active",
+      "progress": 41,
+      "members": 4,
+      "items": 18,
+      "updatedAt": "2026-11-08T20:26:37.385Z",
+      "createdAt": "2026-10-18T20:26:37.385Z"
+    },
+    {
+      "id": "pr4",
+      "userId": "u_demo",
+      "name": "Series A Materials",
+      "description": "Deck, model and investor update cadence.",
+      "color": "#10b981",
+      "icon": "📈",
+      "status": "review",
+      "progress": 91,
+      "members": 2,
+      "items": 9,
+      "updatedAt": "2026-11-06T20:26:37.385Z",
+      "createdAt": "2026-09-10T20:26:37.385Z"
+    },
+    {
+      "id": "pr5",
+      "userId": "u_demo",
+      "name": "Brand Refresh",
+      "description": "Identity, site and social system for 2027.",
+      "color": "#ec4899",
+      "icon": "🎨",
+      "status": "planning",
+      "progress": 12,
+      "members": 6,
+      "items": 31,
+      "updatedAt": "2026-11-03T20:26:37.385Z",
+      "createdAt": "2026-10-28T20:26:37.385Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "f1",
+      "userId": "u_demo",
+      "name": "Q4-campaign-brief.pdf",
+      "type": "PDF",
+      "size": 1843200,
+      "pages": 12,
+      "projectId": "pr1",
+      "source": "upload",
+      "createdAt": "2026-11-07T20:26:37.385Z",
+      "summary": "Launch brief with audience, channel mix, budget split and messaging hierarchy."
+    },
+    {
+      "id": "f2",
+      "userId": "u_demo",
+      "name": "churn-cohorts.xlsx",
+      "type": "Excel",
+      "size": 482000,
+      "pages": 3,
+      "projectId": "pr2",
+      "source": "upload",
+      "createdAt": "2026-11-05T20:26:37.385Z",
+      "summary": "Monthly churn by plan and tenure cohort, 18 months of data."
+    },
+    {
+      "id": "f3",
+      "userId": "u_demo",
+      "name": "competitor-pricing.xlsx",
+      "type": "Excel",
+      "size": 210400,
+      "pages": 2,
+      "projectId": "pr2",
+      "source": "upload",
+      "createdAt": "2026-11-03T20:26:37.385Z",
+      "summary": "Pricing and packaging comparison across six competitors."
+    },
+    {
+      "id": "f4",
+      "userId": "u_demo",
+      "name": "investor-update-sep.docx",
+      "type": "Word",
+      "size": 96400,
+      "pages": 2,
+      "projectId": "pr4",
+      "source": "generated",
+      "createdAt": "2026-11-06T20:26:37.385Z",
+      "summary": "Monthly investor update with ARR, retention and asks."
+    },
+    {
+      "id": "f5",
+      "userId": "u_demo",
+      "name": "support-macros.md",
+      "type": "Markdown",
+      "size": 24100,
+      "pages": 1,
+      "projectId": "pr3",
+      "source": "generated",
+      "createdAt": "2026-10-28T20:26:37.385Z",
+      "summary": "Billing, API and refund macros with escalation notes."
+    },
+    {
+      "id": "f6",
+      "userId": "u_demo",
+      "name": "brand-voice-guide.pdf",
+      "type": "PDF",
+      "size": 2410000,
+      "pages": 28,
+      "projectId": "pr5",
+      "source": "upload",
+      "createdAt": "2026-10-31T20:26:37.385Z",
+      "summary": "Voice principles, tone spectrum and channel-specific examples."
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t_4821",
+      "userId": "u_demo",
+      "customer": "Elena Rossi",
+      "company": "Fable",
+      "subject": "Invoice shows the old plan",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative",
+      "channel": "email",
+      "createdAt": "2026-11-10T07:44:37.385Z",
+      "messages": 4,
+      "csat": null
+    },
+    {
+      "id": "t_4820",
+      "userId": "u_demo",
+      "customer": "Marcus Webb",
+      "company": "Kestrel",
+      "subject": "API returns 429 on batch jobs",
+      "status": "open",
+      "priority": "urgent",
+      "sentiment": "negative",
+      "channel": "chat",
+      "createdAt": "2026-11-10T06:58:37.385Z",
+      "messages": 7,
+      "csat": null
+    },
+    {
+      "id": "t_4819",
+      "userId": "u_demo",
+      "customer": "Aiko Tanaka",
+      "company": "Mono",
+      "subject": "How do I export a conversation?",
+      "status": "pending",
+      "priority": "normal",
+      "sentiment": "neutral",
+      "channel": "email",
+      "createdAt": "2026-11-10T04:46:37.385Z",
+      "messages": 2,
+      "csat": null
+    },
+    {
+      "id": "t_4818",
+      "userId": "u_demo",
+      "customer": "Liam O’Connor",
+      "company": "Northwind",
+      "subject": "Agent created duplicate drafts",
+      "status": "open",
+      "priority": "high",
+      "sentiment": "negative",
+      "channel": "chat",
+      "createdAt": "2026-11-10T03:16:37.385Z",
+      "messages": 5,
+      "csat": null
+    },
+    {
+      "id": "t_4817",
+      "userId": "u_demo",
+      "customer": "Sofia Alvarez",
+      "company": "Brightline",
+      "subject": "Loving the new analytics view",
+      "status": "resolved",
+      "priority": "low",
+      "sentiment": "positive",
+      "channel": "chat",
+      "createdAt": "2026-11-08T20:26:37.385Z",
+      "messages": 3,
+      "csat": 5
+    },
+    {
+      "id": "t_4816",
+      "userId": "u_demo",
+      "customer": "Noah Kim",
+      "company": "Parcel",
+      "subject": "SSO setup for enterprise",
+      "status": "resolved",
+      "priority": "normal",
+      "sentiment": "neutral",
+      "channel": "email",
+      "createdAt": "2026-11-07T20:26:37.385Z",
+      "messages": 9,
+      "csat": 4
+    },
+    {
+      "id": "t_4815",
+      "userId": "u_demo",
+      "customer": "Grace Miller",
+      "company": "Tandem",
+      "subject": "Voice studio cuts off at 30s",
+      "status": "pending",
+      "priority": "normal",
+      "sentiment": "neutral",
+      "channel": "chat",
+      "createdAt": "2026-11-07T20:26:37.385Z",
+      "messages": 6,
+      "csat": null
+    },
+    {
+      "id": "t_4814",
+      "userId": "u_demo",
+      "customer": "Omar Haddad",
+      "company": "Vela",
+      "subject": "Refund request — duplicate charge",
+      "status": "resolved",
+      "priority": "high",
+      "sentiment": "negative",
+      "channel": "email",
+      "createdAt": "2026-11-05T20:26:37.385Z",
+      "messages": 8,
+      "csat": 3
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "userId": "u_demo",
+      "type": "agent",
+      "title": "Market Scout finished its run",
+      "body": "3 competitors changed pricing. Brief delivered to Slack.",
+      "read": false,
+      "at": "2026-11-10T05:26:37.385Z",
+      "href": "/agents"
+    },
+    {
+      "id": "n2",
+      "userId": "u_demo",
+      "type": "billing",
+      "title": "Business plan renews in 6 days",
+      "body": "Your card ending 4242 will be charged $79.00.",
+      "read": false,
+      "at": "2026-11-10T01:46:37.385Z",
+      "href": "/billing"
+    },
+    {
+      "id": "n3",
+      "userId": "u_demo",
+      "type": "usage",
+      "title": "You’re at 8% of monthly credits",
+      "body": "18,450 of 20,000 credits remaining. Nice pace.",
+      "read": true,
+      "at": "2026-11-08T20:26:37.385Z",
+      "href": "/usage"
+    },
+    {
+      "id": "n4",
+      "userId": "u_demo",
+      "type": "system",
+      "title": "New model: NexAI Reason",
+      "body": "Now available to Business and Enterprise workspaces.",
+      "read": true,
+      "at": "2026-11-07T20:26:37.385Z",
+      "href": "/models"
+    },
+    {
+      "id": "n5",
+      "userId": "u_demo",
+      "type": "support",
+      "title": "Ticket #4820 escalated",
+      "body": "API 429 on batch jobs — urgent, assigned to you.",
+      "read": false,
+      "at": "2026-11-10T06:58:37.385Z",
+      "href": "/support"
+    },
+    {
+      "id": "n6",
+      "userId": "u_demo",
+      "type": "team",
+      "title": "Maya joined Market Intelligence",
+      "body": "She now has edit access to 4 project files.",
+      "read": true,
+      "at": "2026-11-06T20:26:37.385Z",
+      "href": "/team"
+    }
+  ],
+  "apiKeys": [
+    {
+      "id": "k1",
+      "userId": "u_demo",
+      "name": "Production",
+      "prefix": "nx_live_7f3a",
+      "lastFour": "9c21",
+      "scopes": [
+        "chat",
+        "agents"
+      ],
+      "lastUsed": "2026-11-10T08:14:37.385Z",
+      "createdAt": "2026-08-11T20:26:37.385Z",
+      "active": true
+    },
+    {
+      "id": "k2",
+      "userId": "u_demo",
+      "name": "Local dev",
+      "prefix": "nx_test_1b8e",
+      "lastFour": "4d02",
+      "scopes": [
+        "chat"
+      ],
+      "lastUsed": "2026-11-07T20:26:37.385Z",
+      "createdAt": "2026-09-30T20:26:37.385Z",
+      "active": true
+    }
+  ],
+  "usage": [
+    {
+      "id": "usg_dd95a55acccffc4942",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 3,
+      "tokens": 2068,
+      "at": "2026-09-11T22:35:40.595Z"
+    },
+    {
+      "id": "usg_697bfd7aefbedc140c",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 3,
+      "tokens": 5370,
+      "at": "2026-09-11T19:20:43.750Z"
+    },
+    {
+      "id": "usg_e58e60e4a2a3653fe7",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 5,
+      "tokens": 4862,
+      "at": "2026-09-11T17:50:02.049Z"
+    },
+    {
+      "id": "usg_720ccd0ac71ac82a2d",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 2022,
+      "at": "2026-09-11T17:30:40.184Z"
+    },
+    {
+      "id": "usg_b1b19745be48546c43",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 3333,
+      "at": "2026-09-12T04:31:41.364Z"
+    },
+    {
+      "id": "usg_b3b8de857418d950fe",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 5843,
+      "at": "2026-09-12T05:45:36.206Z"
+    },
+    {
+      "id": "usg_310d6c13c19bacaee9",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 2980,
+      "at": "2026-09-12T20:12:52.351Z"
+    },
+    {
+      "id": "usg_7b8a772d263e4dbc67",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 1686,
+      "at": "2026-09-12T10:32:27.934Z"
+    },
+    {
+      "id": "usg_f77c0fd54f8c88c0b0",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 3644,
+      "at": "2026-09-13T01:06:06.316Z"
+    },
+    {
+      "id": "usg_0abd8eb1d60fc56977",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 2628,
+      "at": "2026-09-13T00:39:52.927Z"
+    },
+    {
+      "id": "usg_1a90b8263f3b1103c0",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 2040,
+      "at": "2026-09-12T12:47:47.276Z"
+    },
+    {
+      "id": "usg_651d669a9a3b84a04e",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 3935,
+      "at": "2026-09-12T23:30:58.497Z"
+    },
+    {
+      "id": "usg_28e584d685baf7c405",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 2,
+      "tokens": 1964,
+      "at": "2026-09-13T22:26:07.893Z"
+    },
+    {
+      "id": "usg_fb13edd90db78c7234",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 2943,
+      "at": "2026-09-13T17:18:42.077Z"
+    },
+    {
+      "id": "usg_92ea2921850023a360",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 4,
+      "tokens": 2489,
+      "at": "2026-09-13T22:42:16.343Z"
+    },
+    {
+      "id": "usg_0f5c1877a4e62bd0a5",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 5159,
+      "at": "2026-09-13T22:25:39.086Z"
+    },
+    {
+      "id": "usg_4256f08512efd76047",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 2030,
+      "at": "2026-09-13T15:55:54.999Z"
+    },
+    {
+      "id": "usg_ea926c13da4e224d51",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 4786,
+      "at": "2026-09-13T13:22:07.289Z"
+    },
+    {
+      "id": "usg_bf31c8b02704c18923",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 3,
+      "tokens": 5274,
+      "at": "2026-09-13T15:50:06.576Z"
+    },
+    {
+      "id": "usg_64cc4b3e92634b203d",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 925,
+      "at": "2026-09-14T01:15:06.439Z"
+    },
+    {
+      "id": "usg_9c1b1cc4f4ec4aa6c7",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 4,
+      "tokens": 4366,
+      "at": "2026-09-14T16:03:38.305Z"
+    },
+    {
+      "id": "usg_16d52bee67c902592a",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 6,
+      "tokens": 836,
+      "at": "2026-09-15T00:26:54.464Z"
+    },
+    {
+      "id": "usg_1e1e451725434d80b5",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 1265,
+      "at": "2026-09-14T10:25:52.187Z"
+    },
+    {
+      "id": "usg_e3473123e1f612e8f0",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 8,
+      "tokens": 3854,
+      "at": "2026-09-14T22:01:10.979Z"
+    },
+    {
+      "id": "usg_366801a37d67bbaf72",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 5460,
+      "at": "2026-09-15T02:33:59.978Z"
+    },
+    {
+      "id": "usg_6bf7538ab1446bc747",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 4428,
+      "at": "2026-09-15T17:46:11.597Z"
+    },
+    {
+      "id": "usg_fce1f6e08bcedc8bf0",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 5,
+      "tokens": 5118,
+      "at": "2026-09-16T04:41:43.558Z"
+    },
+    {
+      "id": "usg_b7e5545f3173782491",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 909,
+      "at": "2026-09-15T20:30:28.936Z"
+    },
+    {
+      "id": "usg_b5a5efb35f94ced4d9",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 5,
+      "tokens": 3368,
+      "at": "2026-09-17T07:17:13.805Z"
+    },
+    {
+      "id": "usg_50c4fd1dcb418d0e74",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 1133,
+      "at": "2026-09-17T00:32:24.368Z"
+    },
+    {
+      "id": "usg_a480c7d4c033f9966b",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 4910,
+      "at": "2026-09-17T05:24:25.630Z"
+    },
+    {
+      "id": "usg_a7f8de8389b5146124",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 4044,
+      "at": "2026-09-17T06:31:28.949Z"
+    },
+    {
+      "id": "usg_40e421c00fe16a32c8",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 5,
+      "tokens": 3285,
+      "at": "2026-09-16T23:13:44.203Z"
+    },
+    {
+      "id": "usg_cfd2c7f8f5e71af1f5",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 3147,
+      "at": "2026-09-16T16:01:28.675Z"
+    },
+    {
+      "id": "usg_427b7e366f9daa58fd",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 7,
+      "tokens": 4528,
+      "at": "2026-09-16T18:14:22.612Z"
+    },
+    {
+      "id": "usg_15538d0892cbb4a22a",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 1201,
+      "at": "2026-09-16T12:51:51.446Z"
+    },
+    {
+      "id": "usg_25a081a3cde42d0cd6",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 2380,
+      "at": "2026-09-18T07:47:17.303Z"
+    },
+    {
+      "id": "usg_397e1f7572ad2e3b87",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 2761,
+      "at": "2026-09-17T20:26:44.656Z"
+    },
+    {
+      "id": "usg_759f9aa6c785e35ad1",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 6,
+      "tokens": 2992,
+      "at": "2026-09-18T05:46:15.300Z"
+    },
+    {
+      "id": "usg_e13963e5fedb5c156f",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 5513,
+      "at": "2026-09-18T17:22:44.532Z"
+    },
+    {
+      "id": "usg_38fea34bded2d0ceb8",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 8,
+      "tokens": 5406,
+      "at": "2026-09-18T23:12:22.584Z"
+    },
+    {
+      "id": "usg_a5d0ba7c70d25ca133",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 8,
+      "tokens": 4893,
+      "at": "2026-09-18T12:06:55.287Z"
+    },
+    {
+      "id": "usg_65df4351d036075c88",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 4102,
+      "at": "2026-09-18T14:00:36.960Z"
+    },
+    {
+      "id": "usg_fb1ad82f3f6c4e583c",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 5858,
+      "at": "2026-09-18T20:06:42.667Z"
+    },
+    {
+      "id": "usg_146a970b018fff4e68",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 4703,
+      "at": "2026-09-18T15:03:23.764Z"
+    },
+    {
+      "id": "usg_729ae39570218771c8",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 4,
+      "tokens": 5388,
+      "at": "2026-09-18T16:24:10.129Z"
+    },
+    {
+      "id": "usg_8b377b4e702317b67c",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 3227,
+      "at": "2026-09-18T10:25:59.045Z"
+    },
+    {
+      "id": "usg_917a7d717ac58be572",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 2,
+      "tokens": 4319,
+      "at": "2026-09-19T04:41:50.760Z"
+    },
+    {
+      "id": "usg_ed70bd904ab737bb8f",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 3,
+      "tokens": 912,
+      "at": "2026-09-19T11:07:17.440Z"
+    },
+    {
+      "id": "usg_3adbf575b2e807b8e7",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 3,
+      "tokens": 2822,
+      "at": "2026-09-20T04:21:25.451Z"
+    },
+    {
+      "id": "usg_dca05b7e25f7340682",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 2,
+      "tokens": 4647,
+      "at": "2026-09-20T01:39:23.915Z"
+    },
+    {
+      "id": "usg_1f4b4a21f3888009b7",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 6,
+      "tokens": 2856,
+      "at": "2026-09-19T13:59:39.004Z"
+    },
+    {
+      "id": "usg_bd84b2978533e7e6c5",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 6,
+      "tokens": 5449,
+      "at": "2026-09-20T19:48:43.792Z"
+    },
+    {
+      "id": "usg_1737dfd7f363f2d6cb",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 3320,
+      "at": "2026-09-21T02:52:26.288Z"
+    },
+    {
+      "id": "usg_de4e6fad89b4764a5b",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 6,
+      "tokens": 2519,
+      "at": "2026-09-21T07:49:56.768Z"
+    },
+    {
+      "id": "usg_0838294bc9e09ff816",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 3172,
+      "at": "2026-09-20T20:08:49.553Z"
+    },
+    {
+      "id": "usg_b5e2858bbbbdfca976",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 1960,
+      "at": "2026-09-21T23:46:33.682Z"
+    },
+    {
+      "id": "usg_1bf14e9910496049d8",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 4588,
+      "at": "2026-09-21T13:31:51.652Z"
+    },
+    {
+      "id": "usg_4aa754c9b4e4a731a3",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 2250,
+      "at": "2026-09-22T00:46:35.877Z"
+    },
+    {
+      "id": "usg_b231919bb60b99fd5e",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 5,
+      "tokens": 3358,
+      "at": "2026-09-22T03:20:04.381Z"
+    },
+    {
+      "id": "usg_aa6954df1488840e40",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 4,
+      "tokens": 5729,
+      "at": "2026-09-21T23:56:53.709Z"
+    },
+    {
+      "id": "usg_c08ebc06559e865195",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 3,
+      "tokens": 2942,
+      "at": "2026-09-22T06:31:47.811Z"
+    },
+    {
+      "id": "usg_d74d0efe97932672ca",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 4564,
+      "at": "2026-09-21T19:22:13.599Z"
+    },
+    {
+      "id": "usg_9f9675afbcebc7fb30",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 2633,
+      "at": "2026-09-22T01:18:43.174Z"
+    },
+    {
+      "id": "usg_ca49ba9fe26f30e1e2",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 4020,
+      "at": "2026-09-21T14:53:02.708Z"
+    },
+    {
+      "id": "usg_56b1c89ded7640791e",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 1485,
+      "at": "2026-09-22T16:41:23.051Z"
+    },
+    {
+      "id": "usg_796e234ab0b308306c",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 2,
+      "tokens": 2534,
+      "at": "2026-09-23T00:59:09.992Z"
+    },
+    {
+      "id": "usg_fec62ea4716dc7c8e4",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 4,
+      "tokens": 1444,
+      "at": "2026-09-22T23:46:18.250Z"
+    },
+    {
+      "id": "usg_8600353155d1daacaa",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 3,
+      "tokens": 3541,
+      "at": "2026-09-22T20:43:42.145Z"
+    },
+    {
+      "id": "usg_c3a3f605f7040256ae",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 1252,
+      "at": "2026-09-23T05:17:56.741Z"
+    },
+    {
+      "id": "usg_f960d173eb1e5d415e",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 7,
+      "tokens": 4720,
+      "at": "2026-09-22T11:53:53.394Z"
+    },
+    {
+      "id": "usg_5541c95c272dd889be",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 8,
+      "tokens": 3094,
+      "at": "2026-09-23T06:31:41.981Z"
+    },
+    {
+      "id": "usg_34ab344db2052c9242",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 5,
+      "tokens": 2067,
+      "at": "2026-09-24T07:18:39.196Z"
+    },
+    {
+      "id": "usg_075417018e5f6a6687",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 6,
+      "tokens": 5882,
+      "at": "2026-09-23T14:20:39.635Z"
+    },
+    {
+      "id": "usg_993ca8dbcdf32c4826",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 1073,
+      "at": "2026-09-23T22:09:38.181Z"
+    },
+    {
+      "id": "usg_073836257f1c79abfb",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 2406,
+      "at": "2026-09-24T03:03:01.748Z"
+    },
+    {
+      "id": "usg_c4e7ea1cb6debd22e2",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 4,
+      "tokens": 1920,
+      "at": "2026-09-23T19:24:42.434Z"
+    },
+    {
+      "id": "usg_84e6aeae867ea31a89",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 1284,
+      "at": "2026-09-24T08:26:26.412Z"
+    },
+    {
+      "id": "usg_f85ccba968d932bb24",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 819,
+      "at": "2026-09-23T18:40:29.484Z"
+    },
+    {
+      "id": "usg_80105352f01ebe8799",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 2387,
+      "at": "2026-09-23T22:49:59.306Z"
+    },
+    {
+      "id": "usg_eb6cdb3ae51ef4b763",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 5346,
+      "at": "2026-09-24T04:43:44.272Z"
+    },
+    {
+      "id": "usg_0c7dc817e9c8241e7b",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 7,
+      "tokens": 5211,
+      "at": "2026-09-24T15:45:14.738Z"
+    },
+    {
+      "id": "usg_3cfe67c1430b6dee9b",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 900,
+      "at": "2026-09-25T01:33:33.778Z"
+    },
+    {
+      "id": "usg_e0dfc8e4ad14498325",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 2,
+      "tokens": 4078,
+      "at": "2026-09-25T00:12:28.209Z"
+    },
+    {
+      "id": "usg_1e49d0acfed52e129c",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 2,
+      "tokens": 1545,
+      "at": "2026-09-25T17:17:49.951Z"
+    },
+    {
+      "id": "usg_1b604994d88a529f70",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 2075,
+      "at": "2026-09-26T05:43:54.011Z"
+    },
+    {
+      "id": "usg_ebbd1ffbd4f30f015a",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 4,
+      "tokens": 2135,
+      "at": "2026-09-25T21:24:25.561Z"
+    },
+    {
+      "id": "usg_c5da71e8511cfe81db",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 4,
+      "tokens": 5704,
+      "at": "2026-09-26T06:27:28.551Z"
+    },
+    {
+      "id": "usg_ed77af17e770f22f43",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 5,
+      "tokens": 1548,
+      "at": "2026-09-26T05:10:29.896Z"
+    },
+    {
+      "id": "usg_f88831fd75444002b0",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 1330,
+      "at": "2026-09-26T23:16:33.613Z"
+    },
+    {
+      "id": "usg_a1050d1045935708a1",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 6,
+      "tokens": 3192,
+      "at": "2026-09-26T20:57:51.254Z"
+    },
+    {
+      "id": "usg_d751dfd2e32dc02b85",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 7,
+      "tokens": 2658,
+      "at": "2026-09-26T16:00:01.569Z"
+    },
+    {
+      "id": "usg_1bb64f21fd79bf28b3",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 4862,
+      "at": "2026-09-27T02:45:57.399Z"
+    },
+    {
+      "id": "usg_d552bda9dc0c856250",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 3194,
+      "at": "2026-09-26T13:12:21.213Z"
+    },
+    {
+      "id": "usg_ef61a1578b802e35c4",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 1969,
+      "at": "2026-09-27T15:06:31.350Z"
+    },
+    {
+      "id": "usg_d42e715d0fdeb1fb2c",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 4586,
+      "at": "2026-09-28T06:08:58.126Z"
+    },
+    {
+      "id": "usg_d8d19d001235c15530",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 8,
+      "tokens": 1146,
+      "at": "2026-09-27T23:36:29.429Z"
+    },
+    {
+      "id": "usg_38772cf68000e49bb9",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 4569,
+      "at": "2026-09-29T01:20:01.706Z"
+    },
+    {
+      "id": "usg_91481bd682bfd2c72c",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 3104,
+      "at": "2026-09-28T20:13:58.195Z"
+    },
+    {
+      "id": "usg_f18ca51b72f74fca85",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 3029,
+      "at": "2026-09-28T16:52:09.827Z"
+    },
+    {
+      "id": "usg_a0295709b7b75afd29",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 1,
+      "tokens": 5823,
+      "at": "2026-09-28T14:41:41.295Z"
+    },
+    {
+      "id": "usg_7ac76df213beaf59d4",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 2808,
+      "at": "2026-09-29T12:18:39.333Z"
+    },
+    {
+      "id": "usg_7496393b926513ec85",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 2953,
+      "at": "2026-09-29T23:55:20.431Z"
+    },
+    {
+      "id": "usg_97c3c82c06c94b9dab",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 1,
+      "tokens": 4939,
+      "at": "2026-09-29T19:42:46.796Z"
+    },
+    {
+      "id": "usg_e8480c9c015bc5309c",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 4078,
+      "at": "2026-09-30T06:24:35.712Z"
+    },
+    {
+      "id": "usg_938ede9606475a4b8e",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 1270,
+      "at": "2026-09-29T20:53:47.427Z"
+    },
+    {
+      "id": "usg_84e5ad4b3072aafae6",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 5887,
+      "at": "2026-09-29T18:36:27.372Z"
+    },
+    {
+      "id": "usg_c5bd205d481454b2af",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 5733,
+      "at": "2026-09-30T03:06:35.054Z"
+    },
+    {
+      "id": "usg_448b0c1f94ed8ccf40",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 3,
+      "tokens": 2861,
+      "at": "2026-09-29T13:45:19.608Z"
+    },
+    {
+      "id": "usg_3e2d687096ec753790",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 866,
+      "at": "2026-09-29T15:51:22.022Z"
+    },
+    {
+      "id": "usg_36d72d39e398464420",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 2,
+      "tokens": 894,
+      "at": "2026-10-01T04:23:03.188Z"
+    },
+    {
+      "id": "usg_2d4e67dea415b13fdc",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 6,
+      "tokens": 873,
+      "at": "2026-10-01T07:55:30.787Z"
+    },
+    {
+      "id": "usg_cb4c498b4920992b60",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 4,
+      "tokens": 3977,
+      "at": "2026-10-01T05:47:46.864Z"
+    },
+    {
+      "id": "usg_604ca3506871aaf738",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 1281,
+      "at": "2026-09-30T21:26:56.110Z"
+    },
+    {
+      "id": "usg_5acbd37a722fbfe4cd",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 4470,
+      "at": "2026-09-30T17:02:01.734Z"
+    },
+    {
+      "id": "usg_80731156b8c9d8b2bd",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 5391,
+      "at": "2026-09-30T17:38:54.354Z"
+    },
+    {
+      "id": "usg_264baa267527c29615",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 1475,
+      "at": "2026-10-01T01:12:47.550Z"
+    },
+    {
+      "id": "usg_4ad07942f788114c3e",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 3830,
+      "at": "2026-09-30T15:18:40.088Z"
+    },
+    {
+      "id": "usg_42a02e7e9437f50055",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 3,
+      "tokens": 1990,
+      "at": "2026-10-01T04:32:44.807Z"
+    },
+    {
+      "id": "usg_c48e5933fcbb153c81",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 6,
+      "tokens": 2574,
+      "at": "2026-10-01T23:49:06.631Z"
+    },
+    {
+      "id": "usg_3667d8353a38c2a2f1",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 5597,
+      "at": "2026-10-01T11:19:58.757Z"
+    },
+    {
+      "id": "usg_1cf59a98c99f34c7ac",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 2436,
+      "at": "2026-10-01T14:01:41.089Z"
+    },
+    {
+      "id": "usg_0a309e8225a07c257e",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 3,
+      "tokens": 1885,
+      "at": "2026-10-02T00:46:14.615Z"
+    },
+    {
+      "id": "usg_5cb06ad587b3f1dea6",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 3,
+      "tokens": 5037,
+      "at": "2026-10-01T19:58:01.062Z"
+    },
+    {
+      "id": "usg_9d437f1e2b0ae3346f",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 6,
+      "tokens": 4701,
+      "at": "2026-10-01T13:52:58.455Z"
+    },
+    {
+      "id": "usg_f6afa319f09b43a9f8",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 3893,
+      "at": "2026-10-02T07:29:03.339Z"
+    },
+    {
+      "id": "usg_3f4fc3b66dff4f5a7d",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 3239,
+      "at": "2026-10-02T22:38:50.925Z"
+    },
+    {
+      "id": "usg_53e754005c67eecf71",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 5,
+      "tokens": 2673,
+      "at": "2026-10-03T02:52:27.660Z"
+    },
+    {
+      "id": "usg_c45819e21e279c0740",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 1572,
+      "at": "2026-10-03T04:43:24.724Z"
+    },
+    {
+      "id": "usg_1e4313a2a4b38dc0f4",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 2567,
+      "at": "2026-10-03T06:06:55.698Z"
+    },
+    {
+      "id": "usg_e4d8d351353f7ea8ab",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 1166,
+      "at": "2026-10-03T04:51:19.347Z"
+    },
+    {
+      "id": "usg_7e501a629120935912",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 2504,
+      "at": "2026-10-02T21:06:08.510Z"
+    },
+    {
+      "id": "usg_2fe932a49790814d6c",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 5169,
+      "at": "2026-10-02T11:14:45.657Z"
+    },
+    {
+      "id": "usg_b2bdd4b642a8fc3b4b",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 6,
+      "tokens": 4089,
+      "at": "2026-10-03T05:11:25.108Z"
+    },
+    {
+      "id": "usg_e19151a9c5fabbeb1b",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 3,
+      "tokens": 3311,
+      "at": "2026-10-04T06:58:02.571Z"
+    },
+    {
+      "id": "usg_0ea1508870a1a6b466",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 4205,
+      "at": "2026-10-04T04:07:47.207Z"
+    },
+    {
+      "id": "usg_604ee9a7583ab3645f",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 3,
+      "tokens": 5334,
+      "at": "2026-10-04T00:33:38.099Z"
+    },
+    {
+      "id": "usg_d738ac8106b2287c9d",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 4709,
+      "at": "2026-10-03T12:18:13.270Z"
+    },
+    {
+      "id": "usg_d1644e184784b03632",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 3,
+      "tokens": 5346,
+      "at": "2026-10-03T16:19:29.265Z"
+    },
+    {
+      "id": "usg_15ecccf6c96de3c001",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 826,
+      "at": "2026-10-04T06:18:50.033Z"
+    },
+    {
+      "id": "usg_445b4a743648a1c964",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 4,
+      "tokens": 5915,
+      "at": "2026-10-04T02:33:42.488Z"
+    },
+    {
+      "id": "usg_2ddb7989e9343475aa",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 2251,
+      "at": "2026-10-03T17:41:18.730Z"
+    },
+    {
+      "id": "usg_ad4e310a43ac0dc3cf",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 1903,
+      "at": "2026-10-03T14:40:04.930Z"
+    },
+    {
+      "id": "usg_1d837857b8b98ccd08",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 5002,
+      "at": "2026-10-04T14:37:18.606Z"
+    },
+    {
+      "id": "usg_3741ac1e0018919862",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 4318,
+      "at": "2026-10-05T06:19:32.214Z"
+    },
+    {
+      "id": "usg_90338ab0625b23281e",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 1494,
+      "at": "2026-10-04T14:17:47.139Z"
+    },
+    {
+      "id": "usg_c572c686c0cb2f3b9d",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 4025,
+      "at": "2026-10-06T05:46:46.165Z"
+    },
+    {
+      "id": "usg_a5ed3c3a77a8fbec98",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 5486,
+      "at": "2026-10-05T20:07:44.052Z"
+    },
+    {
+      "id": "usg_f6104136239dc07a28",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 2624,
+      "at": "2026-10-06T01:55:59.800Z"
+    },
+    {
+      "id": "usg_176627e44de4fba172",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 1732,
+      "at": "2026-10-05T23:35:55.136Z"
+    },
+    {
+      "id": "usg_3324e361b105982df2",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 817,
+      "at": "2026-10-06T03:23:28.085Z"
+    },
+    {
+      "id": "usg_f1089f19fe4399bb2e",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 2,
+      "tokens": 2899,
+      "at": "2026-10-05T17:49:55.191Z"
+    },
+    {
+      "id": "usg_9c8f4978586ca8eaa9",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 5,
+      "tokens": 1557,
+      "at": "2026-10-05T10:50:00.403Z"
+    },
+    {
+      "id": "usg_6e80b25277998f401d",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 1,
+      "tokens": 2979,
+      "at": "2026-10-07T05:53:19.512Z"
+    },
+    {
+      "id": "usg_c2850bcf98571ef077",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 4,
+      "tokens": 3033,
+      "at": "2026-10-06T11:59:05.465Z"
+    },
+    {
+      "id": "usg_49d2323c7370018bc4",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 3451,
+      "at": "2026-10-06T23:15:11.995Z"
+    },
+    {
+      "id": "usg_3e86a8963eddaf8caa",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 3,
+      "tokens": 4400,
+      "at": "2026-10-08T06:15:57.193Z"
+    },
+    {
+      "id": "usg_e3b35e8858e32faab0",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 5637,
+      "at": "2026-10-07T18:17:00.019Z"
+    },
+    {
+      "id": "usg_16e18b2638a74f707a",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 3,
+      "tokens": 5632,
+      "at": "2026-10-08T04:20:24.409Z"
+    },
+    {
+      "id": "usg_c6f46416c37bf626ee",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 1,
+      "tokens": 2589,
+      "at": "2026-10-07T19:33:29.868Z"
+    },
+    {
+      "id": "usg_8850219b0092daf78f",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 7,
+      "tokens": 3761,
+      "at": "2026-10-08T01:57:25.534Z"
+    },
+    {
+      "id": "usg_a1f50f60a1d2b9577a",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 2344,
+      "at": "2026-10-07T18:10:52.392Z"
+    },
+    {
+      "id": "usg_93929c41a7838ba796",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 4629,
+      "at": "2026-10-07T17:04:52.173Z"
+    },
+    {
+      "id": "usg_ed5431c40f9fa6f135",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 3426,
+      "at": "2026-10-07T14:42:02.900Z"
+    },
+    {
+      "id": "usg_1b90e6481d5b001606",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 3,
+      "tokens": 5166,
+      "at": "2026-10-09T01:56:55.012Z"
+    },
+    {
+      "id": "usg_78e4e734ac001e778e",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 3,
+      "tokens": 1315,
+      "at": "2026-10-08T15:07:55.369Z"
+    },
+    {
+      "id": "usg_a6392ac4f77f14eded",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 2,
+      "tokens": 5082,
+      "at": "2026-10-08T23:03:45.438Z"
+    },
+    {
+      "id": "usg_05d65c53a3e7e24dea",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 2,
+      "tokens": 3114,
+      "at": "2026-10-09T04:36:55.835Z"
+    },
+    {
+      "id": "usg_32b72c61b33033e805",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 3243,
+      "at": "2026-10-08T11:29:20.143Z"
+    },
+    {
+      "id": "usg_dc0523ddfc5d6e4283",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 5131,
+      "at": "2026-10-09T10:47:07.564Z"
+    },
+    {
+      "id": "usg_fe86f4ef54a9ef1ef5",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 879,
+      "at": "2026-10-09T14:51:08.167Z"
+    },
+    {
+      "id": "usg_ec0c748e3dee087cc4",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 2318,
+      "at": "2026-10-09T11:19:43.668Z"
+    },
+    {
+      "id": "usg_e0ae28f5ae7691c64f",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 1,
+      "tokens": 2453,
+      "at": "2026-10-10T02:00:13.572Z"
+    },
+    {
+      "id": "usg_f882ea0773b6a2ede8",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 3336,
+      "at": "2026-10-10T02:13:47.015Z"
+    },
+    {
+      "id": "usg_ada1679f70fe36c141",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 3363,
+      "at": "2026-10-10T03:05:44.985Z"
+    },
+    {
+      "id": "usg_746e597eb8b4facb4a",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 3626,
+      "at": "2026-10-10T03:13:49.210Z"
+    },
+    {
+      "id": "usg_b30d8d11057bbdec10",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 4,
+      "tokens": 2134,
+      "at": "2026-10-09T18:40:37.715Z"
+    },
+    {
+      "id": "usg_4131ca18f749eb2e14",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 2213,
+      "at": "2026-10-10T11:05:52.049Z"
+    },
+    {
+      "id": "usg_a2818ed614d1580cb6",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 3273,
+      "at": "2026-10-10T16:19:50.184Z"
+    },
+    {
+      "id": "usg_bcccd1ec876b013019",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 6,
+      "tokens": 3284,
+      "at": "2026-10-10T10:40:51.364Z"
+    },
+    {
+      "id": "usg_7edb1891626ec522d7",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 4304,
+      "at": "2026-10-12T07:06:49.320Z"
+    },
+    {
+      "id": "usg_f1e5443a2e51dd4ce2",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 7,
+      "tokens": 4556,
+      "at": "2026-10-11T12:05:22.351Z"
+    },
+    {
+      "id": "usg_d5675c9ee946e10937",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 6,
+      "tokens": 1962,
+      "at": "2026-10-12T06:11:37.934Z"
+    },
+    {
+      "id": "usg_f0818684ed8d9a3f83",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 5,
+      "tokens": 2620,
+      "at": "2026-10-12T04:05:16.316Z"
+    },
+    {
+      "id": "usg_7b5f343d79e1f1530a",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 5505,
+      "at": "2026-10-11T10:59:02.927Z"
+    },
+    {
+      "id": "usg_27bb5b9f36fca0cde0",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 3617,
+      "at": "2026-10-12T02:53:37.276Z"
+    },
+    {
+      "id": "usg_da298ab9cc4123c287",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 4211,
+      "at": "2026-10-11T20:56:48.497Z"
+    },
+    {
+      "id": "usg_5d533aa1c2ea1649b9",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 4,
+      "tokens": 5683,
+      "at": "2026-10-12T06:27:17.578Z"
+    },
+    {
+      "id": "usg_2099fe13b4364798f3",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 4,
+      "tokens": 3924,
+      "at": "2026-10-12T07:49:26.247Z"
+    },
+    {
+      "id": "usg_a9ca6290c866fb08b8",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 4390,
+      "at": "2026-10-13T05:51:26.343Z"
+    },
+    {
+      "id": "usg_64b6874d84d06bc39c",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 3,
+      "tokens": 5761,
+      "at": "2026-10-12T12:54:49.086Z"
+    },
+    {
+      "id": "usg_d1a96531a06611e4d6",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 1332,
+      "at": "2026-10-12T11:58:24.999Z"
+    },
+    {
+      "id": "usg_7204293d6ff9af794b",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 7,
+      "tokens": 2787,
+      "at": "2026-10-12T14:57:57.289Z"
+    },
+    {
+      "id": "usg_89b8eddf8aa5574435",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 1975,
+      "at": "2026-10-12T22:59:16.576Z"
+    },
+    {
+      "id": "usg_3c88cc3c469881e452",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 6,
+      "tokens": 1526,
+      "at": "2026-10-12T15:44:16.439Z"
+    },
+    {
+      "id": "usg_f5d57327967dc6007d",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 5,
+      "tokens": 2147,
+      "at": "2026-10-12T13:14:35.643Z"
+    },
+    {
+      "id": "usg_1eb2bc33899fbbed16",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 2,
+      "tokens": 5662,
+      "at": "2026-10-13T13:32:44.464Z"
+    },
+    {
+      "id": "usg_1166525449b74f6ce0",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 7,
+      "tokens": 4791,
+      "at": "2026-10-14T03:18:22.187Z"
+    },
+    {
+      "id": "usg_6539e438a5de9c40b6",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 881,
+      "at": "2026-10-13T22:13:40.979Z"
+    },
+    {
+      "id": "usg_4fbde4e96b8dfea17c",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 2,
+      "tokens": 1186,
+      "at": "2026-10-14T08:19:49.978Z"
+    },
+    {
+      "id": "usg_7ef1fbaa9a5aa30738",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 4103,
+      "at": "2026-10-14T04:15:30.170Z"
+    },
+    {
+      "id": "usg_6c644a0791ea3dbdc7",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 5521,
+      "at": "2026-10-14T06:51:43.284Z"
+    },
+    {
+      "id": "usg_eb1f5493844194e1a3",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 860,
+      "at": "2026-10-15T00:52:58.936Z"
+    },
+    {
+      "id": "usg_5d9541204941986838",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 5408,
+      "at": "2026-10-15T07:23:46.123Z"
+    },
+    {
+      "id": "usg_46980b8b9a886d564a",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 5890,
+      "at": "2026-10-15T00:16:59.813Z"
+    },
+    {
+      "id": "usg_777f6002c7bb37efca",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 3590,
+      "at": "2026-10-14T13:41:43.215Z"
+    },
+    {
+      "id": "usg_e98915f5d396c25333",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 4,
+      "tokens": 3021,
+      "at": "2026-10-15T11:17:18.949Z"
+    },
+    {
+      "id": "usg_9bca62fe2f6943e1e2",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 962,
+      "at": "2026-10-16T07:46:14.203Z"
+    },
+    {
+      "id": "usg_cd755d1b56d2dd2b08",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 4723,
+      "at": "2026-10-16T06:07:18.675Z"
+    },
+    {
+      "id": "usg_92cf6f56c4a4ec4901",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 4804,
+      "at": "2026-10-15T15:40:12.612Z"
+    },
+    {
+      "id": "usg_9441cd22f1cd3f8393",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 7,
+      "tokens": 4682,
+      "at": "2026-10-17T02:38:37.070Z"
+    },
+    {
+      "id": "usg_93bd078affb644a610",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 3,
+      "tokens": 5582,
+      "at": "2026-10-16T11:09:47.303Z"
+    },
+    {
+      "id": "usg_43816182c606552a91",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 4662,
+      "at": "2026-10-17T03:35:54.656Z"
+    },
+    {
+      "id": "usg_fc191ebd6ebbcb9df0",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 3593,
+      "at": "2026-10-16T20:15:25.300Z"
+    },
+    {
+      "id": "usg_8f3ba1586e2153c867",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 6,
+      "tokens": 2695,
+      "at": "2026-10-17T06:33:55.040Z"
+    },
+    {
+      "id": "usg_6286ff243b79400bc1",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 3829,
+      "at": "2026-10-16T14:21:11.528Z"
+    },
+    {
+      "id": "usg_179225a3c6f92103b4",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 7,
+      "tokens": 1155,
+      "at": "2026-10-16T22:06:03.161Z"
+    },
+    {
+      "id": "usg_26aa9908808d70be86",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 2,
+      "tokens": 1129,
+      "at": "2026-10-17T14:13:06.960Z"
+    },
+    {
+      "id": "usg_348a89cfa0075c9073",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 5,
+      "tokens": 1584,
+      "at": "2026-10-18T01:52:32.667Z"
+    },
+    {
+      "id": "usg_09d6cbd658f18bbb9a",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 4329,
+      "at": "2026-10-18T02:22:33.764Z"
+    },
+    {
+      "id": "usg_b71b1384da40577496",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 3,
+      "tokens": 3714,
+      "at": "2026-10-17T11:03:20.129Z"
+    },
+    {
+      "id": "usg_3f97451f6bed834a13",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 8,
+      "tokens": 5901,
+      "at": "2026-10-18T22:10:39.567Z"
+    },
+    {
+      "id": "usg_50a6f3c729ee3f8659",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 5527,
+      "at": "2026-10-18T15:42:17.783Z"
+    },
+    {
+      "id": "usg_05663a0b6717c4f7ba",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 3463,
+      "at": "2026-10-19T02:36:27.440Z"
+    },
+    {
+      "id": "usg_2589b89232172220a8",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 3,
+      "tokens": 2032,
+      "at": "2026-10-19T15:15:42.104Z"
+    },
+    {
+      "id": "usg_da8848060e6d76e185",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 4,
+      "tokens": 1364,
+      "at": "2026-10-19T15:15:32.502Z"
+    },
+    {
+      "id": "usg_d268a08916cc8ea77a",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 1,
+      "tokens": 2793,
+      "at": "2026-10-19T14:47:56.809Z"
+    },
+    {
+      "id": "usg_ab39ba20baea6801bf",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 6,
+      "tokens": 1825,
+      "at": "2026-10-19T11:41:13.792Z"
+    },
+    {
+      "id": "usg_d156308498512ac52f",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 2,
+      "tokens": 3597,
+      "at": "2026-10-20T00:18:16.288Z"
+    },
+    {
+      "id": "usg_76b048224b429e970d",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 2,
+      "tokens": 1495,
+      "at": "2026-10-19T12:35:46.768Z"
+    },
+    {
+      "id": "usg_e53b6290202cfd33dc",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 4,
+      "tokens": 848,
+      "at": "2026-10-20T04:41:19.553Z"
+    },
+    {
+      "id": "usg_1acfb4580d13001c75",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 2,
+      "tokens": 4481,
+      "at": "2026-10-19T19:21:29.704Z"
+    },
+    {
+      "id": "usg_978a7fcbe8d4760c6b",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 1737,
+      "at": "2026-10-19T13:41:08.579Z"
+    },
+    {
+      "id": "usg_29a3e7583ae6d07a98",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 1552,
+      "at": "2026-10-20T20:49:05.877Z"
+    },
+    {
+      "id": "usg_228de3ead71f00cf84",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 1360,
+      "at": "2026-10-21T04:55:54.381Z"
+    },
+    {
+      "id": "usg_2d6fb0b15c42a975a5",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 2430,
+      "at": "2026-10-21T07:06:03.709Z"
+    },
+    {
+      "id": "usg_c71431bcad2a35e83a",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 5,
+      "tokens": 3544,
+      "at": "2026-10-20T21:00:57.811Z"
+    },
+    {
+      "id": "usg_6cf3da8c3690c811f7",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 2,
+      "tokens": 4785,
+      "at": "2026-10-21T16:46:08.030Z"
+    },
+    {
+      "id": "usg_8a8c724e116f5abcd7",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 3,
+      "tokens": 2095,
+      "at": "2026-10-21T18:00:02.872Z"
+    },
+    {
+      "id": "usg_4ed73322c965d47972",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 5,
+      "tokens": 3235,
+      "at": "2026-10-21T11:22:04.958Z"
+    },
+    {
+      "id": "usg_7582b050524b9b5099",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 6,
+      "tokens": 3711,
+      "at": "2026-10-21T16:53:53.051Z"
+    },
+    {
+      "id": "usg_abd0050591b842dd4a",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 1196,
+      "at": "2026-10-23T06:00:32.982Z"
+    },
+    {
+      "id": "usg_f27b9f2ca1e69bb4b8",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 5380,
+      "at": "2026-10-23T05:34:19.594Z"
+    },
+    {
+      "id": "usg_78cb30626a29abbfd8",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 4792,
+      "at": "2026-10-22T17:42:13.942Z"
+    },
+    {
+      "id": "usg_b565dbc45c2e23398a",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 1487,
+      "at": "2026-10-23T04:25:25.163Z"
+    },
+    {
+      "id": "usg_78a5e392f066ef1b83",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 3,
+      "tokens": 4258,
+      "at": "2026-10-23T08:22:34.244Z"
+    },
+    {
+      "id": "usg_d4d8ed91d659b6479a",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 3799,
+      "at": "2026-10-23T04:11:22.914Z"
+    },
+    {
+      "id": "usg_f1eceafc68a917ac5d",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 3318,
+      "at": "2026-10-23T06:07:49.196Z"
+    },
+    {
+      "id": "usg_84a99270efd38aa56b",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 8,
+      "tokens": 5833,
+      "at": "2026-10-22T18:43:09.635Z"
+    },
+    {
+      "id": "usg_902b3e25e47568095e",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 882,
+      "at": "2026-10-23T15:17:01.665Z"
+    },
+    {
+      "id": "usg_5ea6f15510beac3d26",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 7,
+      "tokens": 3638,
+      "at": "2026-10-23T12:43:13.956Z"
+    },
+    {
+      "id": "usg_76ed6b6590be80171b",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 4,
+      "tokens": 4125,
+      "at": "2026-10-23T15:11:13.243Z"
+    },
+    {
+      "id": "usg_9feae484233d90a103",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 4976,
+      "at": "2026-10-24T00:36:13.106Z"
+    },
+    {
+      "id": "usg_2f4c5f3ff5d68c40fc",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 4,
+      "tokens": 1698,
+      "at": "2026-10-23T16:33:12.310Z"
+    },
+    {
+      "id": "usg_385f669d1ecbaf4e51",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 4625,
+      "at": "2026-10-24T07:38:23.696Z"
+    },
+    {
+      "id": "usg_86e8c62e27fd280241",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 1416,
+      "at": "2026-10-25T02:26:58.853Z"
+    },
+    {
+      "id": "usg_0b5a0a225892d4d0c2",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 2,
+      "tokens": 4006,
+      "at": "2026-10-24T15:48:57.646Z"
+    },
+    {
+      "id": "usg_c89f0c2bb43aff3777",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 5612,
+      "at": "2026-10-24T20:21:46.645Z"
+    },
+    {
+      "id": "usg_6cd07b28accd7e11b8",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 4628,
+      "at": "2026-10-24T10:44:06.837Z"
+    },
+    {
+      "id": "usg_c69c2480f98c1c3f14",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 4,
+      "tokens": 2146,
+      "at": "2026-10-25T06:00:19.951Z"
+    },
+    {
+      "id": "usg_fcb875aa4db8c6a271",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 1377,
+      "at": "2026-10-25T01:46:24.011Z"
+    },
+    {
+      "id": "usg_e3e601971cbf86a1e2",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 5336,
+      "at": "2026-10-24T23:00:15.561Z"
+    },
+    {
+      "id": "usg_b36107620ba3df92e0",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 1,
+      "tokens": 4790,
+      "at": "2026-10-25T19:15:36.480Z"
+    },
+    {
+      "id": "usg_76e07fe1bef779774c",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 3791,
+      "at": "2026-10-26T01:20:19.882Z"
+    },
+    {
+      "id": "usg_08cabf5f7c0d827745",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 5,
+      "tokens": 2256,
+      "at": "2026-10-26T05:02:23.613Z"
+    },
+    {
+      "id": "usg_22ec680b3555fe21da",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 837,
+      "at": "2026-10-27T04:08:10.870Z"
+    },
+    {
+      "id": "usg_9f2c3df0ea607c0c90",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 5898,
+      "at": "2026-10-26T20:55:55.342Z"
+    },
+    {
+      "id": "usg_ce0d72fed87b5068f7",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 5,
+      "tokens": 2079,
+      "at": "2026-10-26T23:08:49.279Z"
+    },
+    {
+      "id": "usg_0ea00ff2e9a9b78ba5",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 3952,
+      "at": "2026-10-26T17:46:18.113Z"
+    },
+    {
+      "id": "usg_006c7ce489047fe79b",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 4520,
+      "at": "2026-10-27T06:35:41.350Z"
+    },
+    {
+      "id": "usg_c97d549d64df5dc6ae",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 5837,
+      "at": "2026-10-27T04:58:08.126Z"
+    },
+    {
+      "id": "usg_f1085c78308ca9b18b",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 3,
+      "tokens": 1097,
+      "at": "2026-10-27T03:58:59.429Z"
+    },
+    {
+      "id": "usg_adad814d83343586de",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 1794,
+      "at": "2026-10-27T02:15:56.988Z"
+    },
+    {
+      "id": "usg_1df301c04be92a12c1",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 3,
+      "tokens": 5935,
+      "at": "2026-10-26T15:51:38.826Z"
+    },
+    {
+      "id": "usg_315fc2701a5d057245",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 3306,
+      "at": "2026-10-27T14:17:59.827Z"
+    },
+    {
+      "id": "usg_713ce32a1bbf1dc102",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 4799,
+      "at": "2026-10-27T17:40:51.295Z"
+    },
+    {
+      "id": "usg_796439ef293ba79799",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 5244,
+      "at": "2026-10-28T08:24:05.808Z"
+    },
+    {
+      "id": "usg_deaefc5b4a94ac6cb7",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 5,
+      "tokens": 1687,
+      "at": "2026-10-27T15:06:53.984Z"
+    },
+    {
+      "id": "usg_b1e66709e22c2071bd",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 1960,
+      "at": "2026-10-27T12:11:09.402Z"
+    },
+    {
+      "id": "usg_c3aa6b8187220db60b",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 1570,
+      "at": "2026-10-27T21:25:10.829Z"
+    },
+    {
+      "id": "usg_b5a09c1ace66a4db9e",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 4,
+      "tokens": 5653,
+      "at": "2026-10-27T16:45:11.103Z"
+    },
+    {
+      "id": "usg_cab330b489d23ef958",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 8,
+      "tokens": 2395,
+      "at": "2026-10-28T00:47:52.694Z"
+    },
+    {
+      "id": "usg_81e35ac59020987967",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 2326,
+      "at": "2026-10-28T07:00:49.923Z"
+    },
+    {
+      "id": "usg_1b00b3c42f6b01433c",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 3,
+      "tokens": 2162,
+      "at": "2026-10-29T08:01:09.608Z"
+    },
+    {
+      "id": "usg_2dca10ed5eabd32399",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 7,
+      "tokens": 4067,
+      "at": "2026-10-28T17:27:12.022Z"
+    },
+    {
+      "id": "usg_332309fe6a0e5ba29d",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 7,
+      "tokens": 2741,
+      "at": "2026-10-28T16:58:14.025Z"
+    },
+    {
+      "id": "usg_bf4b74e7c46892bf84",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 1393,
+      "at": "2026-10-28T22:36:53.641Z"
+    },
+    {
+      "id": "usg_6e535524cc194b98d1",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 3042,
+      "at": "2026-10-28T14:54:27.413Z"
+    },
+    {
+      "id": "usg_0ce62348170bfd97b5",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 7,
+      "tokens": 1266,
+      "at": "2026-10-29T07:58:59.292Z"
+    },
+    {
+      "id": "usg_656cb42a32dc1843ad",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 1,
+      "tokens": 5632,
+      "at": "2026-10-28T23:54:36.192Z"
+    },
+    {
+      "id": "usg_2a16368826a1e55896",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 2417,
+      "at": "2026-10-29T17:51:24.354Z"
+    },
+    {
+      "id": "usg_f4a38994b435bb42b1",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 2402,
+      "at": "2026-10-30T06:58:37.550Z"
+    },
+    {
+      "id": "usg_e57f9c8dc078eefda2",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 3456,
+      "at": "2026-10-30T02:37:50.088Z"
+    },
+    {
+      "id": "usg_d131d8ba6df66771c3",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 4,
+      "tokens": 5517,
+      "at": "2026-10-29T23:11:54.807Z"
+    },
+    {
+      "id": "usg_490854840a29889d15",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 3,
+      "tokens": 1970,
+      "at": "2026-10-30T01:04:14.176Z"
+    },
+    {
+      "id": "usg_af1c44ed97799f0ec0",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 3346,
+      "at": "2026-10-29T17:42:22.516Z"
+    },
+    {
+      "id": "usg_455fa7fba0767472eb",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 4,
+      "tokens": 2068,
+      "at": "2026-10-29T14:32:54.889Z"
+    },
+    {
+      "id": "usg_4acb792369ddf53afe",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 3080,
+      "at": "2026-10-29T22:27:22.653Z"
+    },
+    {
+      "id": "usg_bd6202e2a152f7a1b9",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 7,
+      "tokens": 5932,
+      "at": "2026-10-29T14:32:35.685Z"
+    },
+    {
+      "id": "usg_ff4270c9819765cb69",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 3352,
+      "at": "2026-10-30T23:48:48.455Z"
+    },
+    {
+      "id": "usg_41569e24b492e3b3f9",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 6,
+      "tokens": 1245,
+      "at": "2026-10-31T00:44:53.339Z"
+    },
+    {
+      "id": "usg_9f449f762e5642dd1f",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 2647,
+      "at": "2026-10-30T20:50:09.663Z"
+    },
+    {
+      "id": "usg_71a7675b3e3ddb9a9f",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 5,
+      "tokens": 1524,
+      "at": "2026-10-31T04:48:44.340Z"
+    },
+    {
+      "id": "usg_237e3c65de5da41285",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 5516,
+      "at": "2026-10-30T16:51:09.471Z"
+    },
+    {
+      "id": "usg_df80f16865241bcaa8",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 5,
+      "tokens": 4144,
+      "at": "2026-10-31T21:59:25.698Z"
+    },
+    {
+      "id": "usg_2ca521356a12b3d6d6",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 6,
+      "tokens": 1442,
+      "at": "2026-11-01T02:17:09.347Z"
+    },
+    {
+      "id": "usg_1ae4b3125ae662a0ae",
+      "userId": "u_demo",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "documents-document-summarization",
+      "credits": 4,
+      "tokens": 1481,
+      "at": "2026-11-01T00:05:18.510Z"
+    },
+    {
+      "id": "usg_42acee7871e32d7a6e",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 2845,
+      "at": "2026-10-31T19:47:15.657Z"
+    },
+    {
+      "id": "usg_6c45fe318d52a0230d",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 6,
+      "tokens": 5665,
+      "at": "2026-10-31T21:03:55.108Z"
+    },
+    {
+      "id": "usg_1a700cf1a5c73f8dc6",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 4,
+      "tokens": 2365,
+      "at": "2026-10-31T19:08:31.926Z"
+    },
+    {
+      "id": "usg_a7ebf50fe3f757c0cf",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 3088,
+      "at": "2026-10-31T20:52:37.468Z"
+    },
+    {
+      "id": "usg_b3abd35cce5b17a6e3",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 6,
+      "tokens": 2184,
+      "at": "2026-10-31T21:36:21.610Z"
+    },
+    {
+      "id": "usg_d7c1286c5eefca041c",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 1410,
+      "at": "2026-11-01T19:27:23.270Z"
+    },
+    {
+      "id": "usg_48b1ae453190fcea16",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 2,
+      "tokens": 5947,
+      "at": "2026-11-02T05:01:59.265Z"
+    },
+    {
+      "id": "usg_ff50068e1b30548baf",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 5328,
+      "at": "2026-11-02T02:21:20.033Z"
+    },
+    {
+      "id": "usg_f9ebd2e9c1e7281e78",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 6,
+      "tokens": 3916,
+      "at": "2026-11-02T04:09:32.488Z"
+    },
+    {
+      "id": "usg_b72431330c957c5dd9",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 2578,
+      "at": "2026-11-03T04:53:45.095Z"
+    },
+    {
+      "id": "usg_45cd9e2d8edd86925e",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 1985,
+      "at": "2026-11-03T05:40:13.846Z"
+    },
+    {
+      "id": "usg_d9cc8ef744397ffb45",
+      "userId": "u_demo",
+      "kind": "education",
+      "moduleId": "education",
+      "toolId": "education-ai-personal-tutor",
+      "credits": 3,
+      "tokens": 5929,
+      "at": "2026-11-02T20:23:08.606Z"
+    },
+    {
+      "id": "usg_dd4a9308a21143295f",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 1,
+      "tokens": 3945,
+      "at": "2026-11-02T19:25:22.214Z"
+    },
+    {
+      "id": "usg_f3860bccae8a688303",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 5020,
+      "at": "2026-11-03T07:10:17.139Z"
+    },
+    {
+      "id": "usg_2e680bc2b00064de57",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 4085,
+      "at": "2026-11-02T18:52:07.701Z"
+    },
+    {
+      "id": "usg_a388a6c49d0d5f0bec",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 4,
+      "tokens": 4137,
+      "at": "2026-11-04T06:03:34.052Z"
+    },
+    {
+      "id": "usg_2715359262c6520518",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 4,
+      "tokens": 5176,
+      "at": "2026-11-03T19:11:49.800Z"
+    },
+    {
+      "id": "usg_aacecd804c1e8bf04e",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 8,
+      "tokens": 2983,
+      "at": "2026-11-03T22:25:05.136Z"
+    },
+    {
+      "id": "usg_b1e37285dd40f72d3f",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 5,
+      "tokens": 5969,
+      "at": "2026-11-04T07:45:58.085Z"
+    },
+    {
+      "id": "usg_b7fa3c968b6b1b410f",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 2,
+      "tokens": 1550,
+      "at": "2026-11-04T03:45:45.191Z"
+    },
+    {
+      "id": "usg_b7966cd624f819cfc1",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 6,
+      "tokens": 4108,
+      "at": "2026-11-04T02:19:10.403Z"
+    },
+    {
+      "id": "usg_32dc202008175f9d42",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 2408,
+      "at": "2026-11-03T21:57:00.637Z"
+    },
+    {
+      "id": "usg_4e0046d0ae050e64a5",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 3,
+      "tokens": 4088,
+      "at": "2026-11-04T03:16:27.989Z"
+    },
+    {
+      "id": "usg_5443ed08fad82e2dcb",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 2,
+      "tokens": 5619,
+      "at": "2026-11-04T07:02:38.634Z"
+    },
+    {
+      "id": "usg_f2ecee9615b2aee43e",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 1315,
+      "at": "2026-11-05T07:09:07.866Z"
+    },
+    {
+      "id": "usg_11625966a2b009b14c",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 3,
+      "tokens": 2509,
+      "at": "2026-11-05T07:25:25.918Z"
+    },
+    {
+      "id": "usg_7fded690072a0f84d8",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 3,
+      "tokens": 3296,
+      "at": "2026-11-04T14:46:38.620Z"
+    },
+    {
+      "id": "usg_749bc9f2d449fe7278",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 7,
+      "tokens": 5790,
+      "at": "2026-11-05T21:09:19.868Z"
+    },
+    {
+      "id": "usg_a88a398a93c9096869",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 1,
+      "tokens": 5662,
+      "at": "2026-11-05T10:53:15.534Z"
+    },
+    {
+      "id": "usg_cca7b5cc3d9e919a49",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 5,
+      "tokens": 2945,
+      "at": "2026-11-06T06:53:22.392Z"
+    },
+    {
+      "id": "usg_7fff956fbc9f621a33",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 3,
+      "tokens": 3930,
+      "at": "2026-11-05T13:07:22.173Z"
+    },
+    {
+      "id": "usg_5f863cf2c81428a69e",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 6,
+      "tokens": 1427,
+      "at": "2026-11-05T16:17:52.900Z"
+    },
+    {
+      "id": "usg_0cdb6de347f782ed47",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 6,
+      "tokens": 3492,
+      "at": "2026-11-06T20:36:05.012Z"
+    },
+    {
+      "id": "usg_15d0de0dc8c461e012",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 2,
+      "tokens": 3541,
+      "at": "2026-11-06T15:20:25.369Z"
+    },
+    {
+      "id": "usg_617d7e9cfa065a19bf",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 2,
+      "tokens": 808,
+      "at": "2026-11-07T04:49:35.438Z"
+    },
+    {
+      "id": "usg_224e5d6908f03caff2",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 5,
+      "tokens": 2740,
+      "at": "2026-11-06T17:42:45.835Z"
+    },
+    {
+      "id": "usg_2724b608b79f0c732b",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 3,
+      "tokens": 1569,
+      "at": "2026-11-07T04:21:50.143Z"
+    },
+    {
+      "id": "usg_ed1e4af3fceb84c294",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 1,
+      "tokens": 3201,
+      "at": "2026-11-06T14:08:27.125Z"
+    },
+    {
+      "id": "usg_c20b1e171e1f122b28",
+      "userId": "u_demo",
+      "kind": "voice",
+      "moduleId": "voice",
+      "toolId": "voice-text-to-speech",
+      "credits": 1,
+      "tokens": 2372,
+      "at": "2026-11-06T15:38:49.621Z"
+    },
+    {
+      "id": "usg_17279f0d285a6a43e0",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 6,
+      "tokens": 2871,
+      "at": "2026-11-06T15:03:00.102Z"
+    },
+    {
+      "id": "usg_3ee4475eac9faa9fc0",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 4,
+      "tokens": 4824,
+      "at": "2026-11-06T20:01:52.886Z"
+    },
+    {
+      "id": "usg_b2a66fe902b990c4d8",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 3287,
+      "at": "2026-11-08T06:36:17.015Z"
+    },
+    {
+      "id": "usg_a0420b6824b84ff7c1",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 7,
+      "tokens": 2015,
+      "at": "2026-11-07T14:48:14.985Z"
+    },
+    {
+      "id": "usg_034647ae7e28b1ab01",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 3,
+      "tokens": 977,
+      "at": "2026-11-07T20:29:39.210Z"
+    },
+    {
+      "id": "usg_22b5e3847cfb5d2703",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 2,
+      "tokens": 3386,
+      "at": "2026-11-07T17:29:47.715Z"
+    },
+    {
+      "id": "usg_2569cdfc38643a0de0",
+      "userId": "u_demo",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "analytics-natural-language-data-queries",
+      "credits": 5,
+      "tokens": 1856,
+      "at": "2026-11-08T06:46:37.043Z"
+    },
+    {
+      "id": "usg_92b69c129ed5f1e214",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 4,
+      "tokens": 949,
+      "at": "2026-11-09T00:52:20.184Z"
+    },
+    {
+      "id": "usg_482ac27fec9976b350",
+      "userId": "u_demo",
+      "kind": "research",
+      "moduleId": "research",
+      "toolId": "research-ai-powered-web-research",
+      "credits": 4,
+      "tokens": 4861,
+      "at": "2026-11-09T00:46:41.364Z"
+    },
+    {
+      "id": "usg_f37494865ce0d1ca10",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 3,
+      "tokens": 4770,
+      "at": "2026-11-08T14:53:56.206Z"
+    },
+    {
+      "id": "usg_a66fccd1c534401d6f",
+      "userId": "u_demo",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-custom-ai-agent-creation",
+      "credits": 8,
+      "tokens": 3311,
+      "at": "2026-11-08T19:22:38.291Z"
+    },
+    {
+      "id": "usg_841d29c353b6651356",
+      "userId": "u_demo",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "writing-blog-post-generator",
+      "credits": 2,
+      "tokens": 1187,
+      "at": "2026-11-08T13:47:46.384Z"
+    },
+    {
+      "id": "usg_8604ae6e3601ec7474",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "chat-ai-powered-conversational-chatbot",
+      "credits": 2,
+      "tokens": 3536,
+      "at": "2026-11-08T16:32:13.325Z"
+    },
+    {
+      "id": "usg_c9589df20e5b17e5d8",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 6,
+      "tokens": 3746,
+      "at": "2026-11-09T07:59:21.583Z"
+    },
+    {
+      "id": "usg_ba1b49c13e39a49ea2",
+      "userId": "u_demo",
+      "kind": "image",
+      "moduleId": "image",
+      "toolId": "image-text-to-image-generation",
+      "credits": 7,
+      "tokens": 1943,
+      "at": "2026-11-08T23:23:25.479Z"
+    },
+    {
+      "id": "usg_2eaae02e00b4f6ae93",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 5,
+      "tokens": 2212,
+      "at": "2026-11-09T22:32:38.497Z"
+    },
+    {
+      "id": "usg_d4e1bab666a497ddb2",
+      "userId": "u_demo",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "marketing-social-media-content-generator",
+      "credits": 4,
+      "tokens": 2384,
+      "at": "2026-11-09T15:23:07.578Z"
+    },
+    {
+      "id": "usg_295caeff8dee3bba0b",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 7,
+      "tokens": 4525,
+      "at": "2026-11-09T22:18:36.247Z"
+    },
+    {
+      "id": "usg_6f269d6f3bbaf7d89b",
+      "userId": "u_demo",
+      "kind": "developer",
+      "moduleId": "developer",
+      "toolId": "developer-ai-code-generation",
+      "credits": 4,
+      "tokens": 1444,
+      "at": "2026-11-09T13:08:22.530Z"
+    },
+    {
+      "id": "usg_0f43e2e99cdfd83338",
+      "userId": "u_demo",
+      "kind": "video",
+      "moduleId": "video",
+      "toolId": "video-video-script-generation",
+      "credits": 5,
+      "tokens": 1359,
+      "at": "2026-11-09T12:50:22.968Z"
+    },
+    {
+      "id": "usg_72a5c9c2585485e1da",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 1798,
+      "at": "2026-10-12T08:26:37.385Z"
+    },
+    {
+      "id": "usg_bd4c9d56a87292385d",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 3276,
+      "at": "2026-10-12T08:26:37.385Z"
+    },
+    {
+      "id": "usg_b63e4bfca57333ddec",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 2831,
+      "at": "2026-10-12T08:26:37.385Z"
+    },
+    {
+      "id": "usg_9a9f081fd523cd92d6",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1802,
+      "at": "2026-10-13T08:26:37.385Z"
+    },
+    {
+      "id": "usg_cf29cd26ebecb543b9",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 3311,
+      "at": "2026-10-13T08:26:37.385Z"
+    },
+    {
+      "id": "usg_f13f4cdc48cbee7be6",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 500,
+      "at": "2026-10-14T08:26:37.385Z"
+    },
+    {
+      "id": "usg_e2948c7a43a6346723",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 2763,
+      "at": "2026-10-14T08:26:37.385Z"
+    },
+    {
+      "id": "usg_1fab6ebddd96e304a0",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 2852,
+      "at": "2026-10-14T08:26:37.385Z"
+    },
+    {
+      "id": "usg_776d3a82ab2c98d93f",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 2788,
+      "at": "2026-10-15T08:26:37.385Z"
+    },
+    {
+      "id": "usg_e2a43f966dd7071221",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 2377,
+      "at": "2026-10-16T08:26:37.385Z"
+    },
+    {
+      "id": "usg_9d765da781c44a8e63",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 1740,
+      "at": "2026-10-16T08:26:37.385Z"
+    },
+    {
+      "id": "usg_c2bd19494a8357e21a",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 3012,
+      "at": "2026-10-16T08:26:37.385Z"
+    },
+    {
+      "id": "usg_1f1eabca707ca761ec",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 1285,
+      "at": "2026-10-17T08:26:37.385Z"
+    },
+    {
+      "id": "usg_071db9f1e419e637e2",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 787,
+      "at": "2026-10-17T08:26:37.385Z"
+    },
+    {
+      "id": "usg_d77cec1cb1f864f892",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 3198,
+      "at": "2026-10-17T08:26:37.385Z"
+    },
+    {
+      "id": "usg_1cb6adc99c3a00f0fc",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1877,
+      "at": "2026-10-18T08:26:37.385Z"
+    },
+    {
+      "id": "usg_319c69c5a0300ff2ed",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 2966,
+      "at": "2026-10-18T08:26:37.385Z"
+    },
+    {
+      "id": "usg_da5b1205b74e614363",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1875,
+      "at": "2026-10-19T08:26:37.385Z"
+    },
+    {
+      "id": "usg_df59464d5ee18bd474",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 2360,
+      "at": "2026-10-19T08:26:37.385Z"
+    },
+    {
+      "id": "usg_7785af230a165b2529",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 1657,
+      "at": "2026-10-19T08:26:37.385Z"
+    },
+    {
+      "id": "usg_632c0a20107f7fb7ae",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 2459,
+      "at": "2026-10-19T08:26:37.385Z"
+    },
+    {
+      "id": "usg_4143667d8311f36b0e",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 3086,
+      "at": "2026-10-20T08:26:37.385Z"
+    },
+    {
+      "id": "usg_52d8d77c9e6e523ec4",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 3344,
+      "at": "2026-10-20T08:26:37.385Z"
+    },
+    {
+      "id": "usg_20d500c11f8335ba18",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 3262,
+      "at": "2026-10-20T08:26:37.385Z"
+    },
+    {
+      "id": "usg_af2f1ec3ea5ec0d60e",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 1090,
+      "at": "2026-10-20T08:26:37.385Z"
+    },
+    {
+      "id": "usg_443add0a4d90c2f5ca",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1078,
+      "at": "2026-10-21T08:26:37.385Z"
+    },
+    {
+      "id": "usg_5e5df9730293190041",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1475,
+      "at": "2026-10-21T08:26:37.385Z"
+    },
+    {
+      "id": "usg_7a7ecc5841591ec2ee",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 532,
+      "at": "2026-10-21T08:26:37.385Z"
+    },
+    {
+      "id": "usg_36d1a64f3d78d60cbd",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 2499,
+      "at": "2026-10-21T08:26:37.385Z"
+    },
+    {
+      "id": "usg_e015fdcce5e7d9f838",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 601,
+      "at": "2026-10-22T08:26:37.385Z"
+    },
+    {
+      "id": "usg_c3cc6cb9a57bd44748",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 2327,
+      "at": "2026-10-22T08:26:37.385Z"
+    },
+    {
+      "id": "usg_5590666feb93882744",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 1546,
+      "at": "2026-10-22T08:26:37.385Z"
+    },
+    {
+      "id": "usg_30db5ed6d3bbe70385",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 728,
+      "at": "2026-10-23T08:26:37.385Z"
+    },
+    {
+      "id": "usg_a9c2c6490ead3a2cc9",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 1403,
+      "at": "2026-10-23T08:26:37.385Z"
+    },
+    {
+      "id": "usg_e8a9acc883843e7361",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 1738,
+      "at": "2026-10-23T08:26:37.385Z"
+    },
+    {
+      "id": "usg_2745a701f262968b90",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 2982,
+      "at": "2026-10-23T08:26:37.385Z"
+    },
+    {
+      "id": "usg_42a82063b2e2de8427",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 3386,
+      "at": "2026-10-23T08:26:37.385Z"
+    },
+    {
+      "id": "usg_bb46bd0934f3878d0f",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 1200,
+      "at": "2026-10-24T08:26:37.385Z"
+    },
+    {
+      "id": "usg_b35fd75585633e16b9",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 3057,
+      "at": "2026-10-24T08:26:37.385Z"
+    },
+    {
+      "id": "usg_39d810f938efe286e6",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 601,
+      "at": "2026-10-25T08:26:37.385Z"
+    },
+    {
+      "id": "usg_046d39c56e821ed4eb",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 553,
+      "at": "2026-10-25T08:26:37.385Z"
+    },
+    {
+      "id": "usg_ec598d25a337ca8abd",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 1288,
+      "at": "2026-10-25T08:26:37.385Z"
+    },
+    {
+      "id": "usg_67619c299324621d82",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 836,
+      "at": "2026-10-25T08:26:37.385Z"
+    },
+    {
+      "id": "usg_4eee387f07ea530068",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 960,
+      "at": "2026-10-26T08:26:37.385Z"
+    },
+    {
+      "id": "usg_03519f8b83446f7b9a",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 2213,
+      "at": "2026-10-26T08:26:37.385Z"
+    },
+    {
+      "id": "usg_95d3ed12ceb2c4a842",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 874,
+      "at": "2026-10-26T08:26:37.385Z"
+    },
+    {
+      "id": "usg_99d1785a56ff047ae5",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 1695,
+      "at": "2026-10-27T08:26:37.385Z"
+    },
+    {
+      "id": "usg_76be30e86760b2b7c6",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 2926,
+      "at": "2026-10-27T08:26:37.385Z"
+    },
+    {
+      "id": "usg_387beb4435083b3dd2",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 2816,
+      "at": "2026-10-27T08:26:37.385Z"
+    },
+    {
+      "id": "usg_d9310eb85d2c9108c9",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 2616,
+      "at": "2026-10-27T08:26:37.385Z"
+    },
+    {
+      "id": "usg_3c70a53f9cf5dd4b63",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 576,
+      "at": "2026-10-27T08:26:37.385Z"
+    },
+    {
+      "id": "usg_addc7e213ad8d25c0e",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 945,
+      "at": "2026-10-28T08:26:37.385Z"
+    },
+    {
+      "id": "usg_e01d6af7162c2756bf",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1975,
+      "at": "2026-10-28T08:26:37.385Z"
+    },
+    {
+      "id": "usg_098b68138c877a94ca",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 1914,
+      "at": "2026-10-28T08:26:37.385Z"
+    },
+    {
+      "id": "usg_48f1a69eedde7787b8",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 2012,
+      "at": "2026-10-28T08:26:37.385Z"
+    },
+    {
+      "id": "usg_da5533a817280c3e4e",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 1689,
+      "at": "2026-10-29T08:26:37.385Z"
+    },
+    {
+      "id": "usg_dd4ce0202ae64902bf",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 988,
+      "at": "2026-10-29T08:26:37.385Z"
+    },
+    {
+      "id": "usg_5403c1b3cddc687969",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 2387,
+      "at": "2026-10-30T08:26:37.385Z"
+    },
+    {
+      "id": "usg_1e086a3f521d544375",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1175,
+      "at": "2026-10-31T08:26:37.385Z"
+    },
+    {
+      "id": "usg_430593abf8b9288482",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 2551,
+      "at": "2026-10-31T08:26:37.385Z"
+    },
+    {
+      "id": "usg_39223abb06a1c1aba5",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 3338,
+      "at": "2026-10-31T08:26:37.385Z"
+    },
+    {
+      "id": "usg_8126f1103829d9df17",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1805,
+      "at": "2026-11-01T08:26:37.385Z"
+    },
+    {
+      "id": "usg_3c61dda734c15d9fa7",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 1017,
+      "at": "2026-11-01T08:26:37.385Z"
+    },
+    {
+      "id": "usg_c9e4deb2d9da2848ce",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 3222,
+      "at": "2026-11-01T08:26:37.385Z"
+    },
+    {
+      "id": "usg_f11488581c615e91b3",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 671,
+      "at": "2026-11-01T08:26:37.385Z"
+    },
+    {
+      "id": "usg_ed0dcb03ab8347772b",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 612,
+      "at": "2026-11-02T08:26:37.385Z"
+    },
+    {
+      "id": "usg_b40324c6932de93861",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 1296,
+      "at": "2026-11-02T08:26:37.385Z"
+    },
+    {
+      "id": "usg_4c9111c8f9c1067808",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 3377,
+      "at": "2026-11-02T08:26:37.385Z"
+    },
+    {
+      "id": "usg_b8f3ea54dce5780cb0",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1100,
+      "at": "2026-11-02T08:26:37.385Z"
+    },
+    {
+      "id": "usg_01e359059e8bd141d8",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 1734,
+      "at": "2026-11-03T08:26:37.385Z"
+    },
+    {
+      "id": "usg_c9a36c2b6d089e8a02",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1265,
+      "at": "2026-11-03T08:26:37.385Z"
+    },
+    {
+      "id": "usg_582376c919b7109e84",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 1660,
+      "at": "2026-11-03T08:26:37.385Z"
+    },
+    {
+      "id": "usg_7080d9e0045719bf65",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 1365,
+      "at": "2026-11-04T08:26:37.385Z"
+    },
+    {
+      "id": "usg_fc4f60bfa952c388b0",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 1142,
+      "at": "2026-11-04T08:26:37.385Z"
+    },
+    {
+      "id": "usg_1d64b5f348adb3efea",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 3007,
+      "at": "2026-11-05T08:26:37.385Z"
+    },
+    {
+      "id": "usg_04625fa3e03ee11b8d",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 551,
+      "at": "2026-11-05T08:26:37.385Z"
+    },
+    {
+      "id": "usg_190caecbfc2f63295b",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 2564,
+      "at": "2026-11-05T08:26:37.385Z"
+    },
+    {
+      "id": "usg_9899d95ae4c630f1a8",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 1570,
+      "at": "2026-11-06T08:26:37.385Z"
+    },
+    {
+      "id": "usg_a7bea66872b434ceb6",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 2652,
+      "at": "2026-11-06T08:26:37.385Z"
+    },
+    {
+      "id": "usg_a99f4f1b1e591d6b8d",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 1061,
+      "at": "2026-11-06T08:26:37.385Z"
+    },
+    {
+      "id": "usg_5eead39aefcb2962f9",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 1046,
+      "at": "2026-11-06T08:26:37.385Z"
+    },
+    {
+      "id": "usg_0a56a42b8c4a1970c4",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 858,
+      "at": "2026-11-06T08:26:37.385Z"
+    },
+    {
+      "id": "usg_b73c4ab275cba78ea6",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 1746,
+      "at": "2026-11-07T08:26:37.385Z"
+    },
+    {
+      "id": "usg_a07b675d30d539d940",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 1960,
+      "at": "2026-11-07T08:26:37.385Z"
+    },
+    {
+      "id": "usg_5bf4e867d7185a48be",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 2751,
+      "at": "2026-11-07T08:26:37.385Z"
+    },
+    {
+      "id": "usg_35a263308d4c0cfcea",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 3115,
+      "at": "2026-11-08T08:26:37.385Z"
+    },
+    {
+      "id": "usg_414615cda6e8c524b1",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 3443,
+      "at": "2026-11-08T08:26:37.385Z"
+    },
+    {
+      "id": "usg_f8cc42834860b89a1c",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 2,
+      "tokens": 2930,
+      "at": "2026-11-08T08:26:37.385Z"
+    },
+    {
+      "id": "usg_0aecf58b78c0aa9479",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 900,
+      "at": "2026-11-09T08:26:37.385Z"
+    },
+    {
+      "id": "usg_78db2717e3b3c9faec",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 2851,
+      "at": "2026-11-09T08:26:37.385Z"
+    },
+    {
+      "id": "usg_e6e7c82c3ef02dc220",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 2478,
+      "at": "2026-11-09T08:26:37.385Z"
+    },
+    {
+      "id": "usg_8194258d9ab769ffb9",
+      "userId": "u_sam",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 1514,
+      "at": "2026-11-09T08:26:37.385Z"
+    },
+    {
+      "id": "usg_e785af49ae28152afd",
+      "userId": "u_maya",
+      "kind": "marketing",
+      "moduleId": "marketing",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 1210,
+      "at": "2026-11-10T08:26:37.385Z"
+    },
+    {
+      "id": "usg_d3878e321b2a1af1b4",
+      "userId": "u_maya",
+      "kind": "writing",
+      "moduleId": "writing",
+      "toolId": "",
+      "credits": 3,
+      "tokens": 2815,
+      "at": "2026-11-10T08:26:37.385Z"
+    },
+    {
+      "id": "usg_0e0f6fbda54527f748",
+      "userId": "u_priya",
+      "kind": "analytics",
+      "moduleId": "analytics",
+      "toolId": "",
+      "credits": 4,
+      "tokens": 1581,
+      "at": "2026-11-10T08:26:37.385Z"
+    },
+    {
+      "id": "usg_ca8ce2baebba311412",
+      "userId": "u_priya",
+      "kind": "documents",
+      "moduleId": "documents",
+      "toolId": "",
+      "credits": 5,
+      "tokens": 1756,
+      "at": "2026-11-10T08:26:37.385Z"
+    },
+    {
+      "id": "usg_df2ba13a7678603e8f",
+      "userId": "u_demo",
+      "kind": "chat",
+      "moduleId": "chat",
+      "toolId": "",
+      "credits": 1,
+      "tokens": 404,
+      "at": "2026-11-10T08:30:09.373Z"
+    }
+  ],
+  "docs": [
+    {
+      "id": "d1",
+      "userId": "u_demo",
+      "name": "Q4-campaign-brief.pdf",
+      "type": "PDF",
+      "chars": 18420,
+      "summary": "A 12-page launch brief covering audience, channel mix, budget and messaging.",
+      "createdAt": "2026-11-07T20:26:37.385Z"
+    },
+    {
+      "id": "d2",
+      "userId": "u_demo",
+      "name": "vendor-agreement.docx",
+      "type": "Word",
+      "chars": 28110,
+      "summary": "Vendor agreement with auto-renewal and a 60-day termination clause.",
+      "createdAt": "2026-11-04T20:26:37.385Z"
+    }
+  ],
+  "images": [
+    {
+      "id": "img1",
+      "userId": "u_demo",
+      "prompt": "Isometric analytics workspace, indigo and mint, soft studio light",
+      "style": "3D render",
+      "aspect": "16:9",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1024\" height=\"576\" viewBox=\"0 0 1024 576\" role=\"img\" aria-label=\"Isometric analytics workspace, indigo and mint, soft studio light\">\n  <defs>\n    <linearGradient id=\"g3645bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#070b18\"/><stop offset=\"0.55\" stop-color=\"#101a3a\"/><stop offset=\"1\" stop-color=\"#312e81\"/></linearGradient>\n    <radialGradient id=\"g3645b\"><stop offset=\"0\" stop-color=\"#fff\" stop-opacity=\"0.9\"/><stop offset=\"1\" stop-color=\"#fff\" stop-opacity=\"0\"/></radialGradient>\n    <filter id=\"g3645blur\"><feGaussianBlur stdDeviation=\"29\"/></filter>\n    <filter id=\"g3645grain\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.9\" numOctaves=\"3\" stitchTiles=\"stitch\"/><feColorMatrix type=\"saturate\" values=\"0\"/><feComponentTransfer><feFuncA type=\"linear\" slope=\"0.06\"/></feComponentTransfer></filter>\n    <linearGradient id=\"g3645shade\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0.5\" stop-color=\"#000\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#000\" stop-opacity=\"0.55\"/></linearGradient>\n  </defs>\n  <rect width=\"1024\" height=\"576\" fill=\"url(#g3645bg)\"/>\n  <g filter=\"url(#g3645blur)\"><circle cx=\"672\" cy=\"207\" r=\"190\" fill=\"#101a3a\" opacity=\"0.20\" filter=\"url(#g3645b)\"/><circle cx=\"661\" cy=\"440\" r=\"177\" fill=\"#312e81\" opacity=\"0.33\" filter=\"url(#g3645b)\"/><circle cx=\"541\" cy=\"51\" r=\"116\" fill=\"#ffffff\" opacity=\"0.46\" filter=\"url(#g3645b)\"/><circle cx=\"646\" cy=\"14\" r=\"154\" fill=\"#312e81\" opacity=\"0.25\" filter=\"url(#g3645b)\"/><circle cx=\"192\" cy=\"479\" r=\"74\" fill=\"#312e81\" opacity=\"0.19\" filter=\"url(#g3645b)\"/></g>\n  <g><circle cx=\"338\" cy=\"351\" r=\"64\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.0\" opacity=\"0.20\"/><circle cx=\"517\" cy=\"189\" r=\"201\" fill=\"none\" stroke=\"#312e81\" stroke-width=\"2.7\" opacity=\"0.18\"/><circle cx=\"719\" cy=\"154\" r=\"71\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.6\" opacity=\"0.19\"/><line x1=\"0\" y1=\"127\" x2=\"1024\" y2=\"90\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"573\" x2=\"1024\" y2=\"601\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"369\" x2=\"1024\" y2=\"380\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"370\" x2=\"1024\" y2=\"376\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"420\" x2=\"1024\" y2=\"436\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"138\" x2=\"1024\" y2=\"108\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/></g>\n  <rect width=\"1024\" height=\"576\" fill=\"url(#g3645shade)\"/>\n  <rect width=\"1024\" height=\"576\" filter=\"url(#g3645grain)\" opacity=\"0.55\"/>\n  <g font-family=\"Inter, Segoe UI, system-ui, sans-serif\">\n    <text x=\"61.44\" y=\"51.839999999999996\" fill=\"#ffffff\" opacity=\"0.7\" font-size=\"13\" letter-spacing=\"4\">NEXAI · 3D RENDER</text>\n    <text x=\"61.44\" y=\"518.4\" fill=\"#ffffff\" opacity=\"0.92\" font-size=\"19\" font-weight=\"600\">Isometric analytics workspace, indigo and mint, soft studio light</text>\n    <text x=\"61.44\" y=\"547.1999999999999\" fill=\"#ffffff\" opacity=\"0.5\" font-size=\"12\">16:9 · NexAI Image Studio</text>\n  </g>\n</svg>",
+      "createdAt": "2026-11-08T20:26:37.385Z"
+    },
+    {
+      "id": "img2",
+      "userId": "u_demo",
+      "prompt": "Minimal launch poster, bold typography, deep navy and electric violet",
+      "style": "Minimal",
+      "aspect": "4:5",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"768\" height=\"960\" viewBox=\"0 0 768 960\" role=\"img\" aria-label=\"Minimal launch poster, bold typography, deep navy and electric violet\">\n  <defs>\n    <linearGradient id=\"g320bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#fef3c7\"/><stop offset=\"0.55\" stop-color=\"#fde68a\"/><stop offset=\"1\" stop-color=\"#f59e0b\"/></linearGradient>\n    <radialGradient id=\"g320b\"><stop offset=\"0\" stop-color=\"#fff\" stop-opacity=\"0.9\"/><stop offset=\"1\" stop-color=\"#fff\" stop-opacity=\"0\"/></radialGradient>\n    <filter id=\"g320blur\"><feGaussianBlur stdDeviation=\"38\"/></filter>\n    <filter id=\"g320grain\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.9\" numOctaves=\"3\" stitchTiles=\"stitch\"/><feColorMatrix type=\"saturate\" values=\"0\"/><feComponentTransfer><feFuncA type=\"linear\" slope=\"0.06\"/></feComponentTransfer></filter>\n    <linearGradient id=\"g320shade\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0.5\" stop-color=\"#000\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#000\" stop-opacity=\"0.55\"/></linearGradient>\n  </defs>\n  <rect width=\"768\" height=\"960\" fill=\"url(#g320bg)\"/>\n  <g filter=\"url(#g320blur)\"><circle cx=\"616\" cy=\"127\" r=\"272\" fill=\"#f59e0b\" opacity=\"0.44\" filter=\"url(#g320b)\"/><circle cx=\"213\" cy=\"67\" r=\"262\" fill=\"#f59e0b\" opacity=\"0.37\" filter=\"url(#g320b)\"/><circle cx=\"258\" cy=\"437\" r=\"304\" fill=\"#fde68a\" opacity=\"0.29\" filter=\"url(#g320b)\"/><circle cx=\"192\" cy=\"532\" r=\"108\" fill=\"#fde68a\" opacity=\"0.30\" filter=\"url(#g320b)\"/><circle cx=\"79\" cy=\"591\" r=\"231\" fill=\"#ffffff\" opacity=\"0.29\" filter=\"url(#g320b)\"/><circle cx=\"643\" cy=\"627\" r=\"123\" fill=\"#f59e0b\" opacity=\"0.38\" filter=\"url(#g320b)\"/><circle cx=\"306\" cy=\"281\" r=\"236\" fill=\"#fde68a\" opacity=\"0.24\" filter=\"url(#g320b)\"/></g>\n  <g><circle cx=\"563\" cy=\"365\" r=\"268\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.1\" opacity=\"0.19\"/><circle cx=\"483\" cy=\"518\" r=\"109\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2.6\" opacity=\"0.18\"/><circle cx=\"307\" cy=\"492\" r=\"91\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.7\" opacity=\"0.25\"/><line x1=\"0\" y1=\"224\" x2=\"768\" y2=\"242\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"348\" x2=\"768\" y2=\"338\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"30\" x2=\"768\" y2=\"5\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"269\" x2=\"768\" y2=\"276\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"142\" x2=\"768\" y2=\"146\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"0\" x2=\"768\" y2=\"33\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/></g>\n  <rect width=\"768\" height=\"960\" fill=\"url(#g320shade)\"/>\n  <rect width=\"768\" height=\"960\" filter=\"url(#g320grain)\" opacity=\"0.55\"/>\n  <g font-family=\"Inter, Segoe UI, system-ui, sans-serif\">\n    <text x=\"46.08\" y=\"86.39999999999999\" fill=\"#ffffff\" opacity=\"0.7\" font-size=\"17\" letter-spacing=\"3\">NEXAI · MINIMAL</text>\n    <text x=\"46.08\" y=\"864\" fill=\"#ffffff\" opacity=\"0.92\" font-size=\"25\" font-weight=\"600\">Minimal launch poster, bold typography, deep navy and electric violet</text>\n    <text x=\"46.08\" y=\"912\" fill=\"#ffffff\" opacity=\"0.5\" font-size=\"15\">4:5 · NexAI Image Studio</text>\n  </g>\n</svg>",
+      "createdAt": "2026-11-07T20:26:37.385Z"
+    },
+    {
+      "id": "img3",
+      "userId": "u_demo",
+      "prompt": "Cinematic product hero, glass surfaces, violet rim light",
+      "style": "Cinematic",
+      "aspect": "16:9",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1024\" height=\"576\" viewBox=\"0 0 1024 576\" role=\"img\" aria-label=\"Cinematic product hero, glass surfaces, violet rim light\">\n  <defs>\n    <linearGradient id=\"g9757bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#facc15\"/><stop offset=\"0.55\" stop-color=\"#dc2626\"/><stop offset=\"1\" stop-color=\"#111827\"/></linearGradient>\n    <radialGradient id=\"g9757b\"><stop offset=\"0\" stop-color=\"#fff\" stop-opacity=\"0.9\"/><stop offset=\"1\" stop-color=\"#fff\" stop-opacity=\"0\"/></radialGradient>\n    <filter id=\"g9757blur\"><feGaussianBlur stdDeviation=\"29\"/></filter>\n    <filter id=\"g9757grain\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.9\" numOctaves=\"3\" stitchTiles=\"stitch\"/><feColorMatrix type=\"saturate\" values=\"0\"/><feComponentTransfer><feFuncA type=\"linear\" slope=\"0.06\"/></feComponentTransfer></filter>\n    <linearGradient id=\"g9757shade\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0.5\" stop-color=\"#000\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#000\" stop-opacity=\"0.55\"/></linearGradient>\n  </defs>\n  <rect width=\"1024\" height=\"576\" fill=\"url(#g9757bg)\"/>\n  <g filter=\"url(#g9757blur)\"><circle cx=\"792\" cy=\"174\" r=\"111\" fill=\"#ffffff\" opacity=\"0.29\" filter=\"url(#g9757b)\"/><circle cx=\"275\" cy=\"67\" r=\"121\" fill=\"#dc2626\" opacity=\"0.31\" filter=\"url(#g9757b)\"/><circle cx=\"774\" cy=\"142\" r=\"241\" fill=\"#111827\" opacity=\"0.32\" filter=\"url(#g9757b)\"/><circle cx=\"195\" cy=\"325\" r=\"97\" fill=\"#111827\" opacity=\"0.24\" filter=\"url(#g9757b)\"/><circle cx=\"384\" cy=\"128\" r=\"187\" fill=\"#111827\" opacity=\"0.23\" filter=\"url(#g9757b)\"/><circle cx=\"518\" cy=\"212\" r=\"95\" fill=\"#111827\" opacity=\"0.25\" filter=\"url(#g9757b)\"/><circle cx=\"813\" cy=\"537\" r=\"166\" fill=\"#111827\" opacity=\"0.30\" filter=\"url(#g9757b)\"/></g>\n  <g><circle cx=\"336\" cy=\"233\" r=\"170\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2.4\" opacity=\"0.16\"/><circle cx=\"348\" cy=\"419\" r=\"206\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2.9\" opacity=\"0.40\"/><circle cx=\"439\" cy=\"369\" r=\"133\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2.6\" opacity=\"0.39\"/><line x1=\"0\" y1=\"336\" x2=\"1024\" y2=\"328\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"500\" x2=\"1024\" y2=\"478\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"536\" x2=\"1024\" y2=\"512\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"258\" x2=\"1024\" y2=\"278\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"354\" x2=\"1024\" y2=\"387\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"505\" x2=\"1024\" y2=\"515\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/></g>\n  <rect width=\"1024\" height=\"576\" fill=\"url(#g9757shade)\"/>\n  <rect width=\"1024\" height=\"576\" filter=\"url(#g9757grain)\" opacity=\"0.55\"/>\n  <g font-family=\"Inter, Segoe UI, system-ui, sans-serif\">\n    <text x=\"61.44\" y=\"51.839999999999996\" fill=\"#ffffff\" opacity=\"0.7\" font-size=\"13\" letter-spacing=\"4\">NEXAI · CINEMATIC</text>\n    <text x=\"61.44\" y=\"518.4\" fill=\"#ffffff\" opacity=\"0.92\" font-size=\"19\" font-weight=\"600\">Cinematic product hero, glass surfaces, violet rim light</text>\n    <text x=\"61.44\" y=\"547.1999999999999\" fill=\"#ffffff\" opacity=\"0.5\" font-size=\"12\">16:9 · NexAI Image Studio</text>\n  </g>\n</svg>",
+      "createdAt": "2026-11-06T20:26:37.385Z"
+    },
+    {
+      "id": "img4",
+      "userId": "u_demo",
+      "prompt": "Editorial portrait of a founder, warm light, quiet confidence",
+      "style": "Editorial",
+      "aspect": "4:5",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"768\" height=\"960\" viewBox=\"0 0 768 960\" role=\"img\" aria-label=\"Editorial portrait of a founder, warm light, quiet confidence\">\n  <defs>\n    <linearGradient id=\"g9338bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#faf7f2\"/><stop offset=\"0.55\" stop-color=\"#efe9df\"/><stop offset=\"1\" stop-color=\"#d6cbb8\"/></linearGradient>\n    <radialGradient id=\"g9338b\"><stop offset=\"0\" stop-color=\"#fff\" stop-opacity=\"0.9\"/><stop offset=\"1\" stop-color=\"#fff\" stop-opacity=\"0\"/></radialGradient>\n    <filter id=\"g9338blur\"><feGaussianBlur stdDeviation=\"38\"/></filter>\n    <filter id=\"g9338grain\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.9\" numOctaves=\"3\" stitchTiles=\"stitch\"/><feColorMatrix type=\"saturate\" values=\"0\"/><feComponentTransfer><feFuncA type=\"linear\" slope=\"0.06\"/></feComponentTransfer></filter>\n    <linearGradient id=\"g9338shade\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0.5\" stop-color=\"#000\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#000\" stop-opacity=\"0.55\"/></linearGradient>\n  </defs>\n  <rect width=\"768\" height=\"960\" fill=\"url(#g9338bg)\"/>\n  <g filter=\"url(#g9338blur)\"><circle cx=\"316\" cy=\"479\" r=\"341\" fill=\"#efe9df\" opacity=\"0.36\" filter=\"url(#g9338b)\"/><circle cx=\"82\" cy=\"96\" r=\"118\" fill=\"#d6cbb8\" opacity=\"0.45\" filter=\"url(#g9338b)\"/><circle cx=\"42\" cy=\"86\" r=\"179\" fill=\"#d6cbb8\" opacity=\"0.41\" filter=\"url(#g9338b)\"/><circle cx=\"137\" cy=\"741\" r=\"203\" fill=\"#efe9df\" opacity=\"0.24\" filter=\"url(#g9338b)\"/><circle cx=\"566\" cy=\"685\" r=\"115\" fill=\"#d6cbb8\" opacity=\"0.19\" filter=\"url(#g9338b)\"/><circle cx=\"650\" cy=\"213\" r=\"200\" fill=\"#ffffff\" opacity=\"0.41\" filter=\"url(#g9338b)\"/><circle cx=\"515\" cy=\"313\" r=\"306\" fill=\"#d6cbb8\" opacity=\"0.43\" filter=\"url(#g9338b)\"/><circle cx=\"406\" cy=\"602\" r=\"111\" fill=\"#efe9df\" opacity=\"0.38\" filter=\"url(#g9338b)\"/></g>\n  <g><circle cx=\"300\" cy=\"262\" r=\"274\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.1\" opacity=\"0.24\"/><circle cx=\"198\" cy=\"488\" r=\"285\" fill=\"none\" stroke=\"#d6cbb8\" stroke-width=\"1.7\" opacity=\"0.27\"/><circle cx=\"249\" cy=\"575\" r=\"103\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2.4\" opacity=\"0.30\"/><line x1=\"0\" y1=\"673\" x2=\"768\" y2=\"661\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"877\" x2=\"768\" y2=\"885\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"615\" x2=\"768\" y2=\"627\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"582\" x2=\"768\" y2=\"594\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"62\" x2=\"768\" y2=\"29\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/><line x1=\"0\" y1=\"51\" x2=\"768\" y2=\"16\" stroke=\"#ffffff\" stroke-width=\"0.6\" opacity=\"0.06\"/></g>\n  <rect width=\"768\" height=\"960\" fill=\"url(#g9338shade)\"/>\n  <rect width=\"768\" height=\"960\" filter=\"url(#g9338grain)\" opacity=\"0.55\"/>\n  <g font-family=\"Inter, Segoe UI, system-ui, sans-serif\">\n    <text x=\"46.08\" y=\"86.39999999999999\" fill=\"#ffffff\" opacity=\"0.7\" font-size=\"17\" letter-spacing=\"3\">NEXAI · EDITORIAL</text>\n    <text x=\"46.08\" y=\"864\" fill=\"#ffffff\" opacity=\"0.92\" font-size=\"25\" font-weight=\"600\">Editorial portrait of a founder, warm light, quiet confidence</text>\n    <text x=\"46.08\" y=\"912\" fill=\"#ffffff\" opacity=\"0.5\" font-size=\"15\">4:5 · NexAI Image Studio</text>\n  </g>\n</svg>",
+      "createdAt": "2026-11-04T20:26:37.385Z"
+    }
+  ],
+  "videos": [
+    {
+      "id": "v1",
+      "userId": "u_demo",
+      "prompt": "60 second product launch for NexAI Analytics",
+      "style": "Cinematic",
+      "duration": 60,
+      "title": "60 second product launch for NexAI Analytics",
+      "scenes": 5,
+      "board": {
+        "title": "60 second product launch for NexAI Analytics",
+        "style": "Cinematic",
+        "duration": 60,
+        "scenes": [
+          {
+            "id": 1,
+            "title": "Cold open",
+            "shot": "Macro detail, shallow focus",
+            "description": "Open on a single detail that hints at the problem — no logo, no title.",
+            "voiceover": "What if the work you dread took four minutes?",
+            "seconds": 12,
+            "palette": "#0b1020"
+          },
+          {
+            "id": 2,
+            "title": "The friction",
+            "shot": "Handheld, natural light",
+            "description": "Show the old way: tabs, spreadsheets, waiting. Keep it honest, not cartoonish.",
+            "voiceover": "Every week, hours disappear into busywork.",
+            "seconds": 12,
+            "palette": "#312e81"
+          },
+          {
+            "id": 3,
+            "title": "The turn",
+            "shot": "Slow push in",
+            "description": "Introduce the product at the moment of relief. One clean screen, one action.",
+            "voiceover": "Then everything moves at the speed of intent.",
+            "seconds": 12,
+            "palette": "#6366f1"
+          },
+          {
+            "id": 4,
+            "title": "Proof",
+            "shot": "Split screen, clean cuts",
+            "description": "Real workflow, real output. Let the interface do the talking.",
+            "voiceover": "One brief. Every source. Ready to send.",
+            "seconds": 12,
+            "palette": "#22d3ee"
+          },
+          {
+            "id": 5,
+            "title": "Scale",
+            "shot": "Wide, bright",
+            "description": "Show the team using it together — asynchronous, calm, in control.",
+            "voiceover": "Not more tools. Fewer handoffs.",
+            "seconds": 12,
+            "palette": "#f8fafc"
+          }
+        ],
+        "hook": "Open on the moment before the work gets easier.",
+        "cta": "Start free at nexai.app",
+        "notes": [
+          "Cut on motion, not on dialogue.",
+          "Keep captions burned in for short-form.",
+          "Music: restrained, 90 BPM, duck under voiceover."
+        ]
+      },
+      "createdAt": "2026-11-08T20:26:37.385Z"
+    }
+  ],
+  "audit": [
+    {
+      "id": "aud_c634ba5ebea7bdc455",
+      "userId": "u_demo",
+      "actor": "Alex Morgan",
+      "action": "Enabled two-factor authentication",
+      "ip": "82.14.22.9",
+      "at": "2026-11-07T20:26:37.385Z"
+    },
+    {
+      "id": "aud_ac44db592164fe85f0",
+      "userId": "u_demo",
+      "actor": "Alex Morgan",
+      "action": "Created API key “Local dev”",
+      "ip": "82.14.22.9",
+      "at": "2026-09-30T20:26:37.385Z"
+    },
+    {
+      "id": "aud_e96eba0de83663f842",
+      "userId": "u_maya",
+      "actor": "Maya Chen",
+      "action": "Installed agent “SEO Brief Builder”",
+      "ip": "91.108.4.17",
+      "at": "2026-11-08T20:26:37.385Z"
+    },
+    {
+      "id": "aud_4dcf39d880d8b2820b",
+      "userId": "u_sam",
+      "actor": "Sam Rivera",
+      "action": "Failed sign-in attempt",
+      "ip": "45.77.182.3",
+      "at": "2026-11-08T20:26:37.385Z"
+    },
+    {
+      "id": "aud_a3cebef8d85b1c2bf8",
+      "userId": "u_demo",
+      "actor": "System",
+      "action": "Nightly backup completed",
+      "ip": "internal",
+      "at": "2026-11-08T20:26:37.385Z"
+    }
+  ],
+  "sources": [],
+  "datasets": [],
+  "coupons": [
+    {
+      "code": "LAUNCH30",
+      "percent": 30,
+      "uses": 214,
+      "maxUses": 1000,
+      "expires": "2027-01-31",
+      "active": true
+    },
+    {
+      "code": "TEAM20",
+      "percent": 20,
+      "uses": 98,
+      "maxUses": 500,
+      "expires": "2027-06-30",
+      "active": true
+    },
+    {
+      "code": "FOUNDER50",
+      "percent": 50,
+      "uses": 47,
+      "maxUses": 50,
+      "expires": "2026-12-31",
+      "active": true
+    }
+  ]
+}
