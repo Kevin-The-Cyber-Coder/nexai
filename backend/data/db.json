@@ -325,6 +325,35 @@
         "zapier"
       ],
       "favorites": []
+    },
+    {
+      "id": "u_9a8b8ed1f751012225",
+      "name": "Kevin The Cyber Coder",
+      "email": "admin@essa.rw",
+      "password": "451c635739e53d7c8c5e3a63a4d46964:248a8ec3b489f26d3837e20af6433361afc08df5a03cfba3d1de9bc5ac47f65f5568963720e0178d27e9559c2e78156121dbc1a3c272205147fb71078ddcc29c",
+      "role": "user",
+      "plan": "free",
+      "credits": 50,
+      "suspended": false,
+      "systemPrompt": "",
+      "avatar": null,
+      "twoFactor": false,
+      "company": "",
+      "jobTitle": "",
+      "timezone": "UTC",
+      "language": "English",
+      "createdAt": "2026-11-10T08:32:25.217Z",
+      "prefs": {
+        "theme": "dark",
+        "tone": "balanced",
+        "length": "medium",
+        "model": "nexai-core",
+        "suggestions": true,
+        "memory": true,
+        "citations": true
+      },
+      "integrations": [],
+      "favorites": []
     }
   ],
   "conversations": [
@@ -1248,6 +1277,16 @@
     }
   ],
   "notifications": [
+    {
+      "id": "ntf_48daebbee6dce54af7",
+      "userId": "u_9a8b8ed1f751012225",
+      "type": "system",
+      "title": "Welcome to NexAI",
+      "body": "Start with a chat, or build your first agent in under four minutes.",
+      "href": "/agents",
+      "read": false,
+      "at": "2026-11-10T08:32:25.217Z"
+    },
     {
       "id": "n1",
       "userId": "u_demo",
