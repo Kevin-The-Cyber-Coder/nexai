@@ -333,7 +333,7 @@
       "password": "451c635739e53d7c8c5e3a63a4d46964:248a8ec3b489f26d3837e20af6433361afc08df5a03cfba3d1de9bc5ac47f65f5568963720e0178d27e9559c2e78156121dbc1a3c272205147fb71078ddcc29c",
       "role": "user",
       "plan": "free",
-      "credits": 50,
+      "credits": 34,
       "suspended": false,
       "systemPrompt": "",
       "avatar": null,
@@ -550,6 +550,39 @@
     }
   ],
   "agents": [
+    {
+      "id": "a_a3b8bc03d38a25d7d3",
+      "userId": "u_9a8b8ed1f751012225",
+      "name": "Finance Close Assistant",
+      "emoji": "🧾",
+      "role": "Finance ops",
+      "description": "Checks invoices, flags duplicates and prepares the monthly close.",
+      "instructions": "Reconcile invoices and prepare a close checklist.",
+      "model": "nexai-reason",
+      "tools": [
+        "documents",
+        "sheets"
+      ],
+      "schedule": "Monthly, last Friday",
+      "status": "draft",
+      "approved": false,
+      "runs": 1,
+      "successRate": 96,
+      "creditsPerRun": 16,
+      "createdAt": "2026-11-10T08:32:49.084Z",
+      "isPublic": false,
+      "category": "Finance",
+      "runsLog": [
+        {
+          "id": "run_2c1b485e4e7042f5bb",
+          "at": "2026-11-10T08:32:50.419Z",
+          "status": "success",
+          "duration": "96s",
+          "summary": "Ran end-to-end successfully. Produced a structured deliverable and queued one approval request."
+        }
+      ],
+      "lastRun": "2026-11-10T08:32:50.419Z"
+    },
     {
       "id": "a_research",
       "userId": "u_demo",
@@ -813,7 +846,7 @@
       "createdAt": "2026-08-31T20:26:37.385Z",
       "isPublic": true,
       "author": "Priya Nair",
-      "installs": 143,
+      "installs": 144,
       "rating": 4.6,
       "category": "Finance",
       "runsLog": []
@@ -1277,6 +1310,26 @@
     }
   ],
   "notifications": [
+    {
+      "id": "ntf_6a059b89801db15225",
+      "userId": "u_9a8b8ed1f751012225",
+      "type": "agent",
+      "title": "Finance Close Assistant finished a run",
+      "body": "Ran end-to-end successfully. Produced a structured deliverable and queued one approval request.",
+      "href": "/agents",
+      "read": false,
+      "at": "2026-11-10T08:32:50.419Z"
+    },
+    {
+      "id": "ntf_19772b8eb6b2a5e4b4",
+      "userId": "u_9a8b8ed1f751012225",
+      "type": "agent",
+      "title": "Installed Finance Close Assistant",
+      "body": "Review its instructions, then approve it to run.",
+      "href": "/agents",
+      "read": false,
+      "at": "2026-11-10T08:32:49.084Z"
+    },
     {
       "id": "ntf_48daebbee6dce54af7",
       "userId": "u_9a8b8ed1f751012225",
@@ -6007,6 +6060,16 @@
       "credits": 1,
       "tokens": 404,
       "at": "2026-11-10T08:30:09.373Z"
+    },
+    {
+      "id": "usg_c35ad4fc30e8adf062",
+      "userId": "u_9a8b8ed1f751012225",
+      "kind": "agents",
+      "moduleId": "agents",
+      "toolId": "agents-autonomous-task-execution-with-user-authorization",
+      "credits": 16,
+      "tokens": 1800,
+      "at": "2026-11-10T08:32:50.419Z"
     }
   ],
   "docs": [
@@ -6139,6 +6202,14 @@
     }
   ],
   "audit": [
+    {
+      "id": "aud_7d5d45eecc0d143c8a",
+      "userId": "u_9a8b8ed1f751012225",
+      "actor": "Kevin The Cyber Coder",
+      "action": "Installed agent “Finance Close Assistant” from the marketplace",
+      "ip": "127.0.0.1",
+      "at": "2026-11-10T08:32:49.084Z"
+    },
     {
       "id": "aud_c634ba5ebea7bdc455",
       "userId": "u_demo",
